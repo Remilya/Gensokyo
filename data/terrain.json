@@ -1,0 +1,716 @@
+{
+  "regions": [
+    {
+      "id": "higan-plains",
+      "name": "Higan & Afterlife Plains",
+      "biome": "higan",
+      "points": [
+        [
+          0.04,
+          0.04
+        ],
+        [
+          0.27,
+          0.04
+        ],
+        [
+          0.29,
+          0.16
+        ],
+        [
+          0.24,
+          0.25
+        ],
+        [
+          0.04,
+          0.24
+        ]
+      ]
+    },
+    {
+      "id": "netherworld-terrace",
+      "name": "Netherworld Cherry Terrace",
+      "biome": "netherworld",
+      "points": [
+        [
+          0.28,
+          0.03
+        ],
+        [
+          0.49,
+          0.03
+        ],
+        [
+          0.48,
+          0.12
+        ],
+        [
+          0.3,
+          0.11
+        ]
+      ]
+    },
+    {
+      "id": "heaven-clouds",
+      "name": "Heaven & Bhava-agra Clouds",
+      "biome": "heaven",
+      "points": [
+        [
+          0.58,
+          0.02
+        ],
+        [
+          0.77,
+          0.02
+        ],
+        [
+          0.79,
+          0.07
+        ],
+        [
+          0.57,
+          0.07
+        ]
+      ]
+    },
+    {
+      "id": "lunar-realm",
+      "name": "The Moon & Dream World Cartouche",
+      "biome": "lunar",
+      "points": [
+        [
+          0.83,
+          0.03
+        ],
+        [
+          0.97,
+          0.03
+        ],
+        [
+          0.97,
+          0.27
+        ],
+        [
+          0.84,
+          0.27
+        ]
+      ]
+    },
+    {
+      "id": "youkai-mountain-base",
+      "name": "Youkai Mountain Foothills & Great Forest",
+      "biome": "foothills",
+      "points": [
+        [
+          0.43,
+          0.14
+        ],
+        [
+          0.81,
+          0.1
+        ],
+        [
+          0.83,
+          0.3
+        ],
+        [
+          0.64,
+          0.34
+        ],
+        [
+          0.46,
+          0.34
+        ],
+        [
+          0.41,
+          0.22
+        ]
+      ]
+    },
+    {
+      "id": "youkai-mountain-mid",
+      "name": "Youkai Mountain Mid-Slopes",
+      "biome": "mountain",
+      "points": [
+        [
+          0.53,
+          0.1
+        ],
+        [
+          0.78,
+          0.09
+        ],
+        [
+          0.79,
+          0.24
+        ],
+        [
+          0.58,
+          0.26
+        ],
+        [
+          0.52,
+          0.18
+        ]
+      ]
+    },
+    {
+      "id": "youkai-mountain-peak",
+      "name": "Youkai Mountain Summit Caldera",
+      "biome": "peak",
+      "points": [
+        [
+          0.6,
+          0.08
+        ],
+        [
+          0.74,
+          0.08
+        ],
+        [
+          0.75,
+          0.16
+        ],
+        [
+          0.6,
+          0.16
+        ]
+      ]
+    },
+    {
+      "id": "great-youkai-forest-canopy",
+      "name": "Great Youkai Forest",
+      "biome": "forest",
+      "points": [
+        [
+          0.58,
+          0.21
+        ],
+        [
+          0.79,
+          0.21
+        ],
+        [
+          0.8,
+          0.31
+        ],
+        [
+          0.57,
+          0.31
+        ]
+      ]
+    },
+    {
+      "id": "hakurei-ridge",
+      "name": "Hakurei Western Border Ridge",
+      "biome": "foothills",
+      "points": [
+        [
+          0.16,
+          0.25
+        ],
+        [
+          0.35,
+          0.25
+        ],
+        [
+          0.36,
+          0.41
+        ],
+        [
+          0.17,
+          0.38
+        ]
+      ]
+    },
+    {
+      "id": "muenzuka-hollow",
+      "name": "Muenzuka & Road of Reconsideration",
+      "biome": "wetland",
+      "points": [
+        [
+          0.13,
+          0.37
+        ],
+        [
+          0.29,
+          0.41
+        ],
+        [
+          0.28,
+          0.49
+        ],
+        [
+          0.13,
+          0.47
+        ]
+      ]
+    },
+    {
+      "id": "human-village-fields",
+      "name": "Human Village Terraced Paddies & Heartland",
+      "biome": "farmland",
+      "points": [
+        [
+          0.38,
+          0.38
+        ],
+        [
+          0.62,
+          0.38
+        ],
+        [
+          0.64,
+          0.55
+        ],
+        [
+          0.37,
+          0.55
+        ]
+      ]
+    },
+    {
+      "id": "tanuki-myouren-woods",
+      "name": "Youkai Tanuki Forest & Myouren Grounds",
+      "biome": "forest",
+      "points": [
+        [
+          0.3,
+          0.51
+        ],
+        [
+          0.46,
+          0.51
+        ],
+        [
+          0.45,
+          0.65
+        ],
+        [
+          0.29,
+          0.65
+        ]
+      ]
+    },
+    {
+      "id": "forest-of-magic-canopy",
+      "name": "Forest of Magic",
+      "biome": "magic-forest",
+      "points": [
+        [
+          0.47,
+          0.58
+        ],
+        [
+          0.68,
+          0.57
+        ],
+        [
+          0.69,
+          0.74
+        ],
+        [
+          0.48,
+          0.75
+        ]
+      ]
+    },
+    {
+      "id": "bamboo-forest-canopy",
+      "name": "Bamboo Forest of the Lost",
+      "biome": "bamboo",
+      "points": [
+        [
+          0.69,
+          0.34
+        ],
+        [
+          0.94,
+          0.32
+        ],
+        [
+          0.93,
+          0.53
+        ],
+        [
+          0.69,
+          0.52
+        ]
+      ]
+    },
+    {
+      "id": "garden-of-the-sun-basin",
+      "name": "Garden of the Sun & Nameless Hill",
+      "biome": "sunflower",
+      "points": [
+        [
+          0.73,
+          0.54
+        ],
+        [
+          0.93,
+          0.53
+        ],
+        [
+          0.92,
+          0.67
+        ],
+        [
+          0.74,
+          0.66
+        ]
+      ]
+    },
+    {
+      "id": "sdm-estate-grounds",
+      "name": "Scarlet Devil Mansion Peninsula",
+      "biome": "sdm-grounds",
+      "points": [
+        [
+          0.76,
+          0.69
+        ],
+        [
+          0.9,
+          0.69
+        ],
+        [
+          0.9,
+          0.83
+        ],
+        [
+          0.76,
+          0.83
+        ]
+      ]
+    },
+    {
+      "id": "makai-realm",
+      "name": "Makai Demon World Cartouche",
+      "biome": "makai",
+      "points": [
+        [
+          0.04,
+          0.49
+        ],
+        [
+          0.16,
+          0.49
+        ],
+        [
+          0.16,
+          0.65
+        ],
+        [
+          0.04,
+          0.65
+        ]
+      ]
+    },
+    {
+      "id": "underworld-cavern",
+      "name": "Underworld & Former Hell Subterranean Basin",
+      "biome": "underworld",
+      "points": [
+        [
+          0.04,
+          0.69
+        ],
+        [
+          0.29,
+          0.69
+        ],
+        [
+          0.29,
+          0.96
+        ],
+        [
+          0.04,
+          0.96
+        ]
+      ]
+    },
+    {
+      "id": "backdoor-realm",
+      "name": "Land of the Back Door & Boundary Rift",
+      "biome": "backdoor",
+      "points": [
+        [
+          0.89,
+          0.7
+        ],
+        [
+          0.97,
+          0.7
+        ],
+        [
+          0.97,
+          0.9
+        ],
+        [
+          0.89,
+          0.9
+        ]
+      ]
+    }
+  ],
+  "lakes": [
+    {
+      "id": "misty-lake-poly",
+      "name": "Misty Lake",
+      "kind": "water",
+      "points": [
+        [
+          0.61,
+          0.74
+        ],
+        [
+          0.72,
+          0.71
+        ],
+        [
+          0.78,
+          0.75
+        ],
+        [
+          0.77,
+          0.84
+        ],
+        [
+          0.66,
+          0.88
+        ],
+        [
+          0.59,
+          0.83
+        ]
+      ]
+    },
+    {
+      "id": "wind-gods-lake-poly",
+      "name": "Wind God's Lake",
+      "kind": "water",
+      "points": [
+        [
+          0.665,
+          0.095
+        ],
+        [
+          0.715,
+          0.095
+        ],
+        [
+          0.72,
+          0.128
+        ],
+        [
+          0.668,
+          0.13
+        ]
+      ]
+    },
+    {
+      "id": "genjis-pond-poly",
+      "name": "Genji's Pond",
+      "kind": "water",
+      "points": [
+        [
+          0.23,
+          0.266
+        ],
+        [
+          0.254,
+          0.266
+        ],
+        [
+          0.256,
+          0.284
+        ],
+        [
+          0.228,
+          0.284
+        ]
+      ]
+    },
+    {
+      "id": "giant-toads-pond-poly",
+      "name": "Giant Toad's Pond",
+      "kind": "water",
+      "points": [
+        [
+          0.605,
+          0.286
+        ],
+        [
+          0.63,
+          0.286
+        ],
+        [
+          0.632,
+          0.304
+        ],
+        [
+          0.604,
+          0.304
+        ]
+      ]
+    },
+    {
+      "id": "lake-of-blood-poly",
+      "name": "Lake of Blood",
+      "kind": "blood",
+      "points": [
+        [
+          0.862,
+          0.63
+        ],
+        [
+          0.895,
+          0.63
+        ],
+        [
+          0.898,
+          0.655
+        ],
+        [
+          0.86,
+          0.655
+        ]
+      ]
+    },
+    {
+      "id": "blood-pools-poly",
+      "name": "Hell of Blood Pools & Sea of Petroleum",
+      "kind": "blood",
+      "points": [
+        [
+          0.065,
+          0.895
+        ],
+        [
+          0.155,
+          0.895
+        ],
+        [
+          0.158,
+          0.945
+        ],
+        [
+          0.065,
+          0.945
+        ]
+      ]
+    }
+  ],
+  "rivers": [
+    {
+      "id": "nine-heavens-genbu-canal",
+      "name": "Nine Heavens — Genbu — Dragon Canal River",
+      "width": 5.5,
+      "points": [
+        [
+          0.688,
+          0.112
+        ],
+        [
+          0.655,
+          0.14
+        ],
+        [
+          0.635,
+          0.165
+        ],
+        [
+          0.612,
+          0.2
+        ],
+        [
+          0.595,
+          0.228
+        ],
+        [
+          0.555,
+          0.255
+        ],
+        [
+          0.525,
+          0.32
+        ],
+        [
+          0.502,
+          0.39
+        ],
+        [
+          0.498,
+          0.43
+        ],
+        [
+          0.495,
+          0.46
+        ],
+        [
+          0.502,
+          0.494
+        ],
+        [
+          0.535,
+          0.56
+        ],
+        [
+          0.585,
+          0.65
+        ],
+        [
+          0.635,
+          0.745
+        ]
+      ]
+    },
+    {
+      "id": "sanzu-river-stream",
+      "name": "Sanzu River",
+      "width": 18.0,
+      "points": [
+        [
+          0.275,
+          0.035
+        ],
+        [
+          0.295,
+          0.095
+        ],
+        [
+          0.315,
+          0.155
+        ],
+        [
+          0.285,
+          0.215
+        ],
+        [
+          0.245,
+          0.265
+        ]
+      ]
+    },
+    {
+      "id": "misty-lake-outlet",
+      "name": "Misty Lake Southern Stream",
+      "width": 4.0,
+      "points": [
+        [
+          0.715,
+          0.855
+        ],
+        [
+          0.745,
+          0.905
+        ],
+        [
+          0.785,
+          0.955
+        ]
+      ]
+    }
+  ]
+}

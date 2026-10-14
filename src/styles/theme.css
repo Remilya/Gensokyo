@@ -1,0 +1,95 @@
+:root {
+  /* Washi Paper & Parchment Palette (Day Mode) */
+  --paper-bg: #f3ead6;
+  --paper-edge: #d8c6a5;
+  --paper-card: rgba(247, 239, 222, 0.96);
+  --paper-card-alt: rgba(236, 224, 199, 0.92);
+  --ink-primary: #2a1e17;
+  --ink-secondary: #5a4638;
+  --ink-muted: #7c6655;
+  --border-ink: #4a3525;
+  --border-gold: #b58938;
+
+  /* Touhou Faction & Landmark Accents */
+  --accent-hakurei: #b6342a;
+  --accent-gold: #c8963e;
+  --accent-jade: #2f6f5e;
+  --accent-violet: #6b438b;
+  --accent-water: #487792;
+  --accent-crimson: #8f1d24;
+
+  /* Biome Fills */
+  --biome-farmland: #dfd5a5;
+  --biome-forest: #7b9669;
+  --biome-magic-forest: #55735c;
+  --biome-bamboo: #6b9668;
+  --biome-sunflower: #e5c86b;
+  --biome-foothills: #b9ad8b;
+  --biome-mountain: #9c8f78;
+  --biome-peak: #dcdad3;
+  --biome-wetland: #a87b7c;
+  --biome-higan: #c96a6a;
+  --biome-netherworld: #e5c3cf;
+  --biome-heaven: #e7dfc6;
+  --biome-lunar: #cfd5df;
+  --biome-underworld: #5c4942;
+  --biome-makai: #6e597a;
+  --biome-sdm: #9d7575;
+  --biome-backdoor: #4e5a4b;
+  --water-fill: #78a3b8;
+  --water-deep: #4e7c94;
+  --water-stroke: #345b70;
+
+  /* Typography */
+  --font-display: 'Cinzel Decorative', 'Cormorant Garamond', Georgia, serif;
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-jp: 'Shippori Mincho', 'Hiragino Mincho ProN', 'Yu Mincho', serif;
+  --font-ui: 'Inter', system-ui, -apple-system, sans-serif;
+
+  /* Shadows */
+  --shadow-panel: 0 12px 36px rgba(32, 20, 12, 0.35), 0 2px 8px rgba(32, 20, 12, 0.2);
+  --shadow-card: 0 4px 16px rgba(35, 22, 12, 0.22);
+}
+
+[data-theme='dusk'] {
+  --paper-bg: #e7cfb0;
+  --paper-edge: #c49e76;
+  --paper-card: rgba(241, 222, 196, 0.96);
+  --paper-card-alt: rgba(227, 203, 172, 0.92);
+  --ink-primary: #281811;
+  --ink-secondary: #573a2b;
+  --water-fill: #64879c;
+  --water-deep: #3f6378;
+}
+
+[data-theme='night'] {
+  --paper-bg: #1b2130;
+  --paper-edge: #0f131d;
+  --paper-card: rgba(26, 31, 46, 0.95);
+  --paper-card-alt: rgba(36, 43, 62, 0.92);
+  --ink-primary: #efe4ce;
+  --ink-secondary: #c5b69b;
+  --ink-muted: #93856f;
+  --border-ink: #7d6849;
+  --border-gold: #d6a64f;
+  --biome-farmland: #2d3830;
+  --biome-forest: #1f332b;
+  --biome-magic-forest: #192928;
+  --biome-bamboo: #1d3529;
+  --biome-sunflower: #3d3926;
+  --biome-foothills: #2e2f38;
+  --biome-mountain: #252630;
+  --biome-peak: #3b4052;
+  --biome-wetland: #382630;
+  --biome-higan: #442229;
+  --biome-netherworld: #36293d;
+  --biome-heaven: #2f3347;
+  --biome-lunar: #2c3548;
+  --biome-underworld: #241b1c;
+  --biome-makai: #2a1f38;
+  --biome-sdm: #382028;
+  --biome-backdoor: #1c2420;
+  --water-fill: #244057;
+  --water-deep: #172c3d;
+  --water-stroke: #467291;
+}

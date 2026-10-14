@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "GensokyoLocations",
+  "type": "array",
+  "minItems": 55,
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "name_en",
+      "name_jp",
+      "kind",
+      "region",
+      "x",
+      "y",
+      "importance",
+      "short_desc",
+      "long_desc",
+      "residents",
+      "first_appearance",
+      "sources",
+      "confidence",
+      "placement_note"
+    ],
+    "additionalProperties": false,
+    "properties": {
+      "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+      "name_en": { "type": "string", "minLength": 1 },
+      "name_jp": { "type": "string", "minLength": 1 },
+      "kind": {
+        "type": "string",
+        "enum": [
+          "shrine",
+          "temple",
+          "residence",
+          "village",
+          "landmark",
+          "water",
+          "mountain",
+          "forest",
+          "otherworld"
+        ]
+      },
+      "region": {
+        "type": "string",
+        "enum": [
+          "Heartland",
+          "Hakurei",
+          "Forest of Magic",
+          "Misty Lake",
+          "Bamboo Forest",
+          "Youkai Mountain",
+          "Underworld",
+          "Netherworld",
+          "Otherworld"
+        ]
+      },
+      "x": { "type": "number", "minimum": 0, "maximum": 1 },
+      "y": { "type": "number", "minimum": 0, "maximum": 1 },
+      "importance": { "type": "integer", "enum": [1, 2, 3] },
+      "short_desc": { "type": "string", "minLength": 10, "maxLength": 240 },
+      "long_desc": { "type": "string", "minLength": 40 },
+      "residents": { "type": "array", "items": { "type": "string" } },
+      "first_appearance": { "type": "string", "minLength": 1 },
+      "sources": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+      "confidence": { "type": "string", "enum": ["canon", "fanon"] },
+      "placement_note": { "type": "string", "minLength": 10 },
+      "icon": { "type": "string" },
+      "atlas_sector": { "type": "string" },
+      "travel_time": { "type": "string" },
+      "approach_route": { "type": "string" },
+      "local_customs": { "type": "string" },
+      "connected_ids": { "type": "array", "items": { "type": "string" } },
+      "wiki_title": { "type": "string" },
+      "wiki_url": { "type": "string" },
+      "wiki_romaji": { "type": "string" },
+      "wiki_summary": { "type": "string" },
+      "wiki_sublocations": { "type": "array", "items": { "type": "string" } }
+    }
+  }
+}

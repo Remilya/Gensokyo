@@ -1,0 +1,126 @@
+export type LocationKind =
+  | 'shrine'
+  | 'temple'
+  | 'residence'
+  | 'village'
+  | 'landmark'
+  | 'water'
+  | 'mountain'
+  | 'forest'
+  | 'otherworld';
+
+export type GensokyoRegion =
+  | 'Heartland'
+  | 'Hakurei'
+  | 'Forest of Magic'
+  | 'Misty Lake'
+  | 'Bamboo Forest'
+  | 'Youkai Mountain'
+  | 'Underworld'
+  | 'Netherworld'
+  | 'Otherworld';
+
+export interface LocationEntry {
+  id: string;
+  name_en: string;
+  name_jp: string;
+  kind: LocationKind;
+  region: GensokyoRegion;
+  x: number;
+  y: number;
+  importance: 1 | 2 | 3;
+  short_desc: string;
+  long_desc: string;
+  residents: string[];
+  first_appearance: string;
+  sources: string[];
+  confidence: 'canon' | 'fanon';
+  placement_note: string;
+  icon?: string;
+  atlas_sector?: string;
+  travel_time?: string;
+  approach_route?: string;
+  local_customs?: string;
+  connected_ids?: string[];
+  wiki_title?: string;
+  wiki_url?: string;
+  wiki_romaji?: string;
+  wiki_summary?: string;
+  wiki_sublocations?: string[];
+}
+
+export type RouteKind = 'road' | 'path' | 'secret' | 'ropeway' | 'ferry' | 'portal';
+
+export interface RouteEntry {
+  id: string;
+  name: string;
+  from: string;
+  to: string;
+  kind: RouteKind;
+  minutes: number;
+  distance_km: number;
+  points: [number, number][];
+}
+
+export interface TerrainRegion {
+  id: string;
+  name: string;
+  biome: string;
+  points: [number, number][];
+}
+
+export interface TerrainLake {
+  id: string;
+  name: string;
+  kind: 'water' | 'blood';
+  points: [number, number][];
+}
+
+export interface TerrainRiver {
+  id: string;
+  name: string;
+  width: number;
+  points: [number, number][];
+}
+
+export interface TerrainData {
+  regions: TerrainRegion[];
+  lakes: TerrainLake[];
+  rivers: TerrainRiver[];
+}
+
+export type TimeOfDay = 'day' | 'dusk' | 'night';
+
+export interface ComputedRoute {
+  from: LocationEntry;
+  to: LocationEntry;
+  hops: LocationEntry[];
+  segments: RouteEntry[];
+  totalMinutes: number;
+  totalKm: number;
+  flightMinutes: number;
+  crowKm: number;
+  isDirectGraphPath: boolean;
+}
+
+export interface ZoomState {
+  x: number;
+  y: number;
+  k: number;
+}
+
+export interface AppState {
+  selectedId: string | null;
+  hoveredId: string | null;
+  searchQuery: string;
+  regionFilter: GensokyoRegion | 'All';
+  kindFilter: LocationKind | 'All';
+  timeOfDay: TimeOfDay;
+  routeMode: boolean;
+  routeStartId: string | null;
+  routeEndId: string | null;
+  computedRoute: ComputedRoute | null;
+  showFootprints: boolean;
+  showRoutes: boolean;
+  zoom: ZoomState;
+}
