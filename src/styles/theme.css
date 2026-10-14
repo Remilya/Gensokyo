@@ -1,44 +1,44 @@
 :root {
   /* Washi Paper & Parchment Palette (Day Mode) */
-  --paper-bg: #f3ead6;
-  --paper-edge: #d8c6a5;
-  --paper-card: rgba(247, 239, 222, 0.96);
-  --paper-card-alt: rgba(236, 224, 199, 0.92);
-  --ink-primary: #2a1e17;
-  --ink-secondary: #5a4638;
-  --ink-muted: #7c6655;
-  --border-ink: #4a3525;
-  --border-gold: #b58938;
+  --paper-bg: #efe2c6;
+  --paper-edge: #cab188;
+  --paper-card: rgba(246, 237, 218, 0.96);
+  --paper-card-alt: rgba(235, 222, 195, 0.93);
+  --ink-primary: #261a12;
+  --ink-secondary: #543f30;
+  --ink-muted: #78614e;
+  --border-ink: #422e1f;
+  --border-gold: #b58632;
 
   /* Touhou Faction & Landmark Accents */
   --accent-hakurei: #b6342a;
   --accent-gold: #c8963e;
   --accent-jade: #2f6f5e;
   --accent-violet: #6b438b;
-  --accent-water: #487792;
+  --accent-water: #3e6f8a;
   --accent-crimson: #8f1d24;
 
   /* Biome Fills */
-  --biome-farmland: #dfd5a5;
-  --biome-forest: #7b9669;
-  --biome-magic-forest: #55735c;
-  --biome-bamboo: #6b9668;
-  --biome-sunflower: #e5c86b;
-  --biome-foothills: #b9ad8b;
-  --biome-mountain: #9c8f78;
-  --biome-peak: #dcdad3;
-  --biome-wetland: #a87b7c;
-  --biome-higan: #c96a6a;
-  --biome-netherworld: #e5c3cf;
-  --biome-heaven: #e7dfc6;
-  --biome-lunar: #cfd5df;
-  --biome-underworld: #5c4942;
-  --biome-makai: #6e597a;
-  --biome-sdm: #9d7575;
-  --biome-backdoor: #4e5a4b;
-  --water-fill: #78a3b8;
-  --water-deep: #4e7c94;
-  --water-stroke: #345b70;
+  --biome-farmland: #d8cb94;
+  --biome-forest: #6a8a58;
+  --biome-magic-forest: #486b50;
+  --biome-bamboo: #568555;
+  --biome-sunflower: #e2be58;
+  --biome-foothills: #b3a580;
+  --biome-mountain: #94866e;
+  --biome-peak: #dedbd2;
+  --biome-wetland: #a37274;
+  --biome-higan: #c46060;
+  --biome-netherworld: #e3bac8;
+  --biome-heaven: #e6ddc2;
+  --biome-lunar: #c8d0dc;
+  --biome-underworld: #54413b;
+  --biome-makai: #665073;
+  --biome-sdm: #966b6d;
+  --biome-backdoor: #465444;
+  --water-fill: #6596b0;
+  --water-deep: #3d6d87;
+  --water-stroke: #2b4f63;
 
   /* Typography */
   --font-display: 'Cinzel Decorative', 'Cormorant Garamond', Georgia, serif;

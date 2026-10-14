@@ -23,8 +23,6 @@
       "PMiSS",
       "Forbidden Scrollery",
       "Lotus Eaters",
-      "image4.png",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -72,8 +70,7 @@
     "first_appearance": "Forbidden Scrollery (2012)",
     "sources": [
       "Forbidden Scrollery",
-      "Lotus Eaters",
-      "image4.png"
+      "Lotus Eaters"
     ],
     "confidence": "canon",
     "placement_note": "Directly south of the Schoolhouse at the central crossroads of the Human Village palisade.",
@@ -104,8 +101,7 @@
     "first_appearance": "TH08 — Imperishable Night / PMiSS (2006)",
     "sources": [
       "PMiSS",
-      "Forbidden Scrollery",
-      "image4.png"
+      "Forbidden Scrollery"
     ],
     "confidence": "canon",
     "placement_note": "North-central sector of the Human Village, one minute north of Market Square.",
@@ -117,7 +113,8 @@
     "atlas_sector": "Human Village — North-Central Sector (directly north of Market Square).",
     "travel_time": "1 minute north of Market Square; 4 streets (~5–6 minutes walk) east of Geidontei; ~4 minutes west of the East Gate; ~8 minutes north of Suzunaan and the South Gate.",
     "approach_route": "Cross Market Square northward from Main Street's central intersection to the single-plank timber classroom and adjoining rear teacher's quarters.",
-    "local_customs": "Keine Kamishirasawa's classroom and official Outsider Intake office; formal address is expected inside when discussing major youkai factions."
+    "local_customs": "Keine Kamishirasawa's classroom and official Outsider Intake office; formal address is expected inside when discussing major youkai factions.",
+    "icon": "terakoya"
   },
   {
     "id": "geidontei",
@@ -137,8 +134,6 @@
     "first_appearance": "Lotus Eaters Ch. 1 (2019)",
     "sources": [
       "Lotus Eaters",
-      "image4.png",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -154,7 +149,8 @@
     "atlas_sector": "Human Village — Western Sector (4 streets west of the Schoolhouse along the western blocks of Main Street).",
     "travel_time": "~5–6 minutes walk (4 streets) west of the Schoolhouse; ~4 minutes west of Market Square; ~3 minutes east of the West Palisade Gate; ~7 minutes northwest of Suzunaan.",
     "approach_route": "Walk four streets west from the Schoolhouse or follow Main Street's western residential blocks to the cloth banner hanging outside the timber izakaya.",
-    "local_customs": "Village social tavern inside the human walls where Miyoi Okunoda tends bar under Keine's non-manipulation guarantee until the 20:00 curfew bell."
+    "local_customs": "Village social tavern inside the human walls where Miyoi Okunoda tends bar under Keine's non-manipulation guarantee until the 20:00 curfew bell.",
+    "icon": "geidontei"
   },
   {
     "id": "suzunaan",
@@ -173,8 +169,6 @@
     "first_appearance": "Forbidden Scrollery Ch. 1 (2012)",
     "sources": [
       "Forbidden Scrollery",
-      "image4.png",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -192,7 +186,8 @@
     "atlas_sector": "Human Village — Southern Sector (along the south road just inside the South Palisade Gate).",
     "travel_time": "~8 minutes walk south of the Schoolhouse; ~6 minutes south of Market Square; ~7 minutes southeast of Geidontei; ~1 minute north of the South Gate.",
     "approach_route": "Walk south from Market Square down the southern residential road toward the South Gate until reaching the timber storefront marked by a painted overhead scroll.",
-    "local_customs": "Kosuzu Motoori's lending bookshop (open dawn to dusk); safe village interior, though unusual book inquiries are reported upstream to Hieda no Akyuu."
+    "local_customs": "Kosuzu Motoori's lending bookshop (open dawn to dusk); safe village interior, though unusual book inquiries are reported upstream to Hieda no Akyuu.",
+    "icon": "suzunaan"
   },
   {
     "id": "hieda-estate",
@@ -212,7 +207,6 @@
     "sources": [
       "PMiSS",
       "Forbidden Scrollery",
-      "t118a4520yna1.jpg",
       "carbuncle2021"
     ],
     "confidence": "canon",
@@ -223,7 +217,8 @@
     "atlas_sector": "Central Basin Hub (0, 0 reference point; walled settlement of ~2,000 people with North, South, West, and East Palisade Gates).",
     "travel_time": "Internal Main Street spans 4 blocks West-to-East (~90 seconds per block, ~6 minutes end-to-end on foot).",
     "approach_route": "Internal grid centers on Market Square (center) and the Schoolhouse (immediately north); Geidontei sits 4 streets west of the Schoolhouse (~5–6 min walk), local blacksmiths operates inside the East Gate (~4 min east), and Suzunaan sits on the south road by the South Gate (~8 min south).",
-    "local_customs": "Protected daytime human sanctuary under Keine Kamishirasawa and Hieda no Akyuu; morning market opens at 07:00, 14:00 is the dead hour, and the watchman's copper curfew bell rings at 20:00."
+    "local_customs": "Protected daytime human sanctuary under Keine Kamishirasawa and Hieda no Akyuu; morning market opens at 07:00, 14:00 is the dead hour, and the watchman's copper curfew bell rings at 20:00.",
+    "icon": "hieda"
   },
   {
     "id": "dragon-statue",
@@ -240,8 +235,7 @@
     "first_appearance": "Bohemian Archive in Japanese Red / PMiSS (2006)",
     "sources": [
       "PMiSS",
-      "Wild and Horned Hermit",
-      "t118a4520yna1.jpg"
+      "Wild and Horned Hermit"
     ],
     "confidence": "canon",
     "placement_note": "Northern plaza of the Human Village near the North Gate.",
@@ -270,8 +264,7 @@
     ],
     "first_appearance": "PMiSS (2006)",
     "sources": [
-      "PMiSS",
-      "t118a4520yna1.jpg"
+      "PMiSS"
     ],
     "confidence": "canon",
     "placement_note": "Eastern merchant block inside the Human Village.",
@@ -298,8 +291,7 @@
     "residents": [],
     "first_appearance": "Forbidden Scrollery / t118a4520yna1.jpg",
     "sources": [
-      "Forbidden Scrollery",
-      "t118a4520yna1.jpg"
+      "Forbidden Scrollery"
     ],
     "confidence": "fanon",
     "placement_note": "Southeastern block of the Human Village street grid.",
@@ -325,7 +317,7 @@
     ],
     "first_appearance": "t118a4520yna1.jpg / Folklore",
     "sources": [
-      "t118a4520yna1.jpg"
+      "Touhou Project Canon"
     ],
     "confidence": "fanon",
     "placement_note": "Southwestern residential quarter of the Human Village.",
@@ -352,7 +344,6 @@
     "first_appearance": "Forbidden Scrollery (2013)",
     "sources": [
       "Forbidden Scrollery",
-      "t118a4520yna1.jpg",
       "carbuncle2021",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
@@ -391,7 +382,6 @@
     "sources": [
       "TH08",
       "PMiSS",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -431,7 +421,6 @@
       "Forbidden Scrollery",
       "Wild and Horned Hermit",
       "carbuncle2021",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -476,8 +465,6 @@
     "sources": [
       "TH12",
       "Symposium of Post-mysticism",
-      "image4.png",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -519,7 +506,6 @@
     "sources": [
       "TH13",
       "Symposium of Post-mysticism",
-      "image4.png",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -554,8 +540,7 @@
     ],
     "first_appearance": "Wild and Horned Hermit / Campaign Canon",
     "sources": [
-      "Wild and Horned Hermit",
-      "image4.png"
+      "Wild and Horned Hermit"
     ],
     "confidence": "canon",
     "placement_note": "One minute behind Myouren Temple's main hall along the scenic loop east to Kourindou.",
@@ -590,7 +575,6 @@
     "sources": [
       "TH13",
       "Symposium of Post-mysticism",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -676,7 +660,6 @@
     "sources": [
       "PMiSS",
       "Wild and Horned Hermit",
-      "image4.png",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -724,7 +707,6 @@
     "first_appearance": "PMiSS (2006)",
     "sources": [
       "PMiSS",
-      "image4.png",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -789,8 +771,7 @@
     ],
     "first_appearance": "TH02 — Story of Eastern Wonderland (1997)",
     "sources": [
-      "TH02",
-      "t118a4520yna1.jpg"
+      "TH02"
     ],
     "confidence": "canon",
     "placement_note": "Directly behind the Hakurei Shrine main hall.",
@@ -847,8 +828,7 @@
     ],
     "first_appearance": "Wild and Horned Hermit (2010)",
     "sources": [
-      "Wild and Horned Hermit",
-      "image4.png"
+      "Wild and Horned Hermit"
     ],
     "confidence": "canon",
     "placement_note": "Lower stone steps between Hakurei Shrine and the Human Village West Gate.",
@@ -878,7 +858,6 @@
     "sources": [
       "PMiSS",
       "carbuncle2021",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -916,7 +895,6 @@
     "sources": [
       "TH09",
       "PMiSS",
-      "image4.png",
       "carbuncle2021",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
@@ -932,7 +910,8 @@
     "atlas_sector": "Far Western Border Hollow (drift hollow at the terminus of the Road of Reconsideration against the Great Hakurei Barrier).",
     "travel_time": "~50–60 minutes walk west-southwest from the Human Village (or ~30 minutes west from the Forest of Magic via the Road of Reconsideration).",
     "approach_route": "Branch southwest from the Hakurei Shrine border footpath, or follow the red spider-lily-lined Road of Reconsideration west from the Forest of Magic into the wooded hollow.",
-    "local_customs": "Unprotected border graveyard choked with poisonous red spider lilies where Outside World drift goods and lost outsiders wash ashore; lethal hazard for unescorted humans."
+    "local_customs": "Unprotected border graveyard choked with poisonous red spider lilies where Outside World drift goods and lost outsiders wash ashore; lethal hazard for unescorted humans.",
+    "icon": "muenzuka"
   },
   {
     "id": "kourindou",
@@ -954,7 +933,6 @@
     "sources": [
       "Curiosities of Lotus Asia",
       "PMiSS",
-      "image4.png",
       "carbuncle2021",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
@@ -999,7 +977,6 @@
     "sources": [
       "PMiSS",
       "Strange and Bright Nature Deity",
-      "image4.png",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -1045,8 +1022,7 @@
     "first_appearance": "TH06 / PMiSS (2006)",
     "sources": [
       "PMiSS",
-      "Strange and Bright Nature Deity",
-      "image4.png"
+      "Strange and Bright Nature Deity"
     ],
     "confidence": "canon",
     "placement_note": "Eastern interior of the Forest of Magic (~100m down the right fork from Kourindou).",
@@ -1080,8 +1056,7 @@
     "sources": [
       "PMiSS",
       "Strange and Bright Nature Deity",
-      "carbuncle2021",
-      "t118a4520yna1.jpg"
+      "carbuncle2021"
     ],
     "confidence": "canon",
     "placement_note": "Deeper inside the Forest of Magic south of Marisa's cottage.",
@@ -1091,7 +1066,8 @@
     "atlas_sector": "South-Southeastern Damp Woodland (stretching between Kourindou at its northern edge and Misty Lake to the southeast).",
     "travel_time": "~25–30 minutes walk south-southeast from the Human Village South Gate to the northern tree line at Kourindou; the Kourindou Path Fork sits 100 meters (~2 minutes) south inside the forest at a fallen log.",
     "approach_route": "Pass Kourindou at the northern forest edge and walk 100 meters south to the Fallen-Log Fork: the left trail loops back toward the village/lake edge, while the right trail (marked by boot prints and broom drag-marks) leads deeper east to Marisa's Cottage and Rumia's Cedar Clearing.",
-    "local_customs": "Unpatrolled magical wilderness outside village protection; choked with toxic/luminescent mushroom spores, stray spells, and predatory youkai (especially hazardous during the 30-minute dawn overlap)."
+    "local_customs": "Unpatrolled magical wilderness outside village protection; choked with toxic/luminescent mushroom spores, stray spells, and predatory youkai (especially hazardous during the 30-minute dawn overlap).",
+    "icon": "alices-house"
   },
   {
     "id": "rumia-cedar-clearing",
@@ -1172,7 +1148,6 @@
     "sources": [
       "TH06",
       "PMiSS",
-      "image4.png",
       "carbuncle2021",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
@@ -1211,8 +1186,7 @@
     ],
     "first_appearance": "TH06 / Great Fairy Wars / image4.png",
     "sources": [
-      "Great Fairy Wars",
-      "image4.png"
+      "Great Fairy Wars"
     ],
     "confidence": "canon",
     "placement_note": "Southern rocky shoreline of Misty Lake directly matching traditional scroll maps.",
@@ -1249,7 +1223,6 @@
     "sources": [
       "TH06",
       "PMiSS",
-      "image4.png",
       "carbuncle2021",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
@@ -1353,8 +1326,7 @@
     "first_appearance": "TH06 / Wild and Horned Hermit",
     "sources": [
       "TH06",
-      "PMiSS",
-      "image4.png"
+      "PMiSS"
     ],
     "confidence": "canon",
     "placement_note": "Outer rose gardens, upper east wing, and lower basement of the Scarlet Devil Mansion.",
@@ -1386,7 +1358,6 @@
     "sources": [
       "PMiSS",
       "carbuncle2021",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -1421,7 +1392,6 @@
     "sources": [
       "TH07",
       "carbuncle2021",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -1460,7 +1430,6 @@
     "sources": [
       "TH08",
       "PMiSS",
-      "image4.png",
       "carbuncle2021",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
@@ -1503,7 +1472,6 @@
     "sources": [
       "TH08",
       "PMiSS",
-      "image4.png",
       "carbuncle2021",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
@@ -1543,7 +1511,6 @@
     "first_appearance": "Cage in Lunatic Runagate / Wild and Horned Hermit",
     "sources": [
       "Cage in Lunatic Runagate",
-      "image4.png",
       "carbuncle2021"
     ],
     "confidence": "canon",
@@ -1575,7 +1542,6 @@
     "sources": [
       "TH09",
       "PMiSS",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -1613,7 +1579,6 @@
       "TH09",
       "PMiSS",
       "carbuncle2021",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -1629,7 +1594,8 @@
     "atlas_sector": "Hidden Interior Heartland of Gensokyo (vast sunflower basin surrounding Mugenkan).",
     "travel_time": "~60–75 minutes walk from the Human Village through unmapped meadow trails.",
     "approach_route": "Follow the hidden inland flower trails deep into Gensokyo's interior until the terrain opens into endless fields of head-high sunflowers.",
-    "local_customs": "Yuuka Kazami's personal territory; fairies and Prismriver concerts gather here peacefully, but anyone damaging the sunflowers or refusing to leave faces Yuuka's overwhelming force."
+    "local_customs": "Yuuka Kazami's personal territory; fairies and Prismriver concerts gather here peacefully, but anyone damaging the sunflowers or refusing to leave faces Yuuka's overwhelming force.",
+    "icon": "sunflower"
   },
   {
     "id": "mugenkan",
@@ -1651,7 +1617,6 @@
     "first_appearance": "TH04 — Lotus Land Story (1998)",
     "sources": [
       "TH04",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -1691,7 +1656,6 @@
     "first_appearance": "TH04 — Lotus Land Story (1998)",
     "sources": [
       "TH04",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -1729,7 +1693,6 @@
       "TH07",
       "PMiSS",
       "carbuncle2021",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -1747,7 +1710,8 @@
     "atlas_sector": "Shifting Spirit-Hidden Village near the Great Hakurei Barrier and mountain woods.",
     "travel_time": "Variable (~45–60 minutes walk into the border mountain woods, but reachable only when Yukari or Ran permits the mist boundary to part).",
     "approach_route": "Wander the deep mountain woods near the Great Hakurei Barrier until the phantom village manifests through the mist.",
-    "local_customs": "Home of Yukari Yakumo, Ran Yakumo, and Chen; impossible to locate by normal navigation unless invited or spirited in."
+    "local_customs": "Home of Yukari Yakumo, Ran Yakumo, and Chen; impossible to locate by normal navigation unless invited or spirited in.",
+    "icon": "mayohiga"
   },
   {
     "id": "genbu-ravine",
@@ -1770,7 +1734,6 @@
     "sources": [
       "PMiSS",
       "Wild and Horned Hermit",
-      "image4.png",
       "carbuncle2021",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
@@ -1811,7 +1774,6 @@
       "TH10",
       "PMiSS",
       "carbuncle2021",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -1851,7 +1813,6 @@
     "sources": [
       "TH10",
       "TH16",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -1886,7 +1847,6 @@
     "first_appearance": "TH09 / Oriental Sacred Place",
     "sources": [
       "PMiSS",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -1926,8 +1886,6 @@
     "sources": [
       "TH10",
       "PMiSS",
-      "image4.png",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -1988,7 +1946,6 @@
       "TH10",
       "PMiSS",
       "carbuncle2021",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -2057,7 +2014,6 @@
     "first_appearance": "TH18 — Unconnected Marketeers (2021)",
     "sources": [
       "TH18",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -2090,8 +2046,7 @@
     ],
     "first_appearance": "TH18 / TH18.5 — 100th Black Market",
     "sources": [
-      "TH18",
-      "t118a4520yna1.jpg"
+      "TH18"
     ],
     "confidence": "canon",
     "placement_note": "Western precipice of Youkai Mountain.",
@@ -2122,7 +2077,6 @@
     "sources": [
       "TH10",
       "Symposium of Post-mysticism",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -2161,7 +2115,6 @@
     "sources": [
       "TH10",
       "carbuncle2021",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -2194,8 +2147,7 @@
     "first_appearance": "Wild and Horned Hermit / TH18 (2021)",
     "sources": [
       "Wild and Horned Hermit",
-      "TH18",
-      "t118a4520yna1.jpg"
+      "TH18"
     ],
     "confidence": "canon",
     "placement_note": "Foothills cableway station between the Human Village North Gate and Youkai Mountain.",
@@ -2230,7 +2182,6 @@
     "first_appearance": "TH18 — Unconnected Marketeers (2021)",
     "sources": [
       "TH18",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -2267,8 +2218,7 @@
     "first_appearance": "Wild and Horned Hermit (2010)",
     "sources": [
       "Wild and Horned Hermit",
-      "carbuncle2021",
-      "t118a4520yna1.jpg"
+      "carbuncle2021"
     ],
     "confidence": "canon",
     "placement_note": "High western ridge of Youkai Mountain.",
@@ -2299,7 +2249,6 @@
     "sources": [
       "TH14",
       "carbuncle2021",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -2314,7 +2263,8 @@
     "atlas_sector": "Inverted Sky Fortress floating above Youkai Mountain and Misty Lake.",
     "travel_time": "Inaccessible on foot (~45–60 minutes walk to the mountain base below, then requires flight or broom transport into the clouds).",
     "approach_route": "Fly upward into the cloud layer near Youkai Mountain to board the upside-down miniature-scale castle created by the Miracle Mallet.",
-    "local_customs": "Seat of Shinmyoumaru Sukuna and Seija Kijin; inverted gravity and architecture disorient normal visitors."
+    "local_customs": "Seat of Shinmyoumaru Sukuna and Seija Kijin; inverted gravity and architecture disorient normal visitors.",
+    "icon": "shining-needle-castle"
   },
   {
     "id": "asama-purifying-mountain",
@@ -2407,7 +2357,6 @@
     "sources": [
       "TH10.5",
       "Symposium of Post-mysticism",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -2447,7 +2396,6 @@
     "sources": [
       "PMiSS",
       "carbuncle2021",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -2487,7 +2435,6 @@
       "PMiSS",
       "TH17",
       "carbuncle2021",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -2506,7 +2453,8 @@
     "atlas_sector": "Afterlife Boundary River beyond the Road of Liminality and Muenzuka.",
     "travel_time": "~130–150 minutes walk to the ferry dock via the Road of Liminality behind Youkai Mountain (or ~60 minutes via Muenzuka's border veil).",
     "approach_route": "Follow the Road of Liminality down the rear slope of Youkai Mountain into the permanent fog bank along the riverbank where Komachi Onozuka docks her ferry and Urumi Ushizaki raises prehistoric fish.",
-    "local_customs": "Governed by the Ministry of Right and Wrong; living humans cannot swim across (the waters sink everything except shinigami boats) and must pay Komachi's ferry toll."
+    "local_customs": "Governed by the Ministry of Right and Wrong; living humans cannot swim across (the waters sink everything except shinigami boats) and must pay Komachi's ferry toll.",
+    "icon": "sanzu-river"
   },
   {
     "id": "higan",
@@ -2529,7 +2477,6 @@
       "TH09",
       "PMiSS",
       "carbuncle2021",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -2544,7 +2491,8 @@
     "atlas_sector": "Far Shore of the Sanzu River (eternal equinox plain where spirits await judgment).",
     "travel_time": "~160–180 minutes total from the Human Village (~130 minutes to the Sanzu River dock + ~30 minutes ferry crossing aboard Komachi's boat).",
     "approach_route": "Reach the Sanzu River via the Road of Liminality and cross the fog-shrouded river on Komachi Onozuka's ferry to the flower-carpeted shore of Higan.",
-    "local_customs": "Jurisdiction of Yama Eiki Shiki, Yamaxanadu; living visitors receive stern moral lectures and must depart before overstaying."
+    "local_customs": "Jurisdiction of Yama Eiki Shiki, Yamaxanadu; living visitors receive stern moral lectures and must depart before overstaying.",
+    "icon": "higan"
   },
   {
     "id": "barrier-of-life-and-death",
@@ -2564,7 +2512,6 @@
     "sources": [
       "TH07",
       "PMiSS",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -2601,7 +2548,6 @@
     "sources": [
       "TH07",
       "PMiSS",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -2643,7 +2589,6 @@
       "TH07",
       "PMiSS",
       "carbuncle2021",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -2678,8 +2623,7 @@
     "sources": [
       "TH07",
       "PMiSS",
-      "carbuncle2021",
-      "t118a4520yna1.jpg"
+      "carbuncle2021"
     ],
     "confidence": "canon",
     "placement_note": "Inner garden of Hakugyokurou.",
@@ -2689,7 +2633,8 @@
     "atlas_sector": "Central Ghost Shrine & Cherry Garden Estate inside the Netherworld.",
     "travel_time": "~75 minutes from the Human Village via the Spring Path and the Netherworld's grand stone staircase.",
     "approach_route": "Ascend the sweeping stone steps past the Barrier of Life and Death to the traditional walled estate and cherry gardens housing the dormant Saigyou Ayakashi tree.",
-    "local_customs": "Household of Yuyuko Saigyouji and Youmu Konpaku; guest access follows five centuries of Yuyuko's personal approvals, and every conversation is upstream of Yukari Yakumo's intelligence network."
+    "local_customs": "Household of Yuyuko Saigyouji and Youmu Konpaku; guest access follows five centuries of Yuyuko's personal approvals, and every conversation is upstream of Yukari Yakumo's intelligence network.",
+    "icon": "saigyou-ayakashi"
   },
   {
     "id": "hell",
@@ -2711,7 +2656,6 @@
     "sources": [
       "TH15",
       "TH19",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -2758,7 +2702,6 @@
     "sources": [
       "TH17",
       "TH19",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -2779,7 +2722,8 @@
     "atlas_sector": "Dystopian Metropolis & Wilderness Sector within Hell.",
     "travel_time": "Otherworldly realm adjacent to Hell (reachable via Hell boundary gates or spirit possession transit).",
     "approach_route": "Cross the boundary from Hell into the neon-lit skyscraper metropolis and outer wilderness controlled by rival beast-spirit syndicates.",
-    "local_customs": "Law of the jungle enforced by the Keiga Family (Saki Kurokoma), Kiketsu Family (Yachie Kicchou), and Gouyoku Alliance (Yuuma Toutetsu); unallied human spirits and visitors are enslaved on sight."
+    "local_customs": "Law of the jungle enforced by the Keiga Family (Saki Kurokoma), Kiketsu Family (Yachie Kicchou), and Gouyoku Alliance (Yuuma Toutetsu); unallied human spirits and visitors are enslaved on sight.",
+    "icon": "animal-realm"
   },
   {
     "id": "primate-spirit-garden",
@@ -2799,7 +2743,6 @@
     "first_appearance": "TH17 — Wily Beast and Weakest Creature (2019)",
     "sources": [
       "TH17",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -2814,7 +2757,8 @@
     "atlas_sector": "Keyhole-Shaped Kofun Park & Fortress at the center of the Animal Realm.",
     "travel_time": "Central landmark within the Animal Realm metropolis.",
     "approach_route": "Navigate through the Animal Realm's concrete streets to the massive kofun burial mound park fortified by Keiki Haniyasushin's idol workshops.",
-    "local_customs": "Fortified sanctuary of Keiki Haniyasushin and Mayumi Joutouguu's Haniwa Army Corps; protects human spirits against the outer beast syndicates, though Keiki's protection is intensely possessive."
+    "local_customs": "Fortified sanctuary of Keiki Haniyasushin and Mayumi Joutouguu's Haniwa Army Corps; protects human spirits against the outer beast syndicates, though Keiki's protection is intensely possessive.",
+    "icon": "primate-garden"
   },
   {
     "id": "fantastic-blowhole",
@@ -2835,7 +2779,6 @@
     "sources": [
       "TH11",
       "Symposium of Post-mysticism",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -2871,7 +2814,6 @@
     "first_appearance": "TH11 — Subterranean Animism (2008)",
     "sources": [
       "TH11",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -2910,7 +2852,6 @@
     "sources": [
       "TH11",
       "Symposium of Post-mysticism",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -2950,7 +2891,6 @@
     "sources": [
       "TH11",
       "Symposium of Post-mysticism",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -2987,7 +2927,6 @@
     "sources": [
       "TH11",
       "Wild and Horned Hermit",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -3026,7 +2965,6 @@
     "sources": [
       "TH11",
       "Symposium of Post-mysticism",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -3062,7 +3000,6 @@
     "first_appearance": "TH11 — Subterranean Animism (2008)",
     "sources": [
       "TH11",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -3079,7 +3016,8 @@
     "atlas_sector": "Deep Subterranean Inferno directly beneath the Palace of the Earth Spirits.",
     "travel_time": "~120 minutes total descent from the Human Village (~100 min to the Palace of the Earth Spirits + ~15–20 min down the vertical furnace shafts).",
     "approach_route": "Pass through the courtyard of the Palace of the Earth Spirits and descend the scorching vertical shafts tended by Rin Kaenbyou and Hell Ravens.",
-    "local_customs": "Extreme thermal hazard zone patrolled by Orin, Utsuho Reiuji, and vengeful spirits; unshielded humans will succumb to heatstroke within minutes."
+    "local_customs": "Extreme thermal hazard zone patrolled by Orin, Utsuho Reiuji, and vengeful spirits; unshielded humans will succumb to heatstroke within minutes.",
+    "icon": "blazing-hell"
   },
   {
     "id": "nuclear-furnace",
@@ -3099,7 +3037,6 @@
     "sources": [
       "TH11",
       "TH12.3",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -3136,7 +3073,6 @@
     "sources": [
       "TH12.3",
       "carbuncle2021",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -3151,7 +3087,8 @@
     "atlas_sector": "Subterranean Engineering Conduit linking Youkai Mountain / Moriya Shrine to the Nuclear Furnace.",
     "travel_time": "~90–120 minutes descent from Youkai Mountain's geyser shafts (or adjacent to the Nuclear Furnace below the Palace of the Earth Spirits).",
     "approach_route": "Enter via the maintenance elevator shaft on Youkai Mountain or through the side tunnels of the Nuclear Furnace.",
-    "local_customs": "Restricted Kappa and Moriya Shrine industrial facility; unauthorized entry triggers automated defense drones and Utsuho's patrols."
+    "local_customs": "Restricted Kappa and Moriya Shrine industrial facility; unauthorized entry triggers automated defense drones and Utsuho's patrols.",
+    "icon": "geyser-center"
   },
   {
     "id": "sea-of-petroleum",
@@ -3201,7 +3138,6 @@
     "sources": [
       "TH17.5",
       "TH19",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -3240,7 +3176,6 @@
       "TH05",
       "TH12",
       "PMiSS",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -3265,7 +3200,8 @@
     "atlas_sector": "Sealed Demon Dimension accessible behind the Hakurei Shrine mountain caves or via the Palanquin Ship.",
     "travel_time": "Otherworldly dimension (~45 minutes climb behind the Hakurei Shrine to the sealed mountain cave entrance, plus dimensional crossing).",
     "approach_route": "Pass through the sealed mountain cavern behind the Hakurei Shrine or sail through the dimensional rift into the miasma-thick demon world.",
-    "local_customs": "Created and ruled by Goddess Shinki; ambient magical miasma empowers spells but poisons unshielded humans."
+    "local_customs": "Created and ruled by Goddess Shinki; ambient magical miasma empowers spells but poisons unshielded humans.",
+    "icon": "makai"
   },
   {
     "id": "fallen-temple",
@@ -3284,7 +3220,6 @@
     "first_appearance": "TH01 — Highly Responsive to Prayers (1996)",
     "sources": [
       "TH01",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -3315,7 +3250,6 @@
     "first_appearance": "TH03 / TH05 — Mystic Square",
     "sources": [
       "TH05",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -3349,7 +3283,6 @@
     "first_appearance": "TH05 — Mystic Square (1998)",
     "sources": [
       "TH05",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -3383,7 +3316,6 @@
     "first_appearance": "TH05 — Mystic Square (1998)",
     "sources": [
       "TH05",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -3417,7 +3349,6 @@
     "first_appearance": "TH05 — Mystic Square (1998)",
     "sources": [
       "TH05",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -3432,7 +3363,8 @@
     "atlas_sector": "Crystalline Capital Fortress at the core of Makai (directly beyond the World of Ice and Snow).",
     "travel_time": "Farthest inner sanctum of Makai.",
     "approach_route": "Cross the World of Ice and Snow in Makai to reach Shinki's crystalline palace guarded by head maid Yumeko.",
-    "local_customs": "Throne of Goddess Shinki and her chief maid Yumeko; outsiders are intercepted by sword-throwing demon maids."
+    "local_customs": "Throne of Goddess Shinki and her chief maid Yumeko; outsiders are intercepted by sword-throwing demon maids.",
+    "icon": "makai"
   },
   {
     "id": "hokkai",
@@ -3451,7 +3383,6 @@
     "first_appearance": "TH12 — Undefined Fantastic Object (2009)",
     "sources": [
       "TH12",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -3485,7 +3416,6 @@
     "sources": [
       "TH15",
       "Antinomy of Common Flowers",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -3502,7 +3432,8 @@
     "atlas_sector": "Astral Collective Unconscious Dimension spanning between Gensokyo, the Outside World, and the Moon.",
     "travel_time": "Instantaneous during sleep (or reachable physically via Doremy Sweet's dream gates / Yukari's boundary gaps).",
     "approach_route": "Enter through sleep or cross a dream-boundary portal managed by baku ruler Doremy Sweet.",
-    "local_customs": "Managed and policed by Doremy Sweet; dream-selves behave without waking inhibitions, and lingering physically in the Dream World risks psychic displacement."
+    "local_customs": "Managed and policed by Doremy Sweet; dream-selves behave without waking inhibitions, and lingering physically in the Dream World risks psychic displacement.",
+    "icon": "dream-world"
   },
   {
     "id": "gensokyos-moon",
@@ -3525,7 +3456,6 @@
     "sources": [
       "TH15",
       "Silent Sinner in Blue",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -3567,7 +3497,6 @@
     "sources": [
       "Silent Sinner in Blue",
       "TH15",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -3625,7 +3554,8 @@
     "atlas_sector": "Hidden Boundary Dimension accessed through secret doors placed on the backs of living beings and objects.",
     "travel_time": "Zero physical distance (accessible anywhere in Gensokyo only when Sage Okina Matara opens a back door).",
     "approach_route": "Step through a literal door opened by Okina Matara, Satono Nishida, or Mai Teireida into the starry seasonal throne space.",
-    "local_customs": "Absolute personal domain of Secret God and Barrier Sage Okina Matara; impossible to enter or exit without her will."
+    "local_customs": "Absolute personal domain of Secret God and Barrier Sage Okina Matara; impossible to enter or exit without her will.",
+    "icon": "back-door"
   },
   {
     "id": "probability-space-hypervessel",
@@ -3650,7 +3580,6 @@
     "sources": [
       "TH03",
       "carbuncle2021",
-      "t118a4520yna1.jpg",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -3685,7 +3614,6 @@
     "first_appearance": "PMiSS (2006)",
     "sources": [
       "PMiSS",
-      "image4.png",
       "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
@@ -3727,8 +3655,7 @@
     ],
     "first_appearance": "Touhou Project Official Canon",
     "sources": [
-      "Touhou Wiki (en.touhouwiki.net)",
-      "t118a4520yna1.jpg"
+      "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
     "placement_note": "Canonical Touhou Wiki location (Abandon Pond) placed in Heartland.",
@@ -3759,8 +3686,7 @@
     "residents": [],
     "first_appearance": "Touhou Project Official Canon",
     "sources": [
-      "Touhou Wiki (en.touhouwiki.net)",
-      "t118a4520yna1.jpg"
+      "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
     "placement_note": "Canonical Touhou Wiki location (Bhava-agra) placed in Youkai Mountain.",
@@ -3774,7 +3700,8 @@
     "atlas_sector": "Youkai Mountain — Canonical Touhou Wiki Sector (Bhava-agra)",
     "travel_time": "Reachable via regional trails from adjacent waypoint.",
     "approach_route": "Connected to heaven in Youkai Mountain.",
-    "local_customs": "Standard Gensokyo territorial and Spell Card rules apply."
+    "local_customs": "Standard Gensokyo territorial and Spell Card rules apply.",
+    "icon": "heaven"
   },
   {
     "id": "false-heaven-shelf",
@@ -3792,8 +3719,7 @@
     ],
     "first_appearance": ";Unconnected Marketeers",
     "sources": [
-      "Touhou Wiki (en.touhouwiki.net)",
-      "t118a4520yna1.jpg"
+      "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
     "placement_note": "Canonical Touhou Wiki location (False Heaven Shelf) placed in Youkai Mountain.",
@@ -3823,8 +3749,7 @@
     "residents": [],
     "first_appearance": "Touhou Project Official Canon",
     "sources": [
-      "Touhou Wiki (en.touhouwiki.net)",
-      "t118a4520yna1.jpg"
+      "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
     "placement_note": "Canonical Touhou Wiki location (Phantom Meadow) placed in Heartland.",
@@ -3855,8 +3780,7 @@
     "residents": [],
     "first_appearance": "Touhou Project Official Canon",
     "sources": [
-      "Touhou Wiki (en.touhouwiki.net)",
-      "t118a4520yna1.jpg"
+      "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
     "placement_note": "Canonical Touhou Wiki location (Road of Lingering Snow) placed in Youkai Mountain.",
@@ -3887,8 +3811,7 @@
     "residents": [],
     "first_appearance": "Touhou Project Official Canon",
     "sources": [
-      "Touhou Wiki (en.touhouwiki.net)",
-      "t118a4520yna1.jpg"
+      "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
     "placement_note": "Canonical Touhou Wiki location (Mysterious Cherry Blossom Path) placed in Hakurei.",
@@ -3921,8 +3844,7 @@
     ],
     "first_appearance": "Touhou Project Official Canon",
     "sources": [
-      "Touhou Wiki (en.touhouwiki.net)",
-      "t118a4520yna1.jpg"
+      "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
     "placement_note": "Canonical Touhou Wiki location (Reimaden) placed in Hakurei.",
@@ -3953,8 +3875,7 @@
     "residents": [],
     "first_appearance": ";Unconnected Marketeers",
     "sources": [
-      "Touhou Wiki (en.touhouwiki.net)",
-      "t118a4520yna1.jpg"
+      "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
     "placement_note": "Canonical Touhou Wiki location (Rainbow Dragon Cave) placed in Youkai Mountain.",
@@ -3985,8 +3906,7 @@
     "residents": [],
     "first_appearance": "Touhou Project Official Canon",
     "sources": [
-      "Touhou Wiki (en.touhouwiki.net)",
-      "t118a4520yna1.jpg"
+      "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
     "placement_note": "Canonical Touhou Wiki location (Ocean of Storms) placed in Otherworld.",
@@ -4016,8 +3936,7 @@
     "residents": [],
     "first_appearance": "Touhou Project Official Canon",
     "sources": [
-      "Touhou Wiki (en.touhouwiki.net)",
-      "t118a4520yna1.jpg"
+      "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
     "placement_note": "Canonical Touhou Wiki location (Sea of Rains) placed in Otherworld.",
@@ -4047,8 +3966,7 @@
     "residents": [],
     "first_appearance": "Touhou Project Official Canon",
     "sources": [
-      "Touhou Wiki (en.touhouwiki.net)",
-      "t118a4520yna1.jpg"
+      "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
     "placement_note": "Canonical Touhou Wiki location (Sea of Serenity) placed in Otherworld.",
@@ -4078,8 +3996,7 @@
     "residents": [],
     "first_appearance": "Touhou Project Official Canon",
     "sources": [
-      "Touhou Wiki (en.touhouwiki.net)",
-      "t118a4520yna1.jpg"
+      "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
     "placement_note": "Canonical Touhou Wiki location (Sage's Sea) placed in Otherworld.",
@@ -4109,8 +4026,7 @@
     "residents": [],
     "first_appearance": "Touhou Project Official Canon",
     "sources": [
-      "Touhou Wiki (en.touhouwiki.net)",
-      "t118a4520yna1.jpg"
+      "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
     "placement_note": "Canonical Touhou Wiki location (TORIFUNE) placed in Otherworld.",
@@ -4142,8 +4058,7 @@
     ],
     "first_appearance": "Touhou Project Official Canon",
     "sources": [
-      "Touhou Wiki (en.touhouwiki.net)",
-      "t118a4520yna1.jpg"
+      "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
     "placement_note": "Canonical Touhou Wiki location (World of Fantasies) placed in Forest of Magic.",
@@ -4177,8 +4092,7 @@
     ],
     "first_appearance": "Touhou Project Official Canon",
     "sources": [
-      "Touhou Wiki (en.touhouwiki.net)",
-      "t118a4520yna1.jpg"
+      "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
     "placement_note": "Canonical Touhou Wiki location (Fantasy World) placed in Bamboo Forest.",
@@ -4211,8 +4125,7 @@
     ],
     "first_appearance": "Touhou Project Official Canon",
     "sources": [
-      "Touhou Wiki (en.touhouwiki.net)",
-      "t118a4520yna1.jpg"
+      "Touhou Wiki (en.touhouwiki.net)"
     ],
     "confidence": "canon",
     "placement_note": "Canonical Touhou Wiki location (Twilight Bar Room) placed in Otherworld.",
