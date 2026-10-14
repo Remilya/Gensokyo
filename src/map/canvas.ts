@@ -67,6 +67,17 @@ export class MapCanvas {
 
       <g id="camera">
         <rect id="layer-paper" x="-400" y="-300" width="${MAP_WIDTH + 800}" height="${MAP_HEIGHT + 600}" fill="url(#parchment-grad)" />
+        <image
+          class="parchment-tex-img"
+          href="https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/ui/parchment-texture.webp"
+          x="0"
+          y="0"
+          width="${MAP_WIDTH}"
+          height="${MAP_HEIGHT}"
+          preserveAspectRatio="none"
+          opacity="0.88"
+          pointer-events="none"
+        />
         <g id="layer-terrain"></g>
         <g id="layer-water"></g>
         <g id="layer-footprints"></g>

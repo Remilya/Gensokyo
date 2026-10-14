@@ -152,6 +152,76 @@ export function renderTerrainLayer(terrainGroup: SVGGElement, data: TerrainData)
   }
   html += `</g>`;
 
+  // 3B. Painted Woodblock Mountain Range & Forest Canopy Stamps (jsDelivr CDN WebP Assets)
+  const UI_CDN = 'https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/ui';
+  const autumnCanopySpots: [number, number, number, number][] = [
+    // [cxNorm, cyNorm, widthPx, heightPx]
+    [0.21, 0.29, 240, 180],
+    [0.32, 0.34, 220, 165],
+    [0.21, 0.54, 250, 188],
+    [0.34, 0.56, 260, 195],
+    [0.42, 0.62, 230, 172],
+    [0.54, 0.64, 280, 210],
+    [0.64, 0.63, 260, 195],
+    [0.52, 0.72, 240, 180],
+    [0.56, 0.25, 250, 188],
+    [0.74, 0.24, 250, 188],
+  ];
+  const bambooCanopySpots: [number, number, number, number][] = [
+    [0.74, 0.38, 250, 188],
+    [0.86, 0.36, 260, 195],
+    [0.75, 0.48, 240, 180],
+    [0.91, 0.46, 230, 172],
+  ];
+
+  html += `<g class="painted-cartographic-stamps" pointer-events="none">`;
+  // Panoramic Youkai Mountain Range Stamp
+  html += `
+    <image
+      href="${UI_CDN}/mountain-range-stamp.webp"
+      x="${(0.39 * MAP_WIDTH).toFixed(1)}"
+      y="${(0.005 * MAP_HEIGHT).toFixed(1)}"
+      width="${(0.47 * MAP_WIDTH).toFixed(1)}"
+      height="${(0.24 * MAP_HEIGHT).toFixed(1)}"
+      preserveAspectRatio="none"
+      opacity="0.88"
+    />
+    <image
+      href="${UI_CDN}/mountain-range-stamp.webp"
+      x="${(0.13 * MAP_WIDTH).toFixed(1)}"
+      y="${(0.18 * MAP_HEIGHT).toFixed(1)}"
+      width="${(0.25 * MAP_WIDTH).toFixed(1)}"
+      height="${(0.15 * MAP_HEIGHT).toFixed(1)}"
+      preserveAspectRatio="none"
+      opacity="0.76"
+    />
+  `;
+  for (const [cx, cy, cw, ch] of autumnCanopySpots) {
+    html += `
+      <image
+        href="${UI_CDN}/autumn-forest-canopy.webp"
+        x="${(cx * MAP_WIDTH - cw / 2).toFixed(1)}"
+        y="${(cy * MAP_HEIGHT - ch / 2).toFixed(1)}"
+        width="${cw}"
+        height="${ch}"
+        opacity="0.78"
+      />
+    `;
+  }
+  for (const [cx, cy, cw, ch] of bambooCanopySpots) {
+    html += `
+      <image
+        href="${UI_CDN}/bamboo-grove-cluster.webp"
+        x="${(cx * MAP_WIDTH - cw / 2).toFixed(1)}"
+        y="${(cy * MAP_HEIGHT - ch / 2).toFixed(1)}"
+        width="${cw}"
+        height="${ch}"
+        opacity="0.84"
+      />
+    `;
+  }
+  html += `</g>`;
+
   // 4. Hand-Drawn Ink Mountain Ridges & Peaks (Storybook Woodblock Style — image4.png homage)
   const mountainPeaks: [number, number, number, boolean][] = [
     // Northern Horizon Range & Youkai Mountain Skyline (x, y, scale, snowCap)

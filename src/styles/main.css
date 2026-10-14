@@ -1021,3 +1021,16 @@ body.panel-open .hud-bottom-right {
   opacity: 1;
 }
 
+.parchment-tex-img {
+  transition: opacity 0.45s ease;
+}
+
+[data-theme='dusk'] .parchment-tex-img {
+  opacity: 0.72;
+}
+
+[data-theme='night'] .parchment-tex-img {
+  opacity: 0.16;
+}
+
+

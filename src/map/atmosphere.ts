@@ -3,6 +3,7 @@ import { MAP_HEIGHT, MAP_WIDTH } from '../state';
 export function renderAtmosphereLayer(atmoGroup: SVGGElement) {
   const w = MAP_WIDTH;
   const h = MAP_HEIGHT;
+  const UI_CDN = 'https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/ui';
 
   // 1. Swirling Mist Banks over Misty Lake, Bamboo Forest, and Sanzu River
   const mistBanks = [
@@ -28,24 +29,23 @@ export function renderAtmosphereLayer(atmoGroup: SVGGElement) {
   }
   html += `</g>`;
 
-  // 2. Classical Japanese Woodblock Scrolling Clouds (Kumo) near mountain peaks & Heaven
-  const clouds = [
-    [0.58 * w, 0.08 * h, 1.0],
-    [0.74 * w, 0.09 * h, 0.9],
-    [0.39 * w, 0.08 * h, 0.85],
-    [0.88 * w, 0.17 * h, 0.85],
+  // 2. Classical Japanese Ukiyo-e Gold-Leaf Scrolling Clouds (Kumo) near Heaven, Moon & Mountain Peaks
+  const cloudPlacements: [number, number, number, number][] = [
+    [0.56 * w, 0.015 * h, 240, 120],
+    [0.70 * w, 0.025 * h, 220, 110],
+    [0.34 * w, 0.020 * h, 210, 105],
+    [0.82 * w, 0.140 * h, 220, 110],
   ];
-  html += `<g class="woodblock-clouds cloud-drift-slow" opacity="0.52" pointer-events="none">`;
-  for (const [cx, cy, s] of clouds) {
+  html += `<g class="woodblock-clouds cloud-drift-slow" opacity="0.82" pointer-events="none">`;
+  for (const [cx, cy, cw, ch] of cloudPlacements) {
     html += `
-      <g transform="translate(${cx.toFixed(1)}, ${cy.toFixed(1)}) scale(${s})">
-        <path
-          d="M -48 6 Q -42 -8 -24 -6 Q -14 -18 6 -12 Q 24 -18 34 -4 Q 50 -4 48 8 Z"
-          fill="#fbf6eb"
-          stroke="var(--ink-secondary)"
-          stroke-width="1.3"
-        />
-      </g>
+      <image
+        href="${UI_CDN}/ukiyo-cloud-cluster.webp"
+        x="${cx.toFixed(1)}"
+        y="${cy.toFixed(1)}"
+        width="${cw}"
+        height="${ch}"
+      />
     `;
   }
   html += `</g>`;
