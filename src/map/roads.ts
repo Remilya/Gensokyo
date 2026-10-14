@@ -1,7 +1,7 @@
 import { MAP_HEIGHT, MAP_WIDTH } from '../state';
 import type { ComputedRoute, RouteEntry } from '../types';
 
-function routePathD(pts: [number, number][]): string {
+function routePathD(pts: [number, number][], isInternalVillageLane = false): string {
   if (pts.length < 2) return '';
   const scaled = pts.map(([x, y]) => [x * MAP_WIDTH, y * MAP_HEIGHT] as [number, number]);
   if (scaled.length === 2) {
@@ -10,13 +10,13 @@ function routePathD(pts: [number, number][]): string {
     const dx = x2 - x1;
     const dy = y2 - y1;
     const len = Math.hypot(dx, dy);
-    if (len < 12) {
+    if (isInternalVillageLane || len < 14) {
       return `M ${x1.toFixed(1)} ${y1.toFixed(1)} L ${x2.toFixed(1)} ${y2.toFixed(1)}`;
     }
-    // Natural meandering S-curve control points so 2-point routes never look like ruler-straight lines
+    // Natural meandering S-curve control points so 2-point overland routes never look ruler-straight
     const nx = -dy / len;
     const ny = dx / len;
-    const sign = ((Math.round(x1 + y2) % 2) === 0 ? 1 : -1);
+    const sign = Math.round(x1 + y2) % 2 === 0 ? 1 : -1;
     const offset = Math.min(26, len * 0.11) * sign;
     const c1x = x1 + dx * 0.33 + nx * offset;
     const c1y = y1 + dy * 0.33 + ny * offset;
@@ -44,8 +44,15 @@ export function renderRoadsLayer(roadsGroup: SVGGElement, routes: RouteEntry[]) 
     // Do not clutter the overland map with cross-dimensional portal lines unless active in Route Planner
     if (r.kind === 'portal') continue;
 
-    const d = routePathD(r.points);
-    if (r.kind === 'road') {
+    const isVillageInternal = r.id.startsWith('vil-');
+    const d = routePathD(r.points, isVillageInternal);
+
+    if (isVillageInternal) {
+      // Subtle cobblestone / packed-earth town lane that harmonizes with the Human Village street grid
+      html += `
+        <path d="${d}" fill="none" stroke="#6b4e35" stroke-width="1.6" stroke-dasharray="2.5 3.5" stroke-linecap="round" opacity="0.45" data-route="${r.id}" />
+      `;
+    } else if (r.kind === 'road') {
       // Maintained highway: warm ink casing + parchment-sand path
       html += `
         <g class="route-seg route-road" data-route="${r.id}">
@@ -98,7 +105,7 @@ export function updateActiveRouteOverlay(
 
   if (computed.segments.length > 0) {
     for (const seg of computed.segments) {
-      const d = routePathD(seg.points);
+      const d = routePathD(seg.points, seg.id.startsWith('vil-'));
       html += `
         <path d="${d}" fill="none" stroke="rgba(255, 232, 166, 0.85)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" />
         <path d="${d}" fill="none" stroke="#b6342a" stroke-width="4.2" stroke-dasharray="10 6" stroke-linecap="round" stroke-linejoin="round" class="active-route-path" />

@@ -12,6 +12,7 @@
 
   /* Touhou Faction & Landmark Accents */
   --accent-hakurei: #b6342a;
+  --ink-jp-accent: #b6342a;
   --accent-gold: #c8963e;
   --accent-jade: #2f6f5e;
   --accent-violet: #6b438b;
@@ -58,6 +59,7 @@
   --paper-card-alt: rgba(227, 203, 172, 0.92);
   --ink-primary: #281811;
   --ink-secondary: #573a2b;
+  --ink-jp-accent: #a62b22;
   --water-fill: #64879c;
   --water-deep: #3f6378;
 }
@@ -70,6 +72,7 @@
   --ink-primary: #efe4ce;
   --ink-secondary: #c5b69b;
   --ink-muted: #93856f;
+  --ink-jp-accent: #ff9d78;
   --border-ink: #7d6849;
   --border-gold: #d6a64f;
   --biome-farmland: #2d3830;

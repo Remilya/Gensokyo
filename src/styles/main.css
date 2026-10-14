@@ -184,7 +184,7 @@ body,
 .search-result-jp {
   font-family: var(--font-jp);
   font-size: 12px;
-  color: var(--ink-secondary);
+  color: var(--ink-jp-accent);
   margin-left: 6px;
 }
 
@@ -193,35 +193,41 @@ body,
   color: var(--ink-muted);
 }
 
-/* Realm Quick-Jump Bar (Top Center) */
+/* Realm Quick-Jump Bar (Top Center — spans available top space without clipping) */
 .hud-top-center {
   position: absolute;
   top: 16px;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 438px;
+  right: 16px;
+  width: fit-content;
+  max-width: calc(100vw - 454px);
+  margin: 0 auto;
   z-index: 18;
   display: flex;
-  gap: 6px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px;
   background: var(--paper-card);
   border: 1.5px solid var(--border-ink);
   padding: 5px 10px;
-  border-radius: 999px;
+  border-radius: 18px;
   box-shadow: var(--shadow-card);
-  max-width: calc(100vw - 860px);
-  overflow-x: auto;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
+  transition: right 0.28s cubic-bezier(0.22, 1, 0.36, 1), max-width 0.28s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-.hud-top-center::-webkit-scrollbar {
-  display: none;
+body.panel-open .hud-top-center {
+  right: 424px;
+  max-width: calc(100vw - 862px);
 }
 
 @media (max-width: 1280px) {
-  .hud-top-center {
+  .hud-top-center,
+  body.panel-open .hud-top-center {
     top: auto;
     bottom: 72px;
-    max-width: calc(100vw - 40px);
+    left: 16px;
+    right: 16px;
+    max-width: calc(100vw - 32px);
   }
 }
 
@@ -231,8 +237,8 @@ body,
   color: var(--ink-primary);
   font-family: var(--font-serif);
   font-weight: 700;
-  font-size: 13px;
-  padding: 4px 10px;
+  font-size: 12.5px;
+  padding: 3.5px 8.5px;
   border-radius: 999px;
   cursor: pointer;
   white-space: nowrap;
@@ -592,7 +598,7 @@ body.panel-open .hud-bottom-right {
 .panel-title-jp {
   font-family: var(--font-jp);
   font-size: 15px;
-  color: var(--accent-hakurei);
+  color: var(--ink-jp-accent);
   margin-top: 3px;
 }
 
@@ -921,7 +927,7 @@ body.panel-open .hud-bottom-right {
 .tooltip-jp {
   font-family: var(--font-jp);
   font-size: 11.5px;
-  color: var(--accent-hakurei);
+  color: var(--ink-jp-accent);
   margin-left: 5px;
 }
 

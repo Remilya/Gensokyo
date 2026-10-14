@@ -10,6 +10,16 @@ export default defineConfig({
     sourcemap: false,
     target: 'es2020',
     minify: 'esbuild',
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.includes('data/characters.json')) return 'characters-data';
+          if (id.includes('data/locations.json') || id.includes('data/routes.json') || id.includes('data/terrain.json')) {
+            return 'geography-data';
+          }
+        },
+      },
+    },
   },
   server: {
     port: 5179,
