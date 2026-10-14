@@ -114,41 +114,41 @@ export function renderTerrainLayer(terrainGroup: SVGGElement, data: TerrainData)
   const basinD = smoothClosedPath(basinPts);
   html += `<path d="${basinD}" fill="var(--biome-foothills)" fill-opacity="0.32" stroke="var(--biome-foothills)" stroke-width="45" stroke-opacity="0.18" stroke-linejoin="round" />`;
 
-  // 2. Biome Watercolor Washes (Multi-layered soft feathered edges)
+  // 2. Biome Watercolor Washes (Multi-layered soft feathered edges that let parchment fibers show through)
   for (const reg of data.regions) {
     const d = smoothClosedPath(reg.points);
     const fill = BIOME_FILL[reg.biome] ?? 'var(--biome-foothills)';
-    html += `<path d="${d}" fill="none" stroke="${fill}" stroke-width="38" stroke-opacity="0.18" stroke-linejoin="round" stroke-linecap="round" />`;
-    html += `<path d="${d}" fill="none" stroke="${fill}" stroke-width="20" stroke-opacity="0.28" stroke-linejoin="round" stroke-linecap="round" />`;
-    html += `<path d="${d}" fill="${fill}" fill-opacity="0.72" stroke="${fill}" stroke-width="8" stroke-opacity="0.45" stroke-linejoin="round" data-biome="${reg.id}" />`;
+    html += `<path d="${d}" fill="none" stroke="${fill}" stroke-width="36" stroke-opacity="0.12" stroke-linejoin="round" stroke-linecap="round" />`;
+    html += `<path d="${d}" fill="none" stroke="${fill}" stroke-width="18" stroke-opacity="0.18" stroke-linejoin="round" stroke-linecap="round" />`;
+    html += `<path d="${d}" fill="${fill}" fill-opacity="0.38" stroke="${fill}" stroke-width="6" stroke-opacity="0.28" stroke-linejoin="round" data-biome="${reg.id}" />`;
   }
 
   // 3. Armixi-Style Multi-Tier Stepped Topographic Massif for Youkai Mountain & Hakurei Ridge
   const youkaiTiers = [
-    { rx: 0.175, ry: 0.112, fill: '#9e9275', op: 0.55, seed: 1.1 },
-    { rx: 0.150, ry: 0.096, fill: '#948870', op: 0.65, seed: 2.3 },
-    { rx: 0.126, ry: 0.080, fill: '#a39883', op: 0.72, seed: 3.7 },
-    { rx: 0.104, ry: 0.066, fill: '#b3aa98', op: 0.78, seed: 4.9 },
-    { rx: 0.082, ry: 0.052, fill: '#c7c0b2', op: 0.84, seed: 6.2 },
-    { rx: 0.062, ry: 0.039, fill: '#dbd6ca', op: 0.88, seed: 7.5 },
-    { rx: 0.042, ry: 0.026, fill: '#efece4', op: 0.92, seed: 8.8 },
+    { rx: 0.175, ry: 0.112, fill: '#9e9275', op: 0.38, seed: 1.1 },
+    { rx: 0.150, ry: 0.096, fill: '#948870', op: 0.45, seed: 2.3 },
+    { rx: 0.126, ry: 0.080, fill: '#a39883', op: 0.52, seed: 3.7 },
+    { rx: 0.104, ry: 0.066, fill: '#b3aa98', op: 0.58, seed: 4.9 },
+    { rx: 0.082, ry: 0.052, fill: '#c7c0b2', op: 0.64, seed: 6.2 },
+    { rx: 0.062, ry: 0.039, fill: '#dbd6ca', op: 0.70, seed: 7.5 },
+    { rx: 0.042, ry: 0.026, fill: '#efece4', op: 0.76, seed: 8.8 },
   ];
   html += `<g class="youkai-mountain-terraces">`;
   for (const t of youkaiTiers) {
     const td = steppedContourPolygon(0.658, 0.155, t.rx, t.ry, t.seed, 22);
-    html += `<path d="${td}" fill="${t.fill}" fill-opacity="${t.op}" stroke="var(--ink-primary)" stroke-width="1.3" stroke-opacity="0.58" />`;
-    html += `<path d="${td}" fill="none" stroke="var(--ink-secondary)" stroke-width="3.2" stroke-dasharray="1.2 5.5" stroke-opacity="0.42" />`;
+    html += `<path d="${td}" fill="${t.fill}" fill-opacity="${t.op}" stroke="var(--ink-primary)" stroke-width="1.1" stroke-opacity="0.45" />`;
+    html += `<path d="${td}" fill="none" stroke="var(--ink-secondary)" stroke-width="2.6" stroke-dasharray="1.2 5.5" stroke-opacity="0.32" />`;
   }
   // Hakurei Western Ridge stepped terraces
   const hakureiTiers = [
-    { rx: 0.095, ry: 0.064, fill: '#a89b7c', op: 0.50, seed: 2.1 },
-    { rx: 0.072, ry: 0.048, fill: '#9a8c6f', op: 0.62, seed: 3.4 },
-    { rx: 0.048, ry: 0.032, fill: '#b5a88b', op: 0.72, seed: 5.1 },
+    { rx: 0.095, ry: 0.064, fill: '#a89b7c', op: 0.36, seed: 2.1 },
+    { rx: 0.072, ry: 0.048, fill: '#9a8c6f', op: 0.44, seed: 3.4 },
+    { rx: 0.048, ry: 0.032, fill: '#b5a88b', op: 0.52, seed: 5.1 },
   ];
   for (const t of hakureiTiers) {
     const td = steppedContourPolygon(0.252, 0.318, t.rx, t.ry, t.seed, 16);
-    html += `<path d="${td}" fill="${t.fill}" fill-opacity="${t.op}" stroke="var(--ink-primary)" stroke-width="1.1" stroke-opacity="0.48" />`;
-    html += `<path d="${td}" fill="none" stroke="var(--ink-secondary)" stroke-width="2.6" stroke-dasharray="1.2 6" stroke-opacity="0.35" />`;
+    html += `<path d="${td}" fill="${t.fill}" fill-opacity="${t.op}" stroke="var(--ink-primary)" stroke-width="1.0" stroke-opacity="0.40" />`;
+    html += `<path d="${td}" fill="none" stroke="var(--ink-secondary)" stroke-width="2.2" stroke-dasharray="1.2 6" stroke-opacity="0.28" />`;
   }
   html += `</g>`;
 
@@ -156,22 +156,26 @@ export function renderTerrainLayer(terrainGroup: SVGGElement, data: TerrainData)
   const UI_CDN = 'https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/ui';
   const autumnCanopySpots: [number, number, number, number][] = [
     // [cxNorm, cyNorm, widthPx, heightPx]
-    [0.21, 0.29, 240, 180],
-    [0.32, 0.34, 220, 165],
-    [0.21, 0.54, 250, 188],
+    [0.21, 0.29, 250, 188],
+    [0.32, 0.34, 230, 172],
+    [0.20, 0.48, 240, 180],
+    [0.22, 0.57, 250, 188],
     [0.34, 0.56, 260, 195],
     [0.42, 0.62, 230, 172],
-    [0.54, 0.64, 280, 210],
-    [0.64, 0.63, 260, 195],
+    [0.49, 0.61, 250, 188],
+    [0.56, 0.65, 280, 210],
+    [0.65, 0.63, 260, 195],
     [0.52, 0.72, 240, 180],
-    [0.56, 0.25, 250, 188],
-    [0.74, 0.24, 250, 188],
+    [0.55, 0.25, 250, 188],
+    [0.65, 0.24, 240, 180],
+    [0.75, 0.24, 250, 188],
   ];
   const bambooCanopySpots: [number, number, number, number][] = [
-    [0.74, 0.38, 250, 188],
-    [0.86, 0.36, 260, 195],
-    [0.75, 0.48, 240, 180],
-    [0.91, 0.46, 230, 172],
+    [0.73, 0.37, 250, 188],
+    [0.85, 0.35, 260, 195],
+    [0.75, 0.47, 240, 180],
+    [0.82, 0.43, 235, 176],
+    [0.91, 0.46, 235, 176],
   ];
 
   html += `<g class="painted-cartographic-stamps" pointer-events="none">`;
@@ -180,20 +184,20 @@ export function renderTerrainLayer(terrainGroup: SVGGElement, data: TerrainData)
     <image
       href="${UI_CDN}/mountain-range-stamp.webp"
       x="${(0.39 * MAP_WIDTH).toFixed(1)}"
-      y="${(0.005 * MAP_HEIGHT).toFixed(1)}"
-      width="${(0.47 * MAP_WIDTH).toFixed(1)}"
-      height="${(0.24 * MAP_HEIGHT).toFixed(1)}"
+      y="${(0.012 * MAP_HEIGHT).toFixed(1)}"
+      width="${(0.45 * MAP_WIDTH).toFixed(1)}"
+      height="${(0.225 * MAP_HEIGHT).toFixed(1)}"
       preserveAspectRatio="none"
-      opacity="0.88"
+      opacity="0.90"
     />
     <image
       href="${UI_CDN}/mountain-range-stamp.webp"
       x="${(0.13 * MAP_WIDTH).toFixed(1)}"
-      y="${(0.18 * MAP_HEIGHT).toFixed(1)}"
+      y="${(0.185 * MAP_HEIGHT).toFixed(1)}"
       width="${(0.25 * MAP_WIDTH).toFixed(1)}"
-      height="${(0.15 * MAP_HEIGHT).toFixed(1)}"
+      height="${(0.145 * MAP_HEIGHT).toFixed(1)}"
       preserveAspectRatio="none"
-      opacity="0.76"
+      opacity="0.80"
     />
   `;
   for (const [cx, cy, cw, ch] of autumnCanopySpots) {
@@ -204,7 +208,7 @@ export function renderTerrainLayer(terrainGroup: SVGGElement, data: TerrainData)
         y="${(cy * MAP_HEIGHT - ch / 2).toFixed(1)}"
         width="${cw}"
         height="${ch}"
-        opacity="0.78"
+        opacity="0.84"
       />
     `;
   }
@@ -216,64 +220,53 @@ export function renderTerrainLayer(terrainGroup: SVGGElement, data: TerrainData)
         y="${(cy * MAP_HEIGHT - ch / 2).toFixed(1)}"
         width="${cw}"
         height="${ch}"
-        opacity="0.84"
+        opacity="0.88"
       />
     `;
   }
   html += `</g>`;
 
-  // 4. Hand-Drawn Ink Mountain Ridges & Peaks (Storybook Woodblock Style — image4.png homage)
+  // 4. Subtle Hand-Drawn Ink Mountain Ridges & Crag Accents
   const mountainPeaks: [number, number, number, boolean][] = [
-    // Northern Horizon Range & Youkai Mountain Skyline (x, y, scale, snowCap)
-    [0.39, 0.13, 0.95, false], [0.42, 0.11, 1.10, false], [0.45, 0.12, 1.05, false],
-    [0.48, 0.09, 1.28, false], [0.51, 0.10, 1.22, false], [0.54, 0.08, 1.42, true],
-    [0.57, 0.09, 1.35, true],  [0.60, 0.07, 1.62, true],  [0.63, 0.06, 1.75, true],
-    [0.66, 0.07, 1.80, true],  [0.69, 0.06, 1.70, true],  [0.72, 0.08, 1.55, true],
-    [0.75, 0.09, 1.40, true],  [0.78, 0.11, 1.25, false], [0.81, 0.13, 1.10, false],
     // Mid-slope Youkai Mountain crags & Genbu Ravine cliffs
-    [0.49, 0.16, 1.05, false], [0.53, 0.15, 1.20, false], [0.57, 0.14, 1.30, false],
-    [0.61, 0.15, 1.35, true],  [0.65, 0.14, 1.40, true],  [0.70, 0.15, 1.35, true],
-    [0.74, 0.16, 1.25, false], [0.78, 0.17, 1.15, false], [0.81, 0.19, 1.05, false],
+    [0.49, 0.16, 1.00, false], [0.57, 0.14, 1.15, false],
+    [0.65, 0.14, 1.20, true],  [0.74, 0.16, 1.10, false], [0.81, 0.19, 0.95, false],
     // Lower Youkai Foothill ridges
-    [0.52, 0.21, 1.00, false], [0.56, 0.22, 1.12, false], [0.64, 0.21, 1.18, false],
-    [0.69, 0.22, 1.15, false], [0.74, 0.21, 1.10, false], [0.78, 0.23, 1.00, false],
+    [0.52, 0.21, 0.92, false], [0.64, 0.21, 1.05, false], [0.74, 0.21, 0.98, false],
     // Western Hakurei Border Ridge
-    [0.17, 0.25, 1.15, false], [0.20, 0.23, 1.30, false], [0.23, 0.24, 1.25, false],
-    [0.27, 0.23, 1.35, false], [0.30, 0.25, 1.18, false], [0.33, 0.27, 1.05, false],
-    [0.17, 0.31, 1.08, false], [0.20, 0.33, 1.12, false], [0.29, 0.31, 1.05, false],
-    [0.16, 0.37, 0.95, false], [0.20, 0.38, 0.90, false],
+    [0.17, 0.31, 0.98, false], [0.29, 0.31, 0.95, false], [0.18, 0.37, 0.90, false],
     // Eastern Mayohiga & Barrier Crags
-    [0.86, 0.28, 1.10, false], [0.90, 0.30, 1.25, false], [0.93, 0.33, 1.15, false],
-    [0.95, 0.38, 1.00, false], [0.91, 0.66, 1.05, false], [0.94, 0.68, 1.15, false],
+    [0.86, 0.28, 1.05, false], [0.91, 0.30, 1.15, false], [0.94, 0.34, 1.05, false],
+    [0.92, 0.67, 1.00, false],
   ];
 
-  html += `<g class="mountain-hachures" opacity="0.88">`;
+  html += `<g class="mountain-hachures" opacity="0.48">`;
   for (const [px, py, scale, snow] of mountainPeaks) {
     const x = px * MAP_WIDTH;
     const y = py * MAP_HEIGHT;
-    const w = 46 * scale;
-    const h = 30 * scale;
+    const w = 44 * scale;
+    const h = 28 * scale;
     const snowCap = snow
-      ? `<path d="M 0 ${(-h * 0.62).toFixed(1)} L ${(-w * 0.32).toFixed(1)} ${(-h * 0.14).toFixed(1)} L ${(-w * 0.12).toFixed(1)} ${(-h * 0.22).toFixed(1)} L 0 ${(-h * 0.10).toFixed(1)} L ${(w * 0.16).toFixed(1)} ${(-h * 0.20).toFixed(1)} L ${(w * 0.32).toFixed(1)} ${(-h * 0.12).toFixed(1)} Z" fill="#f7f4ec" opacity="0.88" />`
+      ? `<path d="M 0 ${(-h * 0.62).toFixed(1)} L ${(-w * 0.32).toFixed(1)} ${(-h * 0.14).toFixed(1)} L ${(-w * 0.12).toFixed(1)} ${(-h * 0.22).toFixed(1)} L 0 ${(-h * 0.10).toFixed(1)} L ${(w * 0.16).toFixed(1)} ${(-h * 0.20).toFixed(1)} L ${(w * 0.32).toFixed(1)} ${(-h * 0.12).toFixed(1)} Z" fill="#f7f4ec" opacity="0.82" />`
       : '';
     html += `
       <g transform="translate(${x.toFixed(1)}, ${y.toFixed(1)})">
         <!-- Sunlit Western Slope -->
-        <path d="M ${-w} ${h * 0.42} L ${-w * 0.48} ${-h * 0.10} L 0 ${-h * 0.62} L ${w * 0.48} ${-h * 0.08} L ${w} ${h * 0.42} Z" fill="var(--biome-mountain)" fill-opacity="0.72" />
+        <path d="M ${-w} ${h * 0.42} L ${-w * 0.48} ${-h * 0.10} L 0 ${-h * 0.62} L ${w * 0.48} ${-h * 0.08} L ${w} ${h * 0.42} Z" fill="var(--biome-mountain)" fill-opacity="0.62" />
         <!-- Shaded Eastern Face -->
-        <path d="M 0 ${-h * 0.62} L ${w * 0.48} ${-h * 0.08} L ${w} ${h * 0.42} L ${w * 0.08} ${h * 0.42} L ${-w * 0.06} ${h * 0.05} Z" fill="var(--ink-primary)" fill-opacity="0.24" />
+        <path d="M 0 ${-h * 0.62} L ${w * 0.48} ${-h * 0.08} L ${w} ${h * 0.42} L ${w * 0.08} ${h * 0.42} L ${-w * 0.06} ${h * 0.05} Z" fill="var(--ink-primary)" fill-opacity="0.22" />
         ${snowCap}
         <!-- Outer Ink Ridge Contour -->
-        <path d="M ${-w} ${h * 0.42} L ${-w * 0.48} ${-h * 0.10} L 0 ${-h * 0.62} L ${w * 0.48} ${-h * 0.08} L ${w} ${h * 0.42}" fill="none" stroke="var(--ink-primary)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M ${-w} ${h * 0.42} L ${-w * 0.48} ${-h * 0.10} L 0 ${-h * 0.62} L ${w * 0.48} ${-h * 0.08} L ${w} ${h * 0.42}" fill="none" stroke="var(--ink-primary)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
         <!-- Center Spine & Cliff Hachure Strokes -->
-        <path d="M 0 ${-h * 0.62} L ${-w * 0.06} ${h * 0.05} L ${w * 0.08} ${h * 0.36} M ${w * 0.18} ${-h * 0.32} L ${w * 0.32} ${h * 0.28} M ${w * 0.36} ${-h * 0.12} L ${w * 0.52} ${h * 0.32} M ${-w * 0.22} ${-h * 0.25} L ${-w * 0.38} ${h * 0.22}" fill="none" stroke="var(--ink-secondary)" stroke-width="1.05" stroke-opacity="0.72" stroke-linecap="round" />
+        <path d="M 0 ${-h * 0.62} L ${-w * 0.06} ${h * 0.05} L ${w * 0.08} ${h * 0.36} M ${w * 0.18} ${-h * 0.32} L ${w * 0.32} ${h * 0.28} M ${w * 0.36} ${-h * 0.12} L ${w * 0.52} ${h * 0.32} M ${-w * 0.22} ${-h * 0.25} L ${-w * 0.38} ${h * 0.22}" fill="none" stroke="var(--ink-secondary)" stroke-width="1.0" stroke-opacity="0.68" stroke-linecap="round" />
       </g>
     `;
   }
   html += `</g>`;
 
-  // 5. Dense Hand-Crafted Forest Canopies, Autumn Maple Woods & Bamboo Groves
-  html += `<g class="flora-details" opacity="0.86">`;
+  // 5. Subtle Hand-Crafted Flora Ground-Cover Accents
+  html += `<g class="flora-details" opacity="0.58">`;
 
   // Helper for deciduous/autumn tree cluster (image4.png warm autumn & emerald forest style)
   const renderTreeClump = (x: number, y: number, colorA: string, colorB: string, s = 1) => `
@@ -645,14 +638,14 @@ export function renderFootprintsLayer(footprintsGroup: SVGGElement) {
       ${stalactites}
       <!-- Subterranean Lava Cracks & Hellfire Glow in Blazing Hell -->
       <path d="M ${0.06 * MAP_WIDTH} ${0.91 * MAP_HEIGHT} Q ${0.11 * MAP_WIDTH} ${0.89 * MAP_HEIGHT} ${0.16 * MAP_WIDTH} ${0.92 * MAP_HEIGHT} T ${0.24 * MAP_WIDTH} ${0.90 * MAP_HEIGHT}" fill="none" stroke="#ff542e" stroke-width="2.5" stroke-dasharray="6 4" opacity="0.75" />
-      <rect x="${uwX + 12}" y="${uwY + 14}" width="295" height="22" rx="3" fill="var(--paper-card)" stroke="var(--border-ink)" stroke-width="1.4" />
-      <text x="${uwX + 20}" y="${uwY + 29}" font-family="var(--font-display)" font-size="13.5" font-weight="700" fill="var(--ink-primary)" letter-spacing="1.8">UNDERWORLD &amp; FORMER HELL (地底・旧地獄)</text>
+      <rect x="${uwX + 12}" y="${uwY + 14}" width="398" height="24" rx="4" fill="var(--paper-card)" fill-opacity="0.96" stroke="var(--border-ink)" stroke-width="1.5" />
+      <text x="${uwX + 211}" y="${uwY + 30}" text-anchor="middle" font-family="var(--font-display)" font-size="12.5" font-weight="700" fill="var(--ink-primary)" letter-spacing="1.4">UNDERWORLD &amp; FORMER HELL (地底・旧地獄)</text>
 
       <!-- 6B. MAKAI DEMON REALM CARTOUCHE -->
       <rect x="${0.032 * MAP_WIDTH}" y="${0.482 * MAP_HEIGHT}" width="${0.138 * MAP_WIDTH}" height="${0.178 * MAP_HEIGHT}" rx="6" fill="rgba(72, 48, 92, 0.18)" stroke="var(--border-ink)" stroke-width="6.5" />
       <rect x="${0.032 * MAP_WIDTH}" y="${0.482 * MAP_HEIGHT}" width="${0.138 * MAP_WIDTH}" height="${0.178 * MAP_HEIGHT}" rx="6" fill="none" stroke="var(--border-gold)" stroke-width="3" stroke-dasharray="8 4 2 4" />
-      <rect x="${0.038 * MAP_WIDTH}" y="${0.490 * MAP_HEIGHT}" width="138" height="20" rx="3" fill="var(--paper-card)" stroke="var(--border-ink)" stroke-width="1.3" />
-      <text x="${0.043 * MAP_WIDTH}" y="${0.504 * MAP_HEIGHT}" font-family="var(--font-display)" font-size="12.5" font-weight="700" fill="var(--ink-primary)" letter-spacing="1.5">MAKAI (魔界)</text>
+      <rect x="${0.038 * MAP_WIDTH}" y="${0.490 * MAP_HEIGHT}" width="168" height="22" rx="4" fill="var(--paper-card)" fill-opacity="0.96" stroke="var(--border-ink)" stroke-width="1.4" />
+      <text x="${0.038 * MAP_WIDTH + 84}" y="${0.490 * MAP_HEIGHT + 15}" text-anchor="middle" font-family="var(--font-display)" font-size="12" font-weight="700" fill="var(--ink-primary)" letter-spacing="1.3">MAKAI (魔界)</text>
 
       <!-- 6C. THE MOON & DREAM WORLD CELESTIAL CARTOUCHE (Armixi Lunar Sphere Homage) -->
       <rect x="${0.822 * MAP_WIDTH}" y="${0.026 * MAP_HEIGHT}" width="${0.152 * MAP_WIDTH}" height="${0.252 * MAP_HEIGHT}" rx="6" fill="rgba(186, 198, 218, 0.22)" stroke="var(--border-ink)" stroke-width="6.5" />
@@ -660,8 +653,8 @@ export function renderFootprintsLayer(footprintsGroup: SVGGElement) {
       <!-- Lunar Sphere Ring around the Lunar Capital -->
       <circle cx="${0.902 * MAP_WIDTH}" cy="${0.112 * MAP_HEIGHT}" r="58" fill="rgba(242, 238, 225, 0.55)" stroke="var(--border-ink)" stroke-width="2.2" />
       <circle cx="${0.902 * MAP_WIDTH}" cy="${0.112 * MAP_HEIGHT}" r="52" fill="none" stroke="var(--border-gold)" stroke-width="1.2" stroke-dasharray="5 3" />
-      <rect x="${0.828 * MAP_WIDTH}" y="${0.034 * MAP_HEIGHT}" width="215" height="20" rx="3" fill="var(--paper-card)" stroke="var(--border-ink)" stroke-width="1.3" />
-      <text x="${0.834 * MAP_WIDTH}" y="${0.048 * MAP_HEIGHT}" font-family="var(--font-display)" font-size="12.5" font-weight="700" fill="var(--ink-primary)" letter-spacing="1.5">THE MOON &amp; DREAM (月の都)</text>
+      <rect x="${0.828 * MAP_WIDTH}" y="${0.034 * MAP_HEIGHT}" width="268" height="22" rx="4" fill="var(--paper-card)" fill-opacity="0.96" stroke="var(--border-ink)" stroke-width="1.4" />
+      <text x="${0.828 * MAP_WIDTH + 134}" y="${0.034 * MAP_HEIGHT + 15}" text-anchor="middle" font-family="var(--font-display)" font-size="12" font-weight="700" fill="var(--ink-primary)" letter-spacing="1.3">THE MOON &amp; DREAM (月の都)</text>
     </g>
   `;
 }

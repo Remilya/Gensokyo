@@ -5,7 +5,24 @@ function routePathD(pts: [number, number][]): string {
   if (pts.length < 2) return '';
   const scaled = pts.map(([x, y]) => [x * MAP_WIDTH, y * MAP_HEIGHT] as [number, number]);
   if (scaled.length === 2) {
-    return `M ${scaled[0][0].toFixed(1)} ${scaled[0][1].toFixed(1)} L ${scaled[1][0].toFixed(1)} ${scaled[1][1].toFixed(1)}`;
+    const [x1, y1] = scaled[0];
+    const [x2, y2] = scaled[1];
+    const dx = x2 - x1;
+    const dy = y2 - y1;
+    const len = Math.hypot(dx, dy);
+    if (len < 12) {
+      return `M ${x1.toFixed(1)} ${y1.toFixed(1)} L ${x2.toFixed(1)} ${y2.toFixed(1)}`;
+    }
+    // Natural meandering S-curve control points so 2-point routes never look like ruler-straight lines
+    const nx = -dy / len;
+    const ny = dx / len;
+    const sign = ((Math.round(x1 + y2) % 2) === 0 ? 1 : -1);
+    const offset = Math.min(26, len * 0.11) * sign;
+    const c1x = x1 + dx * 0.33 + nx * offset;
+    const c1y = y1 + dy * 0.33 + ny * offset;
+    const c2x = x1 + dx * 0.67 - nx * offset * 0.65;
+    const c2y = y1 + dy * 0.67 - ny * offset * 0.65;
+    return `M ${x1.toFixed(1)} ${y1.toFixed(1)} C ${c1x.toFixed(1)} ${c1y.toFixed(1)}, ${c2x.toFixed(1)} ${c2y.toFixed(1)}, ${x2.toFixed(1)} ${y2.toFixed(1)}`;
   }
   let d = `M ${scaled[0][0].toFixed(1)} ${scaled[0][1].toFixed(1)} `;
   for (let i = 1; i < scaled.length - 1; i++) {
@@ -24,41 +41,39 @@ export function renderRoadsLayer(roadsGroup: SVGGElement, routes: RouteEntry[]) 
   let html = '';
 
   for (const r of routes) {
+    // Do not clutter the overland map with cross-dimensional portal lines unless active in Route Planner
+    if (r.kind === 'portal') continue;
+
     const d = routePathD(r.points);
     if (r.kind === 'road') {
-      // Maintained highway: dark ink casing + warm sand center
+      // Maintained highway: warm ink casing + parchment-sand path
       html += `
         <g class="route-seg route-road" data-route="${r.id}">
-          <path d="${d}" fill="none" stroke="var(--ink-primary)" stroke-width="5.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.65" />
-          <path d="${d}" fill="none" stroke="#e3cfa6" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="${d}" fill="none" stroke="var(--ink-primary)" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.52" />
+          <path d="${d}" fill="none" stroke="#e5d2ab" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" opacity="0.88" />
         </g>
       `;
     } else if (r.kind === 'path') {
       // Forest / Mountain footpath
       html += `
-        <path d="${d}" fill="none" stroke="#593e28" stroke-width="2.1" stroke-dasharray="7 5" stroke-linecap="round" opacity="0.78" data-route="${r.id}" />
+        <path d="${d}" fill="none" stroke="#4f3622" stroke-width="1.6" stroke-dasharray="6 5" stroke-linecap="round" opacity="0.62" data-route="${r.id}" />
       `;
     } else if (r.kind === 'secret') {
       // Hidden / Shifting trail
       html += `
-        <path d="${d}" fill="none" stroke="#8f2d38" stroke-width="1.8" stroke-dasharray="3 6" stroke-linecap="round" opacity="0.72" data-route="${r.id}" />
+        <path d="${d}" fill="none" stroke="#7d2932" stroke-width="1.4" stroke-dasharray="3 6" stroke-linecap="round" opacity="0.48" data-route="${r.id}" />
       `;
     } else if (r.kind === 'ropeway') {
       // Moriya Aerial Ropeway cable line
       html += `
         <g class="route-ropeway" data-route="${r.id}">
-          <path d="${d}" fill="none" stroke="#2c3e50" stroke-width="2.2" stroke-dasharray="12 4 2 4" opacity="0.82" />
+          <path d="${d}" fill="none" stroke="#2c3e50" stroke-width="1.8" stroke-dasharray="10 4 2 4" opacity="0.72" />
         </g>
       `;
     } else if (r.kind === 'ferry') {
       // Sanzu Ferry route
       html += `
-        <path d="${d}" fill="none" stroke="#295f78" stroke-width="2.4" stroke-dasharray="4 7" stroke-linecap="round" opacity="0.85" data-route="${r.id}" />
-      `;
-    } else if (r.kind === 'portal') {
-      // Dimensional / Sky portal link
-      html += `
-        <path d="${d}" fill="none" stroke="#8a56ac" stroke-width="1.6" stroke-dasharray="2 8" stroke-linecap="round" opacity="0.48" data-route="${r.id}" />
+        <path d="${d}" fill="none" stroke="#245269" stroke-width="2.0" stroke-dasharray="4 6" stroke-linecap="round" opacity="0.75" data-route="${r.id}" />
       `;
     }
   }
