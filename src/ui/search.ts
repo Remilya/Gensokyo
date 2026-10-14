@@ -89,7 +89,19 @@ export function mountSearchAndRealmBar(container: HTMLElement, mapCanvas: MapCan
       return;
     }
 
-    const matches = store
+    const charMatches = store
+      .getCharacters()
+      .filter((ch) => {
+        return (
+          ch.name_en.toLowerCase().includes(q) ||
+          ch.name_jp.toLowerCase().includes(q) ||
+          ch.title.toLowerCase().includes(q) ||
+          ch.species.toLowerCase().includes(q)
+        );
+      })
+      .slice(0, 5);
+
+    const locMatches = store
       .getLocations()
       .filter((loc) => {
         if (st.regionFilter !== 'All' && loc.region !== st.regionFilter) return false;
@@ -101,21 +113,37 @@ export function mountSearchAndRealmBar(container: HTMLElement, mapCanvas: MapCan
           loc.short_desc.toLowerCase().includes(q)
         );
       })
-      .slice(0, 12);
+      .slice(0, 9);
 
-    if (matches.length === 0) {
+    if (charMatches.length === 0 && locMatches.length === 0) {
       resultsBox.style.display = 'block';
-      resultsBox.innerHTML = `<div style="padding:10px 12px;font-size:12.5px;color:var(--ink-muted);">No matching locations found in Gensokyo.</div>`;
+      resultsBox.innerHTML = `<div style="padding:10px 12px;font-size:12.5px;color:var(--ink-muted);">No matching characters or locations found in Gensokyo.</div>`;
       return;
     }
 
     resultsBox.style.display = 'block';
-    resultsBox.innerHTML = matches
+
+    const charHtml = charMatches
+      .map(
+        (c) => `
+        <div class="search-result-item" data-char-id="${c.id}">
+          <div>
+            <span class="search-result-title">👤 ${c.name_en}</span>
+            <span class="search-result-jp">${c.name_jp}</span>
+            <div class="search-result-meta">${c.title || c.species} • ${c.species}</div>
+          </div>
+          <span class="badge canon">Character</span>
+        </div>
+      `
+      )
+      .join('');
+
+    const locHtml = locMatches
       .map(
         (m) => `
         <div class="search-result-item" data-id="${m.id}">
           <div>
-            <span class="search-result-title">${m.name_en}</span>
+            <span class="search-result-title">📍 ${m.name_en}</span>
             <span class="search-result-jp">${m.name_jp}</span>
             <div class="search-result-meta">${m.region} • ${m.residents.slice(0, 3).join(', ') || m.kind}</div>
           </div>
@@ -125,11 +153,24 @@ export function mountSearchAndRealmBar(container: HTMLElement, mapCanvas: MapCan
       )
       .join('');
 
+    resultsBox.innerHTML = charHtml + locHtml;
+
     resultsBox.querySelectorAll('.search-result-item').forEach((item) => {
       item.addEventListener('click', () => {
+        const charId = item.getAttribute('data-char-id');
+        if (charId) {
+          const ch = store.getCharacter(charId);
+          const homeId = ch?.home_location_ids?.[0] ?? null;
+          store.update({ selectedId: homeId, selectedCharacterId: charId, searchQuery: '' });
+          searchInput.value = '';
+          resultsBox.style.display = 'none';
+          if (homeId) mapCanvas.flyToLocation(homeId, 2.6);
+          window.history.replaceState(null, '', `#char=${charId}`);
+          return;
+        }
         const id = item.getAttribute('data-id');
         if (!id) return;
-        store.update({ selectedId: id, searchQuery: '' });
+        store.update({ selectedId: id, selectedCharacterId: null, searchQuery: '' });
         searchInput.value = '';
         resultsBox.style.display = 'none';
         mapCanvas.flyToLocation(id, 2.8);
@@ -193,6 +234,10 @@ export function mountSearchAndRealmBar(container: HTMLElement, mapCanvas: MapCan
     } else if (e.key === 'Escape') {
       if (resultsBox.style.display !== 'none') {
         resultsBox.style.display = 'none';
+      } else if (store.getState().selectedCharacterId) {
+        const locId = store.getState().selectedId;
+        store.update({ selectedCharacterId: null });
+        window.history.replaceState(null, '', locId ? `#loc=${locId}` : window.location.pathname);
       } else if (store.getState().selectedId) {
         store.update({ selectedId: null });
         window.history.replaceState(null, '', window.location.pathname);

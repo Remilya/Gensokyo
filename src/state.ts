@@ -1,5 +1,6 @@
 import type {
   AppState,
+  CharacterEntry,
   ComputedRoute,
   LocationEntry,
   RouteEntry,
@@ -10,9 +11,29 @@ export const MAP_HEIGHT = 1600;
 
 type Listener = (state: AppState) => void;
 
+function slugifyName(raw: string): string {
+  const base = raw
+    .replace(/\s*\([^)]*\)\s*/g, '')
+    .replace(/, Yamaxanadu$/i, '')
+    .trim();
+  const alias: Record<string, string> = {
+    'Reisen II': 'Reisen',
+    'Kirisame Family': 'Marisa Kirisame',
+    'Hourai Doll': 'Alice Margatroid',
+    'Shanghai Doll': 'Alice Margatroid',
+    'Biten Son': 'Son Biten',
+  };
+  return (alias[base] || base)
+    .toLowerCase()
+    .replace(/['’]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
 class Store {
   private state: AppState = {
     selectedId: null,
+    selectedCharacterId: null,
     hoveredId: null,
     searchQuery: '',
     regionFilter: 'All',
@@ -30,14 +51,26 @@ class Store {
   private listeners = new Set<Listener>();
   private locations: LocationEntry[] = [];
   private routes: RouteEntry[] = [];
+  private characters: CharacterEntry[] = [];
   private locMap = new Map<string, LocationEntry>();
+  private charMap = new Map<string, CharacterEntry>();
 
-  public initData(locations: LocationEntry[], routes: RouteEntry[]) {
+  public initData(
+    locations: LocationEntry[],
+    routes: RouteEntry[],
+    characters: CharacterEntry[] = []
+  ) {
     this.locations = locations;
     this.routes = routes;
+    this.characters = characters;
     this.locMap.clear();
     for (const loc of locations) {
       this.locMap.set(loc.id, loc);
+    }
+    this.charMap.clear();
+    for (const ch of characters) {
+      this.charMap.set(ch.id, ch);
+      this.charMap.set(slugifyName(ch.name_en), ch);
     }
   }
 
@@ -48,6 +81,15 @@ class Store {
   public getLocation(id: string | null | undefined): LocationEntry | undefined {
     if (!id) return undefined;
     return this.locMap.get(id);
+  }
+
+  public getCharacters(): CharacterEntry[] {
+    return this.characters;
+  }
+
+  public getCharacter(idOrName: string | null | undefined): CharacterEntry | undefined {
+    if (!idOrName) return undefined;
+    return this.charMap.get(idOrName) ?? this.charMap.get(slugifyName(idOrName));
   }
 
   public getRoutes(): RouteEntry[] {

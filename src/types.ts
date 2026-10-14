@@ -109,8 +109,37 @@ export interface ZoomState {
   k: number;
 }
 
+export interface CharacterRelation {
+  name: string;
+  id: string;
+  summary: string;
+}
+
+export interface CharacterEntry {
+  id: string;
+  name_en: string;
+  name_jp: string;
+  title: string;
+  tagline?: string;
+  species: string;
+  occupation: string;
+  abilities: string;
+  age?: string;
+  theme_music?: string;
+  first_appearance: string;
+  wiki_url: string;
+  who_they_are: string;
+  key_facts?: string[];
+  personality: string;
+  allies: CharacterRelation[];
+  rivals: CharacterRelation[];
+  acquaintances: CharacterRelation[];
+  home_location_ids: string[];
+}
+
 export interface AppState {
   selectedId: string | null;
+  selectedCharacterId: string | null;
   hoveredId: string | null;
   searchQuery: string;
   regionFilter: GensokyoRegion | 'All';

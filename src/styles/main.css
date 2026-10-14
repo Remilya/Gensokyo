@@ -681,6 +681,108 @@ body.panel-open .hud-bottom-right {
   background: rgba(182, 52, 42, 0.12);
 }
 
+.chip.has-dossier {
+  border-color: rgba(182, 52, 42, 0.45);
+  font-weight: 600;
+}
+
+.char-nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.char-tagline {
+  font-size: 12.5px;
+  color: var(--ink-secondary);
+  margin-top: 5px;
+  line-height: 1.4;
+}
+
+.char-facts-list {
+  margin: 8px 0 0 18px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--ink-secondary);
+}
+
+.char-personality-box {
+  background: var(--paper-card-alt);
+  border: 1px solid rgba(90, 70, 56, 0.3);
+  border-left: 3.5px solid var(--border-gold);
+  border-radius: 6px;
+  padding: 9px 12px;
+  font-family: var(--font-serif);
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--ink-primary);
+}
+
+.char-rel-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.char-rel-card {
+  background: var(--paper-card-alt);
+  border: 1px solid rgba(90, 70, 56, 0.28);
+  border-left: 3.5px solid var(--border-ink);
+  border-radius: 6px;
+  padding: 8px 11px;
+  transition: all 0.15s ease;
+}
+
+.char-rel-card.ally {
+  border-left-color: var(--accent-jade);
+}
+
+.char-rel-card.rival {
+  border-left-color: var(--accent-hakurei);
+}
+
+.char-rel-card.is-clickable {
+  cursor: pointer;
+}
+
+.char-rel-card.is-clickable:hover {
+  border-color: var(--accent-hakurei);
+  background: rgba(182, 52, 42, 0.08);
+  transform: translateX(2px);
+}
+
+.char-rel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 3px;
+}
+
+.char-rel-name {
+  font-family: var(--font-serif);
+  font-size: 15.5px;
+  font-weight: 700;
+  color: var(--ink-primary);
+}
+
+.char-rel-Sub {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--accent-hakurei);
+}
+
+.char-rel-summary {
+  font-size: 12.5px;
+  line-height: 1.45;
+  color: var(--ink-secondary);
+}
+
 /* Hover Tooltip (GPU-composited translate3d, zero layout reflow) */
 .map-tooltip {
   position: fixed;

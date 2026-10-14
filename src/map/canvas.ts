@@ -227,13 +227,13 @@ export class MapCanvas {
             store.setRouteEndpoints(st.routeStartId, id);
           }
         }
-        store.update({ selectedId: id });
+        store.update({ selectedId: id, selectedCharacterId: null });
         window.history.replaceState(null, '', `#loc=${id}`);
         return;
       }
 
-      if (store.getState().selectedId) {
-        store.update({ selectedId: null });
+      if (store.getState().selectedId || store.getState().selectedCharacterId) {
+        store.update({ selectedId: null, selectedCharacterId: null });
         window.history.replaceState(null, '', window.location.pathname + window.location.search);
       }
     };

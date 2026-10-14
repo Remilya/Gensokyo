@@ -130,4 +130,12 @@ if (!terrain || !Array.isArray(terrain.regions) || !Array.isArray(terrain.lakes)
   fail('terrain.json must contain regions, lakes, and rivers arrays');
 }
 
-console.log(`✅ [validate-data] Passed! Validated ${locations.length} locations, ${routes.length} routes, ${terrain.regions.length} biome regions, ${terrain.lakes.length} lakes, and ${terrain.rivers.length} rivers.`);
+// Validate characters
+const charactersPath = path.join(rootDir, 'data', 'characters.json');
+if (!fs.existsSync(charactersPath)) fail('Missing data/characters.json');
+const characters = JSON.parse(fs.readFileSync(charactersPath, 'utf-8'));
+if (!Array.isArray(characters) || characters.length < 100) {
+  fail(`Expected at least 100 characters, found ${characters?.length ?? 0}`);
+}
+
+console.log(`✅ [validate-data] Passed! Validated ${locations.length} locations, ${characters.length} characters, ${routes.length} routes, ${terrain.regions.length} biome regions, ${terrain.lakes.length} lakes, and ${terrain.rivers.length} rivers.`);
