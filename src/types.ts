@@ -128,6 +128,7 @@ export interface CharacterEntry {
   theme_music?: string;
   first_appearance: string;
   wiki_url: string;
+  sprite_url?: string;
   who_they_are: string;
   key_facts?: string[];
   personality: string;

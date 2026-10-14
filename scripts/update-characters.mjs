@@ -440,6 +440,7 @@ function parseCharacterPage(pageTitle, wikitext, homeLocIds, existingChar) {
     theme_music: theme_music || undefined,
     first_appearance: first_appearance || 'Touhou Project Canon',
     wiki_url: `https://en.touhouwiki.net/wiki/${encodeURIComponent(pageTitle.replace(/ /g, '_'))}`,
+    sprite_url: existingChar?.sprite_url || undefined,
     who_they_are:
       existingChar?.who_they_are ||
       wikiWho ||

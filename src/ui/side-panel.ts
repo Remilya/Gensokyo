@@ -75,6 +75,25 @@ export function mountSidePanel(container: HTMLElement, mapCanvas: MapCanvas) {
         `
         : '';
 
+    const portraitHtml = ch.sprite_url
+      ? `
+        <div class="char-portrait-stage" id="char-portrait-stage" title="Click to toggle full standing portrait">
+          <div class="char-portrait-glow"></div>
+          <img
+            class="char-portrait-img"
+            src="${ch.sprite_url}"
+            alt="${ch.name_en} standing sprite"
+            loading="eager"
+            decoding="async"
+          />
+          <div class="char-portrait-caption">
+            <span>🎨 Illustration: Dairi</span>
+            <span class="char-portrait-zoom-hint">⤢ Click to expand</span>
+          </div>
+        </div>
+      `
+      : '';
+
     panel.innerHTML = `
       <div class="side-panel-header char-dossier-header">
         <div class="char-nav-bar">
@@ -98,6 +117,8 @@ export function mountSidePanel(container: HTMLElement, mapCanvas: MapCanvas) {
       </div>
 
       <div class="side-panel-body">
+        ${portraitHtml}
+
         <div class="panel-actions-row">
           ${
             homeLocs[0]
@@ -188,6 +209,21 @@ export function mountSidePanel(container: HTMLElement, mapCanvas: MapCanvas) {
         mapCanvas.flyToLocation(homeLocs[0].id, 2.6);
       }
     });
+
+    const portraitStage = panel.querySelector<HTMLElement>('#char-portrait-stage');
+    if (portraitStage) {
+      const img = portraitStage.querySelector<HTMLImageElement>('.char-portrait-img');
+      const hint = portraitStage.querySelector<HTMLElement>('.char-portrait-zoom-hint');
+      img?.addEventListener('error', () => {
+        portraitStage.style.display = 'none';
+      });
+      portraitStage.addEventListener('click', () => {
+        const expanded = portraitStage.classList.toggle('is-expanded');
+        if (hint) {
+          hint.textContent = expanded ? '⤡ Click to compact' : '⤢ Click to expand';
+        }
+      });
+    }
 
     panel.querySelectorAll('.char-rel-card.is-clickable').forEach((card) => {
       card.addEventListener('click', () => {

@@ -58,7 +58,8 @@
       "forest-of-magic",
       "alices-house",
       "wonderland"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/alice-margatroid.webp"
   },
   {
     "id": "ariya-iwanaga",
@@ -103,7 +104,8 @@
     "home_location_ids": [
       "asama-purifying-mountain",
       "pit-of-four-seasons"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/ariya-iwanaga.webp"
   },
   {
     "id": "aunn-komano",
@@ -176,7 +178,8 @@
     "home_location_ids": [
       "hakurei-shrine",
       "fantasy-seal-woods"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/aunn-komano.webp"
   },
   {
     "id": "aya-shameimaru",
@@ -249,7 +252,8 @@
       "nine-heavens-waterfall",
       "tengu-village",
       "gensokyo-basin-overview"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/aya-shameimaru.webp"
   },
   {
     "id": "benben-tsukumo",
@@ -293,7 +297,8 @@
     "home_location_ids": [
       "human-village",
       "shining-needle-castle"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/benben-tsukumo.webp"
   },
   {
     "id": "byakuren-hijiri",
@@ -389,7 +394,8 @@
     "home_location_ids": [
       "myouren-temple",
       "hokkai"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/byakuren-hijiri.webp"
   },
   {
     "id": "chen",
@@ -436,7 +442,8 @@
     "acquaintances": [],
     "home_location_ids": [
       "mayohiga"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/chen.webp"
   },
   {
     "id": "chimata-tenkyuu",
@@ -490,7 +497,8 @@
     ],
     "home_location_ids": [
       "secret-heaven-cliff"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/chimata-tenkyuu.webp"
   },
   {
     "id": "chiyari-tenkajin",
@@ -544,7 +552,8 @@
     ],
     "home_location_ids": [
       "hell-of-blood-pools"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/chiyari-tenkajin.webp"
   },
   {
     "id": "chiyuri-kitashirakawa",
@@ -588,7 +597,8 @@
     ],
     "home_location_ids": [
       "probability-space-hypervessel"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/chiyuri-kitashirakawa.webp"
   },
   {
     "id": "cirno",
@@ -664,7 +674,8 @@
     "home_location_ids": [
       "misty-lake",
       "crawdad-rock"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/cirno.webp"
   },
   {
     "id": "clownpiece",
@@ -743,7 +754,8 @@
       "hakurei-shrine",
       "hell",
       "gensokyos-moon"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/clownpiece.webp"
   },
   {
     "id": "daiyousei",
@@ -781,7 +793,8 @@
     "home_location_ids": [
       "misty-lake",
       "crawdad-rock"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/daiyousei.webp"
   },
   {
     "id": "doremy-sweet",
@@ -819,7 +832,8 @@
     ],
     "home_location_ids": [
       "dream-world"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/doremy-sweet.webp"
   },
   {
     "id": "eika-ebisu",
@@ -851,7 +865,8 @@
     "acquaintances": [],
     "home_location_ids": [
       "sanzu-river"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/eika-ebisu.webp"
   },
   {
     "id": "eiki-shiki",
@@ -911,7 +926,8 @@
     "home_location_ids": [
       "muenzuka",
       "higan"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/eiki-shiki.webp"
   },
   {
     "id": "eirin-yagokoro",
@@ -995,7 +1011,8 @@
     ],
     "home_location_ids": [
       "eientei"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/eirin-yagokoro.webp"
   },
   {
     "id": "elly",
@@ -1039,7 +1056,8 @@
       "mugenkan",
       "lake-of-blood",
       "fantasy-world-pc98"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/elly.webp"
   },
   {
     "id": "enoko-mitsugashira",
@@ -1078,7 +1096,8 @@
     "home_location_ids": [
       "forest-of-magic",
       "animal-realm"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/enoko-mitsugashira.webp"
   },
   {
     "id": "eternity-larva",
@@ -1116,7 +1135,8 @@
     ],
     "home_location_ids": [
       "garden-of-the-sun"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/eternity-larva.webp"
   },
   {
     "id": "flandre-scarlet",
@@ -1185,7 +1205,8 @@
     "home_location_ids": [
       "scarlet-devil-mansion",
       "sdm-gardens-east-wing"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/flandre-scarlet.webp"
   },
   {
     "id": "fujiwara-no-mokou",
@@ -1251,7 +1272,8 @@
     "home_location_ids": [
       "bamboo-forest-of-the-lost",
       "mokous-house"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/fujiwara-no-mokou.webp"
   },
   {
     "id": "gengetsu",
@@ -1288,7 +1310,8 @@
     "acquaintances": [],
     "home_location_ids": [
       "mugenkan"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/gengetsu.webp"
   },
   {
     "id": "hata-no-kokoro",
@@ -1335,7 +1358,8 @@
       "human-village",
       "myouren-temple",
       "hall-of-dreams-great-mausoleum"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/hata-no-kokoro.webp"
   },
   {
     "id": "hatate-himekaidou",
@@ -1382,7 +1406,8 @@
     "home_location_ids": [
       "youkai-mountain",
       "tengu-village"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/hatate-himekaidou.webp"
   },
   {
     "id": "hecatia-lapislazuli",
@@ -1431,7 +1456,8 @@
     ],
     "home_location_ids": [
       "hell"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/hecatia-lapislazuli.webp"
   },
   {
     "id": "hieda-no-akyuu",
@@ -1486,7 +1512,8 @@
     "home_location_ids": [
       "human-village",
       "hieda-estate"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/hieda-no-akyuu.webp"
   },
   {
     "id": "hina-kagiyama",
@@ -1528,7 +1555,8 @@
     "acquaintances": [],
     "home_location_ids": [
       "great-youkai-forest"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/hina-kagiyama.webp"
   },
   {
     "id": "hisami-yomotsu",
@@ -1565,7 +1593,8 @@
     "acquaintances": [],
     "home_location_ids": [
       "hell"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/hisami-yomotsu.webp"
   },
   {
     "id": "hong-meiling",
@@ -1630,7 +1659,8 @@
     "home_location_ids": [
       "scarlet-devil-mansion",
       "sdm-gardens-east-wing"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/hong-meiling.webp"
   },
   {
     "id": "ichirin-kumoi",
@@ -1700,7 +1730,8 @@
     ],
     "home_location_ids": [
       "myouren-temple"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/ichirin-kumoi.webp"
   },
   {
     "id": "iku-nagae",
@@ -1738,7 +1769,8 @@
     ],
     "home_location_ids": [
       "heaven"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/iku-nagae.webp"
   },
   {
     "id": "joon-yorigami",
@@ -1771,7 +1803,8 @@
     "home_location_ids": [
       "human-village",
       "myouren-temple"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/joon-yorigami.webp"
   },
   {
     "id": "junko",
@@ -1830,7 +1863,8 @@
     ],
     "home_location_ids": [
       "gensokyos-moon"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/junko.webp"
   },
   {
     "id": "kagerou-imaizumi",
@@ -1871,7 +1905,8 @@
     ],
     "home_location_ids": [
       "bamboo-forest-of-the-lost"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/kagerou-imaizumi.webp"
   },
   {
     "id": "kaguya-houraisan",
@@ -1921,7 +1956,8 @@
     ],
     "home_location_ids": [
       "eientei"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/kaguya-houraisan.webp"
   },
   {
     "id": "kanako-yasaka",
@@ -1966,7 +2002,8 @@
     "home_location_ids": [
       "moriya-shrine",
       "wind-gods-lake"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/kanako-yasaka.webp"
   },
   {
     "id": "kasen-ibaraki",
@@ -2050,7 +2087,8 @@
     ],
     "home_location_ids": [
       "kasen-senkai"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/kasen-ibaraki.webp"
   },
   {
     "id": "keiki-haniyasushin",
@@ -2098,7 +2136,8 @@
     ],
     "home_location_ids": [
       "primate-spirit-garden"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/keiki-haniyasushin.webp"
   },
   {
     "id": "keine-kamishirasawa",
@@ -2147,7 +2186,8 @@
     "home_location_ids": [
       "human-village",
       "terakoya-school"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/keine-kamishirasawa.webp"
   },
   {
     "id": "kisume",
@@ -2179,7 +2219,8 @@
     "home_location_ids": [
       "fantastic-blowhole",
       "deep-road-to-hell"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/kisume.webp"
   },
   {
     "id": "koakuma",
@@ -2236,7 +2277,8 @@
     "home_location_ids": [
       "scarlet-devil-mansion",
       "voile-library"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/koakuma.webp"
   },
   {
     "id": "kogasa-tatara",
@@ -2285,7 +2327,8 @@
     "home_location_ids": [
       "myouren-cemetery",
       "kogasa-forge"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/kogasa-tatara.webp"
   },
   {
     "id": "koishi-komeiji",
@@ -2364,7 +2407,8 @@
     "home_location_ids": [
       "underworld",
       "palace-of-earth-spirits"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/koishi-komeiji.webp"
   },
   {
     "id": "komachi-onozuka",
@@ -2424,7 +2468,8 @@
       "muenzuka",
       "sanzu-river",
       "higan"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/komachi-onozuka.webp"
   },
   {
     "id": "kosuzu-motoori",
@@ -2484,7 +2529,8 @@
     "home_location_ids": [
       "human-village",
       "suzunaan"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/kosuzu-motoori.webp"
   },
   {
     "id": "kurumi",
@@ -2511,7 +2557,8 @@
     "acquaintances": [],
     "home_location_ids": [
       "lake-of-blood"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/kurumi.webp"
   },
   {
     "id": "kutaka-niwatari",
@@ -2561,7 +2608,8 @@
       "nine-heavens-waterfall",
       "road-of-liminality",
       "higan"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/kutaka-niwatari.webp"
   },
   {
     "id": "kyouko-kasodani",
@@ -2627,7 +2675,8 @@
     ],
     "home_location_ids": [
       "myouren-temple"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/kyouko-kasodani.webp"
   },
   {
     "id": "letty-whiterock",
@@ -2667,7 +2716,8 @@
     "acquaintances": [],
     "home_location_ids": [
       "crawdad-rock"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/letty-whiterock.webp"
   },
   {
     "id": "lily-white",
@@ -2699,7 +2749,8 @@
     "acquaintances": [],
     "home_location_ids": [
       "spring-path"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/lily-white.webp"
   },
   {
     "id": "louise",
@@ -2732,7 +2783,8 @@
     ],
     "home_location_ids": [
       "makai"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/louise.webp"
   },
   {
     "id": "luna-child",
@@ -2797,7 +2849,8 @@
     ],
     "home_location_ids": [
       "three-fairies-tree"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/luna-child.webp"
   },
   {
     "id": "lunasa-prismriver",
@@ -2845,7 +2898,8 @@
     ],
     "home_location_ids": [
       "prismriver-mansion"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/lunasa-prismriver.webp"
   },
   {
     "id": "lyrica-prismriver",
@@ -2893,7 +2947,8 @@
     ],
     "home_location_ids": [
       "prismriver-mansion"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/lyrica-prismriver.webp"
   },
   {
     "id": "mai-teireida",
@@ -2931,7 +2986,8 @@
     "home_location_ids": [
       "world-of-ice-and-snow",
       "land-of-the-back-door"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/mai-teireida.webp"
   },
   {
     "id": "mamizou-futatsuiwa",
@@ -3031,7 +3087,8 @@
     "home_location_ids": [
       "youkai-tanuki-forest",
       "myouren-temple"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/mamizou-futatsuiwa.webp"
   },
   {
     "id": "maribel-hearn",
@@ -3094,7 +3151,8 @@
     ],
     "home_location_ids": [
       "probability-space-hypervessel"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/maribel-hearn.webp"
   },
   {
     "id": "marisa-kirisame",
@@ -3205,7 +3263,8 @@
       "kirisame-shop",
       "forest-of-magic",
       "marisas-house"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/marisa-kirisame.webp"
   },
   {
     "id": "mayumi-joutouguu",
@@ -3237,7 +3296,8 @@
     ],
     "home_location_ids": [
       "primate-spirit-garden"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/mayumi-joutouguu.webp"
   },
   {
     "id": "medicine-melancholy",
@@ -3292,7 +3352,8 @@
     "home_location_ids": [
       "nameless-hill",
       "garden-of-the-sun"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/medicine-melancholy.webp"
   },
   {
     "id": "megumu-iizunamaru",
@@ -3352,7 +3413,8 @@
       "youkai-mountain",
       "tengu-village",
       "secret-heaven-cliff"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/megumu-iizunamaru.webp"
   },
   {
     "id": "merlin-prismriver",
@@ -3400,7 +3462,8 @@
     ],
     "home_location_ids": [
       "prismriver-mansion"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/merlin-prismriver.webp"
   },
   {
     "id": "mike-goutokuji",
@@ -3433,7 +3496,8 @@
     "home_location_ids": [
       "youkai-mountain",
       "rainbow-dragon-cave"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/mike-goutokuji.webp"
   },
   {
     "id": "mima",
@@ -3493,7 +3557,8 @@
     "home_location_ids": [
       "hakurei-shrine",
       "reimaden"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/mima.webp"
   },
   {
     "id": "minamitsu-murasa",
@@ -3552,7 +3617,8 @@
     ],
     "home_location_ids": [
       "myouren-temple"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/minamitsu-murasa.webp"
   },
   {
     "id": "misumaru-tamatsukuri",
@@ -3610,7 +3676,8 @@
     ],
     "home_location_ids": [
       "rainbow-cavern"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/misumaru-tamatsukuri.webp"
   },
   {
     "id": "miyoi-okunoda",
@@ -3667,7 +3734,8 @@
     "home_location_ids": [
       "human-village",
       "geidontei"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/miyoi-okunoda.webp"
   },
   {
     "id": "mizuchi-miyadeguchi",
@@ -3710,7 +3778,8 @@
     ],
     "home_location_ids": [
       "former-hell"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/mizuchi-miyadeguchi.webp"
   },
   {
     "id": "momiji-inubashiri",
@@ -3770,7 +3839,8 @@
       "youkai-mountain",
       "nine-heavens-waterfall",
       "tengu-village"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/momiji-inubashiri.webp"
   },
   {
     "id": "momoyo-himemushi",
@@ -3819,7 +3889,8 @@
     ],
     "home_location_ids": [
       "rainbow-cavern"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/momoyo-himemushi.webp"
   },
   {
     "id": "mononobe-no-futo",
@@ -3874,7 +3945,8 @@
     "home_location_ids": [
       "hall-of-dreams",
       "senkai"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/mononobe-no-futo.webp"
   },
   {
     "id": "mugetsu",
@@ -3911,7 +3983,8 @@
     "acquaintances": [],
     "home_location_ids": [
       "mugenkan"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/mugetsu.webp"
   },
   {
     "id": "mystia-lorelei",
@@ -3955,7 +4028,8 @@
     ],
     "home_location_ids": [
       "youkai-trail"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/mystia-lorelei.webp"
   },
   {
     "id": "nareko-michigami",
@@ -3992,7 +4066,8 @@
     "acquaintances": [],
     "home_location_ids": [
       "asama-purifying-mountain"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/nareko-michigami.webp"
   },
   {
     "id": "narumi-yatadera",
@@ -4020,7 +4095,8 @@
     "home_location_ids": [
       "forest-of-magic",
       "forest-of-magic-jizo"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/narumi-yatadera.webp"
   },
   {
     "id": "nazrin",
@@ -4097,7 +4173,8 @@
     ],
     "home_location_ids": [
       "myouren-temple"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/nazrin.webp"
   },
   {
     "id": "nemuno-sakata",
@@ -4129,7 +4206,8 @@
     "acquaintances": [],
     "home_location_ids": [
       "great-youkai-forest"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/nemuno-sakata.webp"
   },
   {
     "id": "nitori-kawashiro",
@@ -4209,7 +4287,8 @@
     "home_location_ids": [
       "genbu-ravine",
       "untrodden-valley"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/nitori-kawashiro.webp"
   },
   {
     "id": "nue-houjuu",
@@ -4273,7 +4352,8 @@
     ],
     "home_location_ids": [
       "myouren-temple"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/nue-houjuu.webp"
   },
   {
     "id": "okina-matara",
@@ -4348,7 +4428,8 @@
     "home_location_ids": [
       "great-hakurei-barrier",
       "land-of-the-back-door"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/okina-matara.webp"
   },
   {
     "id": "parsee-mizuhashi",
@@ -4386,7 +4467,8 @@
     ],
     "home_location_ids": [
       "deep-road-to-hell"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/parsee-mizuhashi.webp"
   },
   {
     "id": "patchouli-knowledge",
@@ -4446,7 +4528,8 @@
     "home_location_ids": [
       "scarlet-devil-mansion",
       "voile-library"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/patchouli-knowledge.webp"
   },
   {
     "id": "raiko-horikawa",
@@ -4490,7 +4573,8 @@
     "home_location_ids": [
       "human-village",
       "muenzuka"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/raiko-horikawa.webp"
   },
   {
     "id": "ran-yakumo",
@@ -4543,7 +4627,8 @@
     ],
     "home_location_ids": [
       "mayohiga"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/ran-yakumo.webp"
   },
   {
     "id": "reimu-hakurei",
@@ -4683,7 +4768,8 @@
     "home_location_ids": [
       "hakurei-shrine",
       "great-hakurei-barrier"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/reimu-hakurei.webp"
   },
   {
     "id": "reisen-udongein-inaba",
@@ -4742,7 +4828,8 @@
     ],
     "home_location_ids": [
       "eientei"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/reisen-udongein-inaba.webp"
   },
   {
     "id": "remilia-scarlet",
@@ -4817,7 +4904,8 @@
     "home_location_ids": [
       "scarlet-devil-mansion",
       "sdm-parlor-dining"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/remilia-scarlet.webp"
   },
   {
     "id": "renko-usami",
@@ -4860,7 +4948,8 @@
     ],
     "home_location_ids": [
       "probability-space-hypervessel"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/renko-usami.webp"
   },
   {
     "id": "rin-kaenbyou",
@@ -4925,7 +5014,8 @@
     "home_location_ids": [
       "palace-of-earth-spirits",
       "remains-of-blazing-hell"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/rin-kaenbyou.webp"
   },
   {
     "id": "ringo",
@@ -4964,7 +5054,8 @@
     "acquaintances": [],
     "home_location_ids": [
       "gensokyos-moon"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/ringo.webp"
   },
   {
     "id": "rinnosuke-morichika",
@@ -5039,7 +5130,8 @@
     "home_location_ids": [
       "muenzuka",
       "kourindou"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/rinnosuke-morichika.webp"
   },
   {
     "id": "rumia",
@@ -5083,7 +5175,8 @@
       "youkai-trail",
       "fantasy-seal-woods",
       "rumia-cedar-clearing"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/rumia.webp"
   },
   {
     "id": "sagume-kishin",
@@ -5127,7 +5220,8 @@
     ],
     "home_location_ids": [
       "lunar-capital"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/sagume-kishin.webp"
   },
   {
     "id": "saki-kurokoma",
@@ -5180,7 +5274,8 @@
     ],
     "home_location_ids": [
       "animal-realm"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/saki-kurokoma.webp"
   },
   {
     "id": "sakuya-izayoi",
@@ -5266,7 +5361,8 @@
     "home_location_ids": [
       "scarlet-devil-mansion",
       "sdm-parlor-dining"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/sakuya-izayoi.webp"
   },
   {
     "id": "sanae-kochiya",
@@ -5326,7 +5422,8 @@
     "home_location_ids": [
       "moriya-branch-shrine",
       "moriya-shrine"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/sanae-kochiya.webp"
   },
   {
     "id": "sannyo-komakusa",
@@ -5370,7 +5467,8 @@
     "home_location_ids": [
       "komakusa-gambling-den",
       "false-heaven-shelf"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/sannyo-komakusa.webp"
   },
   {
     "id": "sariel",
@@ -5404,7 +5502,8 @@
     "home_location_ids": [
       "makai",
       "fallen-temple"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/sariel.webp"
   },
   {
     "id": "satono-nishida",
@@ -5436,7 +5535,8 @@
     "acquaintances": [],
     "home_location_ids": [
       "land-of-the-back-door"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/satono-nishida.webp"
   },
   {
     "id": "satori-komeiji",
@@ -5489,7 +5589,8 @@
     "home_location_ids": [
       "underworld",
       "palace-of-earth-spirits"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/satori-komeiji.webp"
   },
   {
     "id": "seiga-kaku",
@@ -5545,7 +5646,8 @@
     "home_location_ids": [
       "hall-of-dreams",
       "senkai"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/seiga-kaku.webp"
   },
   {
     "id": "seija-kijin",
@@ -5593,7 +5695,8 @@
     ],
     "home_location_ids": [
       "shining-needle-castle"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/seija-kijin.webp"
   },
   {
     "id": "seiran",
@@ -5638,7 +5741,8 @@
     ],
     "home_location_ids": [
       "gensokyos-moon"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/seiran.webp"
   },
   {
     "id": "sekibanki",
@@ -5674,7 +5778,8 @@
     "home_location_ids": [
       "human-village",
       "foot-washing-house"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/sekibanki.webp"
   },
   {
     "id": "shinki",
@@ -5708,7 +5813,8 @@
     "home_location_ids": [
       "makai",
       "pandaemonium"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/shinki.webp"
   },
   {
     "id": "shinmyoumaru-sukuna",
@@ -5777,7 +5883,8 @@
     "home_location_ids": [
       "hakurei-shrine",
       "shining-needle-castle"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/shinmyoumaru-sukuna.webp"
   },
   {
     "id": "shion-yorigami",
@@ -5809,7 +5916,8 @@
     "home_location_ids": [
       "hakurei-shrine",
       "bhavaagra-heaven"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/shion-yorigami.webp"
   },
   {
     "id": "shou-toramaru",
@@ -5873,7 +5981,8 @@
     ],
     "home_location_ids": [
       "myouren-temple"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/shou-toramaru.webp"
   },
   {
     "id": "soga-no-tojiko",
@@ -5923,7 +6032,8 @@
     "home_location_ids": [
       "hall-of-dreams",
       "senkai"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/soga-no-tojiko.webp"
   },
   {
     "id": "son-biten",
@@ -5967,7 +6077,8 @@
     ],
     "home_location_ids": [
       "animal-realm"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/son-biten.webp"
   },
   {
     "id": "star-sapphire",
@@ -6032,7 +6143,8 @@
     ],
     "home_location_ids": [
       "three-fairies-tree"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/star-sapphire.webp"
   },
   {
     "id": "suika-ibuki",
@@ -6142,7 +6254,8 @@
       "hakurei-shrine",
       "underworld",
       "former-hell"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/suika-ibuki.webp"
   },
   {
     "id": "sumireko-usami",
@@ -6245,7 +6358,8 @@
     ],
     "home_location_ids": [
       "probability-space-hypervessel"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/sumireko-usami.webp"
   },
   {
     "id": "sunny-milk",
@@ -6315,7 +6429,8 @@
     ],
     "home_location_ids": [
       "three-fairies-tree"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/sunny-milk.webp"
   },
   {
     "id": "suwako-moriya",
@@ -6366,7 +6481,8 @@
       "giant-toads-pond",
       "moriya-shrine",
       "wind-gods-lake"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/suwako-moriya.webp"
   },
   {
     "id": "takane-yamashiro",
@@ -6426,7 +6542,8 @@
     "home_location_ids": [
       "genbu-ravine",
       "great-youkai-forest"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/takane-yamashiro.webp"
   },
   {
     "id": "tenshi-hinanawi",
@@ -6490,7 +6607,8 @@
     ],
     "home_location_ids": [
       "heaven"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/tenshi-hinanawi.webp"
   },
   {
     "id": "tewi-inaba",
@@ -6539,7 +6657,8 @@
     "home_location_ids": [
       "bamboo-forest-of-the-lost",
       "eientei"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/tewi-inaba.webp"
   },
   {
     "id": "tokiko",
@@ -6576,7 +6695,8 @@
     ],
     "home_location_ids": [
       "kourindou"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/tokiko.webp"
   },
   {
     "id": "toyosatomimi-no-miko",
@@ -6642,7 +6762,8 @@
     "home_location_ids": [
       "hall-of-dreams",
       "senkai"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/toyosatomimi-no-miko.webp"
   },
   {
     "id": "tsukasa-kudamaki",
@@ -6687,7 +6808,8 @@
     "home_location_ids": [
       "youkai-mountain",
       "rainbow-cavern"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/tsukasa-kudamaki.webp"
   },
   {
     "id": "urumi-ushizaki",
@@ -6725,7 +6847,8 @@
     ],
     "home_location_ids": [
       "sanzu-river"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/urumi-ushizaki.webp"
   },
   {
     "id": "utsuho-reiuji",
@@ -6771,7 +6894,8 @@
       "remains-of-blazing-hell",
       "nuclear-furnace",
       "underground-geyser-center"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/utsuho-reiuji.webp"
   },
   {
     "id": "wakasagihime",
@@ -6804,7 +6928,8 @@
     ],
     "home_location_ids": [
       "misty-lake"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/wakasagihime.webp"
   },
   {
     "id": "watatsuki-no-toyohime",
@@ -6848,7 +6973,8 @@
     ],
     "home_location_ids": [
       "lunar-capital"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/watatsuki-no-toyohime.webp"
   },
   {
     "id": "watatsuki-no-yorihime",
@@ -6901,7 +7027,8 @@
     "acquaintances": [],
     "home_location_ids": [
       "lunar-capital"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/watatsuki-no-yorihime.webp"
   },
   {
     "id": "wriggle-nightbug",
@@ -6942,7 +7069,8 @@
     "home_location_ids": [
       "youkai-trail",
       "rumia-cedar-clearing"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/wriggle-nightbug.webp"
   },
   {
     "id": "yachie-kicchou",
@@ -6985,7 +7113,8 @@
     "acquaintances": [],
     "home_location_ids": [
       "animal-realm"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/yachie-kicchou.webp"
   },
   {
     "id": "yamame-kurodani",
@@ -7023,7 +7152,8 @@
     ],
     "home_location_ids": [
       "fantastic-blowhole"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/yamame-kurodani.webp"
   },
   {
     "id": "yatsuhashi-tsukumo",
@@ -7067,7 +7197,8 @@
     "home_location_ids": [
       "human-village",
       "shining-needle-castle"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/yatsuhashi-tsukumo.webp"
   },
   {
     "id": "yoshika-miyako",
@@ -7132,7 +7263,8 @@
     "home_location_ids": [
       "myouren-cemetery",
       "hall-of-dreams"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/yoshika-miyako.webp"
   },
   {
     "id": "youmu-konpaku",
@@ -7207,7 +7339,8 @@
     "home_location_ids": [
       "netherworld",
       "hakugyokurou"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/youmu-konpaku.webp"
   },
   {
     "id": "yuiman-asama",
@@ -7245,7 +7378,8 @@
     "home_location_ids": [
       "asama-purifying-mountain",
       "pit-of-four-seasons"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/yuiman-asama.webp"
   },
   {
     "id": "yukari-yakumo",
@@ -7361,7 +7495,8 @@
     "home_location_ids": [
       "great-hakurei-barrier",
       "mayohiga"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/yukari-yakumo.webp"
   },
   {
     "id": "yuki",
@@ -7404,7 +7539,8 @@
     ],
     "home_location_ids": [
       "world-of-ice-and-snow"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/yuki.webp"
   },
   {
     "id": "yumeko",
@@ -7432,7 +7568,8 @@
     "home_location_ids": [
       "makai",
       "pandaemonium"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/yumeko.webp"
   },
   {
     "id": "yumemi-okazaki",
@@ -7486,7 +7623,8 @@
     ],
     "home_location_ids": [
       "probability-space-hypervessel"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/yumemi-okazaki.webp"
   },
   {
     "id": "yuugi-hoshiguma",
@@ -7536,7 +7674,8 @@
       "underworld",
       "former-hell",
       "hot-spring-town"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/yuugi-hoshiguma.webp"
   },
   {
     "id": "yuuka-kazami",
@@ -7596,7 +7735,8 @@
     "home_location_ids": [
       "garden-of-the-sun",
       "mugenkan"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/yuuka-kazami.webp"
   },
   {
     "id": "yuuma-toutetsu",
@@ -7646,7 +7786,8 @@
       "animal-realm",
       "sea-of-petroleum",
       "hell-of-blood-pools"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/yuuma-toutetsu.webp"
   },
   {
     "id": "yuyuko-saigyouji",
@@ -7702,7 +7843,8 @@
       "netherworld",
       "hakugyokurou",
       "saigyou-ayakashi"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/yuyuko-saigyouji.webp"
   },
   {
     "id": "zanmu-nippaku",
@@ -7767,6 +7909,7 @@
     "home_location_ids": [
       "former-hell",
       "higan"
-    ]
+    ],
+    "sprite_url": "https://cdn.jsdelivr.net/gh/Remilya/gensokyo-assets@main/sprites/zanmu-nippaku.webp"
   }
 ]

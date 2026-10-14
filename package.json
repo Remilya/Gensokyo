@@ -9,6 +9,7 @@
     "preview": "vite preview --port 5179",
     "validate": "tsx scripts/validate-data.ts",
     "update-characters": "node scripts/update-characters.mjs",
+    "update-sprites": "node scripts/fetch-dairi-sprites.mjs",
     "deploy": "npm run build && node scripts/deploy-pages.mjs"
   },
   "dependencies": {
