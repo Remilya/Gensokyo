@@ -4,6 +4,8 @@ import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 const gltfLoader = new GLTFLoader();
 const modelCache = new Map<string, Promise<THREE.Group>>();
 
+const BASE_MODELS_URL = `${import.meta.env.BASE_URL}models`;
+
 /**
  * Registry of locations that have Blender-sculpted `.glb` models in `public/models/<id>.glb`.
  */
@@ -11,32 +13,32 @@ export const BLENDER_GLB_LANDMARKS: Record<
   string,
   { url: string; scale?: number; rotationY?: number; yOffset?: number }
 > = {
-  'scarlet-devil-mansion': { url: '/models/scarlet-devil-mansion.glb', scale: 1.45 },
-  'human-village': { url: '/models/human-village.glb', scale: 1.55 },
-  'hakurei-shrine': { url: '/models/hakurei-shrine.glb', scale: 2.2 },
-  'myouren-temple': { url: '/models/myouren-temple.glb', scale: 2.1 },
-  'hall-of-dreams': { url: '/models/hall-of-dreams.glb', scale: 2.0 },
-  'suzunaan': { url: '/models/suzunaan.glb', scale: 1.5 },
-  'geidontei': { url: '/models/geidontei.glb', scale: 1.5 },
-  'terakoya-school': { url: '/models/terakoya-school.glb', scale: 1.55 },
-  'hieda-estate': { url: '/models/hieda-estate.glb', scale: 1.55 },
-  'kourindou': { url: '/models/kourindou.glb', scale: 1.85 },
-  'marisas-house': { url: '/models/marisas-house.glb', scale: 1.55 },
-  'alices-house': { url: '/models/alices-house.glb', scale: 1.55 },
-  'moriya-branch-shrine': { url: '/models/radio-tower.glb', scale: 1.45 },
-  'eientei': { url: '/models/eientei.glb', scale: 1.55 },
-  'mugenkan': { url: '/models/mugenkan.glb', scale: 2.1 },
-  'moriya-shrine': { url: '/models/moriya-shrine.glb', scale: 1.55 },
-  'tengu-village': { url: '/models/tengu-village.glb', scale: 1.55 },
-  'muenzuka': { url: '/models/muenzuka.glb', scale: 1.55 },
-  'heaven': { url: '/models/heaven.glb', scale: 1.55, yOffset: 88 },
-  'asama-purifying-mountain': { url: '/models/asama-purifying-mountain.glb', scale: 2.0 },
-  'shining-needle-castle': { url: '/models/shining-needle-castle.glb', scale: 2.3 },
-  'hakugyokurou': { url: '/models/hakugyokurou.glb', scale: 2.3 },
-  'palace-of-earth-spirits': { url: '/models/palace-of-earth-spirits.glb', scale: 2.3 },
-  'nuclear-furnace': { url: '/models/nuclear-furnace.glb', scale: 2.1 },
-  'pandaemonium': { url: '/models/pandaemonium.glb', scale: 2.3 },
-  'lunar-capital': { url: '/models/lunar-capital.glb', scale: 2.3 },
+  'scarlet-devil-mansion': { url: `${BASE_MODELS_URL}/scarlet-devil-mansion.glb`, scale: 1.45 },
+  'human-village': { url: `${BASE_MODELS_URL}/human-village.glb`, scale: 1.55 },
+  'hakurei-shrine': { url: `${BASE_MODELS_URL}/hakurei-shrine.glb`, scale: 2.2 },
+  'myouren-temple': { url: `${BASE_MODELS_URL}/myouren-temple.glb`, scale: 2.1 },
+  'hall-of-dreams': { url: `${BASE_MODELS_URL}/hall-of-dreams.glb`, scale: 2.0 },
+  'suzunaan': { url: `${BASE_MODELS_URL}/suzunaan.glb`, scale: 1.5 },
+  'geidontei': { url: `${BASE_MODELS_URL}/geidontei.glb`, scale: 1.5 },
+  'terakoya-school': { url: `${BASE_MODELS_URL}/terakoya-school.glb`, scale: 1.55 },
+  'hieda-estate': { url: `${BASE_MODELS_URL}/hieda-estate.glb`, scale: 1.55 },
+  'kourindou': { url: `${BASE_MODELS_URL}/kourindou.glb`, scale: 1.85 },
+  'marisas-house': { url: `${BASE_MODELS_URL}/marisas-house.glb`, scale: 1.55 },
+  'alices-house': { url: `${BASE_MODELS_URL}/alices-house.glb`, scale: 1.55 },
+  'moriya-branch-shrine': { url: `${BASE_MODELS_URL}/radio-tower.glb`, scale: 1.45 },
+  'eientei': { url: `${BASE_MODELS_URL}/eientei.glb`, scale: 1.55 },
+  'mugenkan': { url: `${BASE_MODELS_URL}/mugenkan.glb`, scale: 2.1 },
+  'moriya-shrine': { url: `${BASE_MODELS_URL}/moriya-shrine.glb`, scale: 1.55 },
+  'tengu-village': { url: `${BASE_MODELS_URL}/tengu-village.glb`, scale: 1.55 },
+  'muenzuka': { url: `${BASE_MODELS_URL}/muenzuka.glb`, scale: 1.55 },
+  'heaven': { url: `${BASE_MODELS_URL}/heaven.glb`, scale: 1.55, yOffset: 88 },
+  'asama-purifying-mountain': { url: `${BASE_MODELS_URL}/asama-purifying-mountain.glb`, scale: 2.0 },
+  'shining-needle-castle': { url: `${BASE_MODELS_URL}/shining-needle-castle.glb`, scale: 2.3 },
+  'hakugyokurou': { url: `${BASE_MODELS_URL}/hakugyokurou.glb`, scale: 2.3 },
+  'palace-of-earth-spirits': { url: `${BASE_MODELS_URL}/palace-of-earth-spirits.glb`, scale: 2.3 },
+  'nuclear-furnace': { url: `${BASE_MODELS_URL}/nuclear-furnace.glb`, scale: 2.1 },
+  'pandaemonium': { url: `${BASE_MODELS_URL}/pandaemonium.glb`, scale: 2.3 },
+  'lunar-capital': { url: `${BASE_MODELS_URL}/lunar-capital.glb`, scale: 2.3 },
 };
 
 export const sharedOpaqueVertexMat = new THREE.MeshStandardMaterial({
@@ -127,7 +129,7 @@ export async function loadWorldDioramaGLB(
   targetContainer: THREE.Object3D,
   onLoaded?: () => void
 ): Promise<THREE.Group | null> {
-  const url = '/models/gensokyo-diorama-dressings.glb';
+  const url = `${BASE_MODELS_URL}/gensokyo-diorama-dressings.glb`;
   try {
     let promise = modelCache.get(url);
     if (!promise) {
@@ -159,7 +161,7 @@ export async function loadWorldDioramaGLB(
  * vertex-colored multi-branch trees (`PineTree`, `SakuraTree`, `AutumnTree`, `BambooCluster`, `MushroomCluster`).
  */
 export async function loadBlenderFoliageKit(): Promise<Record<string, THREE.BufferGeometry> | null> {
-  const url = '/models/gensokyo-foliage-kit.glb';
+  const url = `${BASE_MODELS_URL}/gensokyo-foliage-kit.glb`;
   try {
     let promise = modelCache.get(url);
     if (!promise) {
@@ -197,7 +199,7 @@ export async function loadBlenderFoliageKit(): Promise<Record<string, THREE.Buff
  * 58 Touhou residents (`<id>_Opaque` and `<id>_Emissive`), preserving local origin `(0,0,0)`.
  */
 export async function loadBlenderCharactersKit(): Promise<Record<string, THREE.BufferGeometry> | null> {
-  const url = '/models/gensokyo-characters.glb';
+  const url = `${BASE_MODELS_URL}/gensokyo-characters.glb`;
   try {
     let promise = modelCache.get(url);
     if (!promise) {
