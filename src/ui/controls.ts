@@ -76,6 +76,8 @@ export function mountControlsAndLegend(container: HTMLElement, mapCanvas: MapCan
 
   bottomRight.innerHTML = `
     <div class="control-toolbar">
+      <button class="ctrl-btn" id="btn-toggle-3d" title="Toggle Interactive Three.js 3D Map &amp; Landmark Models">🧊 3D Map</button>
+      <button class="ctrl-btn active" id="btn-toggle-residents" title="Toggle Pixel-Art &amp; 3D Character Residents">👾 Residents</button>
       <button class="ctrl-btn" id="btn-zoom-in" title="Zoom In (+)">＋</button>
       <button class="ctrl-btn" id="btn-zoom-out" title="Zoom Out (-)">－</button>
       <button class="ctrl-btn" id="btn-zoom-reset" title="Reset View">⟲</button>
@@ -85,6 +87,19 @@ export function mountControlsAndLegend(container: HTMLElement, mapCanvas: MapCan
     </div>
   `;
   container.appendChild(bottomRight);
+
+  const view3dBtn = bottomRight.querySelector<HTMLButtonElement>('#btn-toggle-3d')!;
+  view3dBtn.addEventListener('click', () => {
+    const next3d = !store.getState().view3d;
+    store.update({ view3d: next3d });
+  });
+
+  const residentsBtn = bottomRight.querySelector<HTMLButtonElement>('#btn-toggle-residents')!;
+  residentsBtn.addEventListener('click', () => {
+    const nextRes = !store.getState().showResidents;
+    store.update({ showResidents: nextRes });
+    residentsBtn.classList.toggle('active', nextRes);
+  });
 
   bottomRight.querySelector('#btn-zoom-in')?.addEventListener('click', () => mapCanvas.zoomByFactor(1.4));
   bottomRight.querySelector('#btn-zoom-out')?.addEventListener('click', () => mapCanvas.zoomByFactor(1 / 1.4));
@@ -225,6 +240,9 @@ export function mountControlsAndLegend(container: HTMLElement, mapCanvas: MapCan
   let lastZoomK = 1;
 
   store.subscribe((state) => {
+    view3dBtn.classList.toggle('active', state.view3d);
+    view3dBtn.textContent = state.view3d ? '📜 2D Map' : '🧊 3D Map';
+
     if (
       state.routeMode !== lastRouteMode ||
       state.routeStartId !== lastStart ||

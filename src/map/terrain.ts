@@ -602,27 +602,49 @@ export function renderFootprintsLayer(footprintsGroup: SVGGElement) {
       <path d="M ${vx + 14} ${vy - 83} Q ${vx + 10} ${vy} ${vx + 15} ${vy + 83}" fill="none" stroke="var(--water-fill)" stroke-width="8.5" />
       <path d="M ${vx + 14} ${vy - 83} Q ${vx + 10} ${vy} ${vx + 15} ${vy + 83}" fill="none" stroke="#d8eef7" stroke-width="2" stroke-dasharray="6 8" class="river-flow-anim" />
 
-      <!-- Three 2.5D Arched Timber Footbridges across the Dragon Canal -->
-      <g stroke="#2a180d" stroke-width="1.1">
+      <!-- Three 2.5D Arched Vermilion Bridges across the Dragon Canal (Humanvillage-thumb.png) -->
+      <g stroke="#2a120d" stroke-width="1.1">
         <rect x="${vx + 4}" y="${vy - 34}" width="18" height="7.5" rx="1.5" fill="rgba(20,12,6,0.28)" />
-        <rect x="${vx + 3.5}" y="${vy - 35.5}" width="18" height="7" rx="1.5" fill="#9c673a" />
-        <line x1="${vx + 4.5}" y1="${vy - 35}" x2="${vx + 20.5}" y2="${vy - 35}" stroke="#e0c294" stroke-width="0.9" />
+        <rect x="${vx + 3.5}" y="${vy - 35.5}" width="18" height="7" rx="1.5" fill="#c82e24" />
+        <line x1="${vx + 4.5}" y1="${vy - 35}" x2="${vx + 20.5}" y2="${vy - 35}" stroke="#ff9888" stroke-width="0.9" />
 
         <rect x="${vx + 3}" y="${vy - 3.5}" width="19" height="9.5" rx="2" fill="rgba(20,12,6,0.30)" />
-        <rect x="${vx + 2.5}" y="${vy - 5}" width="19" height="9" rx="2" fill="#a86f3e" />
-        <line x1="${vx + 3.5}" y1="${vy - 4.2}" x2="${vx + 20.5}" y2="${vy - 4.2}" stroke="#e6ca9c" stroke-width="1.0" />
+        <rect x="${vx + 2.5}" y="${vy - 5}" width="19" height="9" rx="2" fill="#d43228" />
+        <line x1="${vx + 3.5}" y1="${vy - 4.2}" x2="${vx + 20.5}" y2="${vy - 4.2}" stroke="#ff9888" stroke-width="1.0" />
 
         <rect x="${vx + 5}" y="${vy + 29}" width="18" height="7.5" rx="1.5" fill="rgba(20,12,6,0.28)" />
-        <rect x="${vx + 4.5}" y="${vy + 27.5}" width="18" height="7" rx="1.5" fill="#9c673a" />
-        <line x1="${vx + 5.5}" y1="${vy + 28.2}" x2="${vx + 21.5}" y2="${vy + 28.2}" stroke="#e0c294" stroke-width="0.9" />
+        <rect x="${vx + 4.5}" y="${vy + 27.5}" width="18" height="7" rx="1.5" fill="#c82e24" />
+        <line x1="${vx + 5.5}" y1="${vy + 28.2}" x2="${vx + 21.5}" y2="${vy + 28.2}" stroke="#ff9888" stroke-width="0.9" />
       </g>
 
-      <!-- Market Square Central Flagstone Plaza & 2.5D Dragon Statue Pedestal -->
+      <!-- Walled Hieda Clan Estate in NW Quarter with Koi Pond & Arched Vermilion Bridge (Humanvillage-thumb.png) -->
+      <g transform="translate(${vx - 58}, ${vy - 40})">
+        <rect x="-26" y="-20" width="52" height="40" rx="2" fill="#e6dec8" stroke="#f5f0e6" stroke-width="2.4" />
+        <rect x="-26" y="-20" width="52" height="40" rx="2" fill="none" stroke="#262930" stroke-width="1.2" />
+        <!-- Strolling Koi Pond & Arched Vermilion Bridge -->
+        <ellipse cx="6" cy="4" rx="14" ry="9" fill="#2e7bb5" stroke="#5a6e58" stroke-width="1.0" />
+        <rect x="1" y="-2" width="10" height="4.5" rx="1" transform="rotate(-18 6 0)" fill="#c82e24" stroke="#24100c" stroke-width="0.8" />
+        <!-- Two-Story Black-Roofed Hieda Main Mansion -->
+        <rect x="-20" y="-16" width="26" height="12" fill="#f5f0e6" stroke="#1e2026" stroke-width="1.0" />
+        <polygon points="-22,-6 -18,-17 4,-17 8,-6" fill="#262930" stroke="#14161a" stroke-width="1.1" />
+        <polygon points="-17,-9 -14,-15 0,-15 3,-9" fill="#353942" stroke="#14161a" stroke-width="0.9" />
+        <!-- Lush Green Garden Trees -->
+        <circle cx="-12" cy="8" r="5.5" fill="#3e7432" stroke="#1e3c18" stroke-width="0.8" />
+        <circle cx="18" cy="-8" r="5.0" fill="#48843a" stroke="#1e3c18" stroke-width="0.8" />
+      </g>
+
+      <!-- Market Square Central Flagstone Plaza, Dragon Statue & Fire Watchtower (Yagura) -->
       <rect x="${vx - 26}" y="${vy - 16}" width="38" height="32" rx="3" fill="#ead9b7" stroke="#6b4e35" stroke-width="1.4" />
       <path d="M ${vx - 22} ${vy - 8} L ${vx + 8} ${vy - 8} M ${vx - 22} ${vy + 8} L ${vx + 8} ${vy + 8} M ${vx - 7} ${vy - 14} L ${vx - 7} ${vy + 14}" stroke="#b89f74" stroke-width="0.7" opacity="0.65" />
       <ellipse cx="${vx - 6}" cy="${vy + 2}" rx="6.5" ry="4" fill="rgba(26,15,8,0.28)" />
       <circle cx="${vx - 7}" cy="${vy}" r="5.8" fill="#9e9585" stroke="#3b3228" stroke-width="1.2" />
-      <circle cx="${vx - 7}" cy="${vy - 1.2}" r="2.5" fill="#d9a74a" stroke="#3b2818" stroke-width="0.7" />
+      <circle cx="${vx - 7}" cy="${vy - 1.2}" r="2.5" fill="#4a6b5d" stroke="#243830" stroke-width="0.8" />
+      <!-- Village Fire Watchtower (Yagura) -->
+      <g transform="translate(${vx + 25}, ${vy - 14})">
+        <rect x="-4" y="-12" width="8" height="14" fill="#3b2516" stroke="#1e120a" stroke-width="1.0" />
+        <polygon points="-6,-11 0,-17 6,-11" fill="#262930" stroke="#14161a" stroke-width="1.0" />
+        <circle cx="0" cy="-9" r="1.8" fill="#d9a74a" />
+      </g>
 
       <!-- Individual 2.5D Isometric Village Houses -->
       ${villageRoofs}
@@ -687,45 +709,46 @@ export function renderFootprintsLayer(footprintsGroup: SVGGElement) {
       <rect x="14" y="-12" width="22" height="14" rx="1.5" fill="#6b4c35" stroke="#26120e" stroke-width="1.3" />
     </g>
 
-    <!-- 3. SCARLET DEVIL MANSION 2.5D GOTHIC ESTATE, WROUGHT-IRON GATES & ROSE GARDENS -->
+    <!-- 3. SCARLET DEVIL MANSION 2.5D GOTHIC ESTATE, VOILE ROTUNDA, CLOCK TOWER & ROSE GARDENS -->
     <g class="footprint-sdm" transform="translate(${sx}, ${sy})">
-      <!-- Peninsula Stone Terrace & Wrought-Iron Wall -->
-      <path d="M -84 -50 L 76 -50 L 80 0 L 76 50 L -84 50 L -88 0 Z" fill="rgba(128, 36, 44, 0.20)" stroke="#3d1217" stroke-width="2.2" stroke-linejoin="round" />
-      <rect x="-80" y="-46" width="152" height="92" rx="4" fill="none" stroke="#9e2a33" stroke-width="1.1" stroke-dasharray="6 3" />
-      <!-- Parterre Rose Hedge Labyrinths -->
-      <rect x="-70" y="-36" width="42" height="30" rx="3" fill="rgba(46, 82, 52, 0.35)" stroke="#294a2e" stroke-width="1.8" />
-      <rect x="-62" y="-28" width="26" height="14" fill="none" stroke="#b6342a" stroke-width="1.3" stroke-dasharray="4 3" />
-      <rect x="-70" y="6" width="42" height="30" rx="3" fill="rgba(46, 82, 52, 0.35)" stroke="#294a2e" stroke-width="1.8" />
-      <rect x="-62" y="14" width="26" height="14" fill="none" stroke="#b6342a" stroke-width="1.3" stroke-dasharray="4 3" />
-      <!-- 2.5D Grand Crimson Manor Wings & Central Clock Tower Base -->
-      <path d="M -18 -35 L 56 -35 L 56 41 L -18 41 Z" fill="rgba(20, 8, 10, 0.34)" />
-      <path d="M -20 -38 L 54 -38 L 54 38 L -20 38 L -20 16 L 10 16 L 10 -16 L -20 -16 Z" fill="#6e1820" stroke="#21080a" stroke-width="1.8" stroke-linejoin="round" />
-      <circle cx="22" cy="0" r="15" fill="#94222b" stroke="#f0d080" stroke-width="1.6" />
+      <!-- Wrought-Iron Wall & Estate Plinth -->
+      <rect x="-54" y="-58" width="108" height="116" rx="4" fill="rgba(128, 36, 44, 0.18)" stroke="#3d1217" stroke-width="2.2" />
+      <rect x="-50" y="-54" width="100" height="108" rx="3" fill="none" stroke="#9e2a33" stroke-width="1.1" stroke-dasharray="6 3" />
+      <!-- South Forecourt Parterre Rose Beds & Central Marble Fountain -->
+      <rect x="-38" y="8" width="24" height="16" rx="2" fill="rgba(46, 82, 52, 0.45)" stroke="#294a2e" stroke-width="1.4" />
+      <rect x="14" y="8" width="24" height="16" rx="2" fill="rgba(46, 82, 52, 0.45)" stroke="#294a2e" stroke-width="1.4" />
+      <rect x="-38" y="30" width="24" height="16" rx="2" fill="rgba(46, 82, 52, 0.45)" stroke="#294a2e" stroke-width="1.4" />
+      <rect x="14" y="30" width="24" height="16" rx="2" fill="rgba(46, 82, 52, 0.45)" stroke="#294a2e" stroke-width="1.4" />
+      <circle cx="0" cy="26" r="7.5" fill="#e8dfd1" stroke="#5c4e44" stroke-width="1.4" />
+      <circle cx="0" cy="26" r="5" fill="#b6342a" />
+      <!-- West Wing: Voile Magic Library Rotunda -->
+      <circle cx="-36" cy="-16" r="14" fill="#6e1820" stroke="#21080a" stroke-width="1.6" />
+      <circle cx="-36" cy="-16" r="9.5" fill="#2b2838" stroke="#4e8072" stroke-width="1.2" />
+      <!-- Main Gothic Hall, East Wing & Central Square Midnight Clock Tower -->
+      <rect x="-26" y="-32" width="52" height="30" rx="2" fill="#7d1e26" stroke="#21080a" stroke-width="1.8" />
+      <rect x="20" y="-30" width="20" height="26" rx="2" fill="#6e1820" stroke="#21080a" stroke-width="1.5" />
+      <circle cx="30" cy="-2" r="8.5" fill="#e5b548" fill-opacity="0.78" stroke="#5c3d1e" stroke-width="1.2" />
+      <rect x="-10" y="-28" width="20" height="20" rx="2" fill="#2b2838" stroke="#f0d080" stroke-width="1.8" />
+      <circle cx="0" cy="-18" r="4.5" fill="#fff6d6" stroke="#d9a74a" stroke-width="1.2" />
     </g>
 
-    <!-- 4. MYOUREN TEMPLE 2.5D MONASTERY, PAGODA & ORGANIC STONE COURTYARD (Fixes stark rectangular box) -->
+    <!-- 4. MYOUREN TEMPLE 2.5D MONASTERY, PAGODA & ORGANIC STONE COURTYARD -->
     <g class="footprint-myouren" transform="translate(${mx}, ${my})">
-      <!-- Soft Feathered Earth & Moss Clearing Transition -->
       <ellipse cx="-4" cy="0" rx="64" ry="42" fill="rgba(186, 174, 146, 0.28)" />
-      <!-- Organic Hand-Inked Flagstone Courtyard Perimeter (Stepped Stone Polygon instead of stark rect) -->
       <path d="M -46 -26 L -18 -31 L 24 -30 L 44 -22 L 47 18 L 36 29 L -8 32 L -44 26 L -50 2 Z" fill="rgba(222, 210, 184, 0.62)" stroke="#4a3e33" stroke-width="1.8" stroke-linejoin="round" />
       <path d="M -42 -22 L 22 -26 L 41 -18 L 42 15 L 32 25 L -40 22 Z" fill="none" stroke="#7a6855" stroke-width="0.9" stroke-dasharray="5 4" />
-      <!-- Flagstone Approach Walk & Southern Sanmon Gatehouse -->
       <path d="M -6 10 L -6 34 L 6 34 L 6 10 Z" fill="#c7bba4" stroke="#54473b" stroke-width="1.0" />
       <rect x="-12" y="26" width="24" height="7" rx="1.5" fill="#5c3d28" stroke="#24160d" stroke-width="1.2" />
-      <!-- 2.5D Hondo Main Temple Hall (Cast Shadow + White Plaster Wall + Curved Irimoya Slate Roof) -->
       <rect x="-27" y="-17" width="46" height="27" rx="2" fill="rgba(20, 14, 10, 0.34)" />
       <rect x="-26" y="1" width="42" height="6.5" fill="#efe4ce" stroke="#1e2226" stroke-width="1.1" />
       <polygon points="-30,2 -24,-21 16,-21 20,2" fill="#464d54" stroke="#1e2226" stroke-width="1.5" stroke-linejoin="round" />
       <polygon points="-25,-3 -20,-17 12,-17 15,-3" fill="#576069" stroke="#1e2226" stroke-width="0.9" stroke-linejoin="round" />
       <line x1="-16" y1="-10" x2="8" y2="-10" stroke="#d9a74a" stroke-width="1.4" stroke-linecap="round" />
-      <!-- 2.5D Three-Story Wooden Pagoda (Gojū-no-tō) on Eastern Courtyard -->
       <rect x="23" y="-15" width="16" height="17" rx="1.5" fill="rgba(20, 14, 10, 0.34)" />
       <rect x="23" y="-5" width="14" height="5" fill="#dfd0b4" stroke="#24170f" stroke-width="1.0" />
       <polygon points="20,-4 24,-17 36,-17 40,-4" fill="#5e4332" stroke="#1e2226" stroke-width="1.3" stroke-linejoin="round" />
       <polygon points="22,-8 25,-19 35,-19 38,-8" fill="#464d54" stroke="#1e2226" stroke-width="1.1" stroke-linejoin="round" />
       <circle cx="30" cy="-13" r="2.2" fill="#d9a74a" stroke="#1e2226" stroke-width="0.8" />
-      <!-- Western Cemetery Gravestones, Jizō Statues & Wooden Sotoba Stupas -->
       <g transform="translate(-66, -6)" fill="#968f84" stroke="#36312b" stroke-width="1">
         <ellipse cx="-2" cy="0" rx="20" ry="18" fill="rgba(140, 134, 122, 0.22)" stroke="none" />
         <rect x="-14" y="-12" width="5" height="9.5" rx="1.5" />
@@ -737,17 +760,112 @@ export function renderFootprintsLayer(footprintsGroup: SVGGElement) {
       </g>
     </g>
 
-    <!-- 5. EIENTEI 2.5D HIDDEN BAMBOO PALACE COMPOUND -->
+    <!-- 5. EIENTEI 2.5D WALLED BAMBOO PALACE, LOTUS POND & REAR PAGODA (eintei ref.png) -->
     <g class="footprint-eientei" transform="translate(${ex}, ${ey})">
-      <ellipse cx="0" cy="0" rx="58" ry="42" fill="rgba(228, 218, 192, 0.68)" stroke="#2e4f2b" stroke-width="3.2" />
-      <ellipse cx="0" cy="0" rx="58" ry="42" fill="none" stroke="#68945e" stroke-width="2" stroke-dasharray="3 2.5" />
-      <!-- Outer Covered Corridor Veranda (Engawa) -->
-      <rect x="-38" y="-24" width="76" height="48" rx="2" fill="none" stroke="#4f3826" stroke-width="4.5" />
-      <!-- 2.5D Central Palace Pavilion -->
-      <rect x="-19" y="-11" width="42" height="29" rx="2" fill="rgba(20, 12, 6, 0.32)" />
-      <rect x="-19" y="8" width="38" height="5.5" fill="#efe2c6" stroke="#24170e" stroke-width="1.0" />
-      <polygon points="-23,9 -17,-15 17,-15 23,9" fill="#3b4f37" stroke="#1b2919" stroke-width="1.5" stroke-linejoin="round" />
-      <line x1="-12" y1="-3" x2="12" y2="-3" stroke="#d9b44a" stroke-width="1.4" stroke-linecap="round" />
+      <!-- Walled Rectangular Tsukiji-bei Compound -->
+      <rect x="-52" y="-38" width="104" height="76" rx="3" fill="#e6dcc6" fill-opacity="0.86" stroke="#f5f0e6" stroke-width="3.2" />
+      <rect x="-52" y="-38" width="104" height="76" rx="3" fill="none" stroke="#2c323b" stroke-width="1.6" />
+      <!-- Covered Perimeter Kairō Verandas -->
+      <rect x="-46" y="-32" width="92" height="64" rx="2" fill="none" stroke="#5c3824" stroke-width="3.5" />
+      <!-- Central Rectangular Stone-Rimmed Lotus Pond & Twin Footbridges (eintei ref.png) -->
+      <rect x="-26" y="4" width="52" height="18" rx="2" fill="#2e729e" stroke="#7a7468" stroke-width="1.3" />
+      <rect x="-15" y="2" width="6" height="22" rx="1" fill="#9c6a3e" stroke="#2a180d" stroke-width="0.9" />
+      <rect x="9" y="2" width="6" height="22" rx="1" fill="#9c6a3e" stroke="#2a180d" stroke-width="0.9" />
+      <!-- Grand Multi-Bay Shinden Main Hall with Karahafu Entrance Gable -->
+      <rect x="-32" y="-20" width="64" height="22" rx="2" fill="rgba(20, 12, 6, 0.32)" />
+      <rect x="-30" y="-4" width="60" height="5.5" fill="#f5f0e6" stroke="#24170e" stroke-width="1.0" />
+      <polygon points="-35,-2 -28,-22 28,-22 35,-2" fill="#2b3038" stroke="#16191e" stroke-width="1.5" stroke-linejoin="round" />
+      <polygon points="-10,-1 0,-11 10,-1" fill="#3a404a" stroke="#d9b44a" stroke-width="1.1" />
+      <line x1="-22" y1="-12" x2="22" y2="-12" stroke="#d9b44a" stroke-width="1.4" stroke-linecap="round" />
+      <!-- Rear 3-Story Eientei Pagoda Tower (eintei ref.png top-right) -->
+      <g transform="translate(26, -28)">
+        <polygon points="-11,4 -8,-6 8,-6 11,4" fill="#2b3038" stroke="#16191e" stroke-width="1.1" />
+        <polygon points="-9,-3 -6,-12 6,-12 9,-3" fill="#353b45" stroke="#16191e" stroke-width="1.0" />
+        <polygon points="-7,-9 0,-18 7,-9" fill="#2b3038" stroke="#16191e" stroke-width="1.0" />
+        <line x1="0" y1="-18" x2="0" y2="-24" stroke="#d9b44a" stroke-width="1.4" />
+      </g>
+      <!-- South Chumon Gatehouse -->
+      <rect x="-12" y="33" width="24" height="8" rx="1.5" fill="#2b3038" stroke="#16191e" stroke-width="1.2" />
+    </g>
+
+    <!-- 5B. MORIYA SHRINE, WIND GOD'S LAKE, TWIN DOCKS & FOUR ONBASHIRA (mountain shrine top shot.png) -->
+    <g class="footprint-moriya" transform="translate(${0.645 * MAP_WIDTH}, ${0.105 * MAP_HEIGHT})">
+      <!-- Heart-Shaped Wind God's Lake behind Compound with Sacred Weeping-Tree Island -->
+      <path d="M -8 -22 C -14 -44, 16 -54, 34 -38 C 54 -50, 74 -30, 58 -10 C 46 6, 12 4, -8 -22 Z" fill="#2874ad" stroke="#5e6858" stroke-width="2.0" />
+      <ellipse cx="28" cy="-26" rx="9" ry="6.5" fill="#689452" stroke="#2d4a22" stroke-width="1.0" />
+      <circle cx="28" cy="-28" r="6" fill="#48823c" stroke="#1e3c18" stroke-width="0.9" />
+      <!-- Twin Lakeside Wooden Boat Docks -->
+      <rect x="4" y="-22" width="12" height="4.5" transform="rotate(-24 4 -22)" fill="#9c6a3e" stroke="#2a180d" stroke-width="0.9" />
+      <rect x="36" y="-14" width="12" height="4.5" transform="rotate(20 36 -14)" fill="#9c6a3e" stroke="#2a180d" stroke-width="0.9" />
+      <!-- Stepped Stone Courtyard & Retaining Terrace -->
+      <rect x="-42" y="-24" width="76" height="54" rx="4" fill="#dfd6c3" stroke="#5c5346" stroke-width="2.0" />
+      <rect x="-38" y="-20" width="68" height="46" rx="3" fill="#ebe3d2" stroke="#8c8070" stroke-width="1.0" stroke-dasharray="5 3" />
+      <!-- South Stone Approach Stairs & Grand Vermilion Torii -->
+      <path d="M -10 28 L -14 54 L 6 54 L 2 28 Z" fill="#c4bba8" stroke="#4f463d" stroke-width="1.4" />
+      <line x1="-14" y1="42" x2="6" y2="42" stroke="#c82824" stroke-width="3.2" stroke-linecap="round" />
+      <!-- Twin Outer Chigi Gate Pavilions (detailed shrine sides.png) -->
+      <polygon points="-34,24 -28,14 -16,14 -12,24" fill="#2e7866" stroke="#163830" stroke-width="1.1" />
+      <polygon points="4,24 8,14 20,14 26,24" fill="#2e7866" stroke="#163830" stroke-width="1.1" />
+      <!-- Elevated Honden Sanctuary & Red Bridge Corridor behind Haiden -->
+      <polygon points="-20,-10 -15,-23 7,-23 12,-10" fill="#246354" stroke="#123028" stroke-width="1.3" />
+      <rect x="-7" y="-11" width="6" height="8" fill="#c82824" />
+      <!-- Wide Patinated Green-Copper Roofed Haiden Worship Hall -->
+      <rect x="-26" y="4" width="44" height="6" fill="#f5eee0" stroke="#2e241b" stroke-width="1.0" />
+      <polygon points="-30,5 -22,-9 14,-9 22,5" fill="#2e7866" stroke="#14362c" stroke-width="1.5" stroke-linejoin="round" />
+      <polygon points="-11,5 -4,-3 3,5" fill="#3b8c78" stroke="#d9b44a" stroke-width="1.0" />
+      <!-- Four Sacred Towering Rope-Bound Onbashira Cedar Pillars -->
+      <circle cx="-34" cy="-16" r="4.8" fill="#6b4226" stroke="#f5f2eb" stroke-width="1.4" />
+      <circle cx="26" cy="-16" r="4.8" fill="#6b4226" stroke="#f5f2eb" stroke-width="1.4" />
+      <circle cx="-34" cy="20" r="4.8" fill="#6b4226" stroke="#f5f2eb" stroke-width="1.4" />
+      <circle cx="26" cy="20" r="4.8" fill="#6b4226" stroke="#f5f2eb" stroke-width="1.4" />
+    </g>
+
+    <!-- 5C. TENGU VILLAGE & WATERFALL OF NINE HEAVENS CLIFFSIDE COMPOUND (yokai mountain.png) -->
+    <g class="footprint-tengu-village" transform="translate(${0.698 * MAP_WIDTH}, ${0.145 * MAP_HEIGHT})">
+      <ellipse cx="0" cy="2" rx="36" ry="24" fill="rgba(138, 128, 114, 0.52)" stroke="#4a4238" stroke-width="1.6" />
+      <!-- Cascading Waterfall Stream & Vermilion Suspension Bridge -->
+      <path d="M -18 -20 Q -12 0 -16 22" fill="none" stroke="#68b8e8" stroke-width="7" opacity="0.75" />
+      <path d="M -18 -20 Q -12 0 -16 22" fill="none" stroke="#e8f8ff" stroke-width="2.5" stroke-dasharray="4 4" />
+      <rect x="-24" y="-2" width="18" height="5" rx="1" fill="#c82824" stroke="#24100c" stroke-width="0.9" />
+      <!-- Red-Pillared Multi-Tier Tengu Watchtower & Terraced Townhouses -->
+      <rect x="2" y="-6" width="18" height="14" fill="#b82824" stroke="#24100c" stroke-width="1.0" />
+      <polygon points="-1,-5 4,-16 18,-16 23,-5" fill="#2c3038" stroke="#14161a" stroke-width="1.2" />
+      <polygon points="2,-12 6,-21 16,-21 20,-12" fill="#383e48" stroke="#14161a" stroke-width="1.1" />
+      <circle cx="-24" cy="-12" r="6" fill="#c83824" stroke="#4a160c" stroke-width="0.8" />
+      <circle cx="24" cy="10" r="5.5" fill="#d97824" stroke="#4a240c" stroke-width="0.8" />
+    </g>
+
+    <!-- 5D. MUENZUKA WEEPING CHERRY GROVE & OUTSIDE WORLD GATEHOUSE (magenzuka ref.png) -->
+    <g class="footprint-muenzuka" transform="translate(${0.165 * MAP_WIDTH}, ${0.415 * MAP_HEIGHT})">
+      <ellipse cx="0" cy="0" rx="42" ry="28" fill="rgba(216, 198, 212, 0.52)" stroke="#6e5468" stroke-width="1.5" stroke-dasharray="6 3" />
+      <!-- Weathered Wooden Outside World Pavilion on Left -->
+      <rect x="-28" y="-8" width="18" height="12" fill="#8c6244" stroke="#2b1c12" stroke-width="1.1" />
+      <polygon points="-31,-7 -25,-16 -13,-16 -7,-7" fill="#3a2c24" stroke="#1e1510" stroke-width="1.2" />
+      <!-- Semicircle of Purple-Pink Weeping Cherry (Shidarezakura) Trees -->
+      <circle cx="0" cy="-16" r="10" fill="#d878b4" stroke="#6e2854" stroke-width="1.0" />
+      <circle cx="18" cy="-10" r="11" fill="#e48cc4" stroke="#6e2854" stroke-width="1.0" />
+      <circle cx="22" cy="6" r="9.5" fill="#d878b4" stroke="#6e2854" stroke-width="1.0" />
+      <!-- Stone Gravestones & Red Spider Lily Clusters -->
+      <rect x="-6" y="-2" width="4" height="7" rx="1" fill="#968f84" stroke="#36312b" stroke-width="0.8" />
+      <rect x="4" y="1" width="4" height="7" rx="1" fill="#968f84" stroke="#36312b" stroke-width="0.8" />
+      <circle cx="-12" cy="12" r="3.2" fill="#d62828" />
+      <circle cx="8" cy="14" r="3.2" fill="#d62828" />
+    </g>
+
+    <!-- 5E. HAKUGYOKUROU GRAND STAIRCASE & SAIGYOU AYAKASHI -->
+    <g class="footprint-hakugyokurou" transform="translate(${0.38 * MAP_WIDTH}, ${0.065 * MAP_HEIGHT})">
+      <rect x="-36" y="-24" width="72" height="44" rx="4" fill="rgba(238, 230, 224, 0.68)" stroke="#6e5a66" stroke-width="1.6" />
+      <path d="M -8 20 L -10 46 L 10 46 L 8 20 Z" fill="#e6e0d6" stroke="#6e5a66" stroke-width="1.3" />
+      <polygon points="-26,4 -20,-14 4,-14 10,4" fill="#3e4252" stroke="#1e2029" stroke-width="1.4" />
+      <circle cx="20" cy="-4" r="12" fill="rgba(200, 104, 180, 0.65)" stroke="#7a326b" stroke-width="1.4" />
+    </g>
+
+    <!-- 5F. PALACE OF THE EARTH SPIRITS (CHIREIDEN) -->
+    <g class="footprint-chireiden" transform="translate(${0.125 * MAP_WIDTH}, ${0.775 * MAP_HEIGHT})">
+      <rect x="-30" y="-24" width="60" height="48" rx="3" fill="rgba(54, 34, 42, 0.55)" stroke="#24141a" stroke-width="1.8" />
+      <circle cx="0" cy="12" r="7" fill="#ff5518" fill-opacity="0.7" stroke="#24141a" stroke-width="1.2" />
+      <polygon points="-22,2 -16,-16 16,-16 22,2" fill="#5e3442" stroke="#1f1d29" stroke-width="1.5" />
+      <circle cx="0" cy="-6" r="4.2" fill="#ff487e" stroke="#f0d080" stroke-width="1" />
     </g>
 
     <!-- 6. ARMIXI-STYLE KEY-FRET (雷文) REALM CARTOUCHES (Underworld, Makai, The Moon) -->

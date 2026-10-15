@@ -9,3 +9,10 @@ scripts/merge-wiki-into-atlas.mjs
 image4.png
 map_of_gensokyo_by_carbuncle2021_dhididh-fullview.png
 t118a4520yna1.jpg
+PlacefRef/
+SDM manor ref files/
+blender-sources/
+*.blend
+*.blend1
+__pycache__/
+*.pyc

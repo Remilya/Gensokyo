@@ -1,9 +1,12 @@
 import { select } from 'd3-selection';
 import { zoom, zoomIdentity, type ZoomBehavior, type ZoomTransform } from 'd3-zoom';
+import { getResidentPlacement } from '../data/resident-placements';
+import { Atlas3DView } from '../map3d/scene3d';
 import { MAP_HEIGHT, MAP_WIDTH, store } from '../state';
 import type { TerrainData } from '../types';
 import { renderAtmosphereLayer } from './atmosphere';
 import { renderBorderLayer } from './border';
+import { getResidentPixelSpriteDataUrl, renderResidentsLayer } from './characters2d';
 import { renderLabelsLayer } from './labels';
 import { renderMarkersLayer } from './markers';
 import { renderRoadsLayer, updateActiveRouteOverlay } from './roads';
@@ -11,8 +14,11 @@ import { renderFootprintsLayer, renderTerrainLayer } from './terrain';
 import { renderWaterLayer } from './water';
 
 export class MapCanvas {
+  public viewportEl: HTMLDivElement;
   public svgEl: SVGSVGElement;
   public cameraGroup: SVGGElement;
+  public atlas3d: Atlas3DView | null = null;
+  private terrainData: TerrainData;
   private terrainGroup: SVGGElement;
   private waterGroup: SVGGElement;
   private footprintsGroup: SVGGElement;
@@ -21,13 +27,16 @@ export class MapCanvas {
   private atmoGroup: SVGGElement;
   private markersGroup: SVGGElement;
   private labelsGroup: SVGGElement;
+  private residentsGroup: SVGGElement;
   private tooltipEl: HTMLDivElement;
 
   private zoomBehavior: ZoomBehavior<SVGSVGElement, unknown>;
 
   constructor(container: HTMLElement, terrainData: TerrainData) {
+    this.terrainData = terrainData;
     const viewport = document.createElement('div');
     viewport.className = 'atlas-viewport';
+    this.viewportEl = viewport;
 
     this.svgEl = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
     this.svgEl.setAttribute('class', 'atlas-svg');
@@ -86,6 +95,7 @@ export class MapCanvas {
         <g id="layer-atmosphere"></g>
         <g id="layer-markers"></g>
         <g id="layer-labels"></g>
+        <g id="layer-residents"></g>
       </g>
     `;
 
@@ -109,6 +119,7 @@ export class MapCanvas {
     this.atmoGroup = this.svgEl.querySelector('#layer-atmosphere') as SVGGElement;
     this.markersGroup = this.svgEl.querySelector('#layer-markers') as SVGGElement;
     this.labelsGroup = this.svgEl.querySelector('#layer-labels') as SVGGElement;
+    this.residentsGroup = this.svgEl.querySelector('#layer-residents') as SVGGElement;
 
     // Set initial CSS scale variable and tier visibility class
     this.svgEl.style.setProperty('--marker-inv-scale', '1');
@@ -179,7 +190,9 @@ export class MapCanvas {
     let lastHoveredId: string | null = null;
     this.cameraGroup.addEventListener('mousemove', (e) => {
       if (this.svgEl.classList.contains('is-interacting')) return;
-      const target = (e.target as Element).closest('.map-marker, .map-label') as SVGGElement | null;
+      const target = (e.target as Element).closest(
+        '.map-resident, .map-marker, .map-label'
+      ) as SVGGElement | null;
       if (!target) {
         if (lastHoveredId !== null) {
           lastHoveredId = null;
@@ -187,6 +200,45 @@ export class MapCanvas {
         }
         return;
       }
+
+      if (target.classList.contains('map-resident')) {
+        const charId = target.getAttribute('data-char-id');
+        if (!charId) return;
+        const hoverKey = `char:${charId}`;
+        if (hoverKey !== lastHoveredId) {
+          lastHoveredId = hoverKey;
+          const ch = store.getCharacter(charId);
+          const placement = getResidentPlacement(charId);
+          const spriteUrl = placement ? getResidentPixelSpriteDataUrl(placement) : '';
+          this.tooltipEl.innerHTML = `
+            <div style="display:flex;align-items:center;gap:8px;">
+              ${
+                spriteUrl
+                  ? `<img src="${spriteUrl}" style="width:28px;height:32px;image-rendering:pixelated;flex-shrink:0;" alt="" />`
+                  : ''
+              }
+              <div>
+                <div>
+                  <span class="tooltip-title">${ch?.name_en ?? placement?.shortName ?? charId}</span>
+                  <span class="tooltip-jp">${ch?.name_jp ?? ''}</span>
+                </div>
+                <div class="tooltip-desc" style="color:var(--accent-hakurei);font-weight:600;">
+                  ${ch?.title ? `“${ch.title}”` : ch?.species ?? ''}
+                </div>
+                <div class="tooltip-desc" style="font-size:11px;opacity:0.85;">
+                  📍 ${placement?.spotLabel ?? ''} • Click for profile card
+                </div>
+              </div>
+            </div>
+          `;
+          this.tooltipEl.classList.add('visible');
+        }
+        const tx = Math.min(window.innerWidth - 300, e.clientX + 14);
+        const ty = Math.min(window.innerHeight - 110, e.clientY + 14);
+        this.tooltipEl.style.transform = `translate3d(${tx}px, ${ty}px, 0)`;
+        return;
+      }
+
       const id = target.getAttribute('data-id');
       if (!id) return;
 
@@ -214,8 +266,7 @@ export class MapCanvas {
       this.tooltipEl.classList.remove('visible');
     });
 
-    // Reliable pointer tap/click detection for markers, labels, and empty background
-    // (Uses pointerdown/pointerup so d3-zoom's mousedown/mouseup capture never swallows clicks)
+    // Reliable pointer tap/click detection for residents, markers, labels, and empty background
     let downX = 0;
     let downY = 0;
     let downTarget: SVGGElement | null = null;
@@ -227,6 +278,14 @@ export class MapCanvas {
       lastSelectTime = now;
 
       if (target) {
+        if (target.classList.contains('map-resident')) {
+          const charId = target.getAttribute('data-char-id');
+          if (charId) {
+            store.update({ popupCharacterId: charId });
+          }
+          return;
+        }
+
         const id = target.getAttribute('data-id');
         if (!id) return;
 
@@ -238,13 +297,17 @@ export class MapCanvas {
             store.setRouteEndpoints(st.routeStartId, id);
           }
         }
-        store.update({ selectedId: id, selectedCharacterId: null });
+        store.update({ selectedId: id, selectedCharacterId: null, popupCharacterId: null });
         window.history.replaceState(null, '', `#loc=${id}`);
         return;
       }
 
-      if (store.getState().selectedId || store.getState().selectedCharacterId) {
-        store.update({ selectedId: null, selectedCharacterId: null });
+      if (
+        store.getState().selectedId ||
+        store.getState().selectedCharacterId ||
+        store.getState().popupCharacterId
+      ) {
+        store.update({ selectedId: null, selectedCharacterId: null, popupCharacterId: null });
         window.history.replaceState(null, '', window.location.pathname + window.location.search);
       }
     };
@@ -255,7 +318,9 @@ export class MapCanvas {
         if (e.button !== 0) return;
         downX = e.clientX;
         downY = e.clientY;
-        downTarget = (e.target as Element).closest('.map-marker, .map-label') as SVGGElement | null;
+        downTarget = (e.target as Element).closest(
+          '.map-resident, .map-marker, .map-label'
+        ) as SVGGElement | null;
       },
       { capture: true }
     );
@@ -267,8 +332,9 @@ export class MapCanvas {
         const dist = Math.hypot(e.clientX - downX, e.clientY - downY);
         if (dist > 8) return;
         const upTarget =
-          ((e.target as Element).closest('.map-marker, .map-label') as SVGGElement | null) ??
-          downTarget;
+          ((e.target as Element).closest(
+            '.map-resident, .map-marker, .map-label'
+          ) as SVGGElement | null) ?? downTarget;
         handleSelectOrDeselect(upTarget);
       },
       { capture: true }
@@ -276,26 +342,43 @@ export class MapCanvas {
 
     this.svgEl.addEventListener('click', (e) => {
       if (e.defaultPrevented) return;
-      const target = (e.target as Element).closest('.map-marker, .map-label') as SVGGElement | null;
+      const target = (e.target as Element).closest(
+        '.map-resident, .map-marker, .map-label'
+      ) as SVGGElement | null;
       handleSelectOrDeselect(target);
     });
 
     // Subscribe to state updates (separated so pan/zoom never rebuilds marker DOM!)
     let lastLodTier = getLodTier(1);
     let lastSelected: string | null = null;
+    let lastActiveChar: string | null = null;
     let lastQuery = '';
     let lastRegion = 'All';
     let lastKind = 'All';
     let lastComputedRoute = store.getState().computedRoute;
+    let lastView3d = false;
 
     store.subscribe((state) => {
+      if (state.view3d !== lastView3d) {
+        lastView3d = state.view3d;
+        this.svgEl.style.display = state.view3d ? 'none' : 'block';
+        this.ensure3D()?.setActive(state.view3d);
+      }
+
       this.footprintsGroup.style.display = state.showFootprints ? 'block' : 'none';
       this.roadsGroup.style.display = state.showRoutes ? 'block' : 'none';
+      this.residentsGroup.style.display = state.showResidents ? 'block' : 'none';
 
       if (state.computedRoute !== lastComputedRoute) {
         lastComputedRoute = state.computedRoute;
         updateActiveRouteOverlay(this.roadsGroup, state.computedRoute);
       }
+
+      const activeChar = state.popupCharacterId ?? state.selectedCharacterId;
+      const charOrSearchChanged =
+        activeChar !== lastActiveChar ||
+        state.searchQuery !== lastQuery ||
+        state.regionFilter !== lastRegion;
 
       const filterOrSelectionChanged =
         state.selectedId !== lastSelected ||
@@ -305,6 +388,16 @@ export class MapCanvas {
 
       const lodTier = getLodTier(state.zoom.k);
       const lodChanged = lodTier !== lastLodTier;
+
+      if (charOrSearchChanged) {
+        lastActiveChar = activeChar;
+        renderResidentsLayer(
+          this.residentsGroup,
+          activeChar,
+          state.searchQuery,
+          state.regionFilter
+        );
+      }
 
       if (filterOrSelectionChanged) {
         lastSelected = state.selectedId;
@@ -339,20 +432,40 @@ export class MapCanvas {
       }
     });
 
-    // Initial render of markers & labels
+    // Initial render of markers, labels & pixel-art residents
     renderMarkersLayer(this.markersGroup, store.getLocations(), null, 1, '', 'All', 'All');
     renderLabelsLayer(this.labelsGroup, store.getLocations(), null, 1, 'All', 'All');
+    renderResidentsLayer(this.residentsGroup, null, '', 'All');
+  }
+
+  public ensure3D(): Atlas3DView {
+    if (!this.atlas3d) {
+      this.atlas3d = new Atlas3DView(this.viewportEl, this.terrainData);
+    }
+    return this.atlas3d;
   }
 
   public zoomByFactor(factor: number) {
+    if (store.getState().view3d) {
+      this.ensure3D().zoomByFactor(factor);
+      return;
+    }
     select(this.svgEl).call(this.zoomBehavior.scaleBy, factor);
   }
 
   public resetView() {
+    if (store.getState().view3d) {
+      this.ensure3D().resetView();
+      return;
+    }
     select(this.svgEl).call(this.zoomBehavior.transform, zoomIdentity);
   }
 
   public flyToNormalized(nx: number, ny: number, targetK = 2.6) {
+    if (store.getState().view3d) {
+      this.ensure3D().flyToNormalized(nx, ny, targetK);
+      return;
+    }
     const rect = this.svgEl.getBoundingClientRect();
     // Convert screen center to SVG viewBox coordinates
     const scaleX = MAP_WIDTH / Math.max(1, rect.width);
@@ -367,7 +480,7 @@ export class MapCanvas {
     const ty = vbCenterY - targetY * targetK;
 
     const transform = zoomIdentity.translate(tx, ty).scale(targetK);
-    select(this.svgEl). call(this.zoomBehavior.transform, transform);
+    select(this.svgEl).call(this.zoomBehavior.transform, transform);
   }
 
   public flyToLocation(id: string, targetK = 2.6) {

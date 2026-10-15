@@ -287,6 +287,33 @@ export function mountSidePanel(container: HTMLElement, mapCanvas: MapCanvas) {
 
     const sourceList = (loc.sources ?? []).map((s) => `<span class="badge">${s}</span>`).join(' ');
 
+    const refImageHtml = loc.image_url
+      ? `
+        <div class="loc-reference-stage" id="loc-reference-stage" title="Click to toggle full canonical reference illustration">
+          <img
+            class="loc-reference-img"
+            src="${loc.image_url}"
+            alt="${loc.name_en} canonical reference"
+            loading="eager"
+            decoding="async"
+          />
+          <div class="char-portrait-caption">
+            <span>🖼️ ${loc.image_caption ?? 'Official Touhou Canon Reference'}</span>
+            <span class="char-portrait-zoom-hint">⤢ Expand</span>
+          </div>
+        </div>
+      `
+      : '';
+
+    const blueprintHtml = loc.visual_blueprint
+      ? `
+        <div class="loc-blueprint-box">
+          <div class="loc-blueprint-label">🏛️ Canonical Architecture &amp; 3D Blueprint</div>
+          <div class="loc-blueprint-text">${loc.visual_blueprint}</div>
+        </div>
+      `
+      : '';
+
     panel.innerHTML = `
       <div class="side-panel-header">
         <button class="side-panel-close" title="Close (Esc)">✕</button>
@@ -300,11 +327,16 @@ export function mountSidePanel(container: HTMLElement, mapCanvas: MapCanvas) {
       </div>
 
       <div class="side-panel-body">
+        ${refImageHtml}
+
         <div class="panel-actions-row">
+          <button class="panel-action-btn" id="btn-inspect-3d">🧊 Inspect in 3D</button>
           <button class="panel-action-btn" id="btn-route-start">🚩 Route From Here</button>
           <button class="panel-action-btn" id="btn-route-end">🏁 Route To Here</button>
           <button class="panel-action-btn" id="btn-copy-citation">📋 Copy Atlas Note</button>
         </div>
+
+        ${blueprintHtml}
 
         <div>
           <div class="panel-section-title">Overview &amp; Lore</div>
@@ -377,6 +409,26 @@ export function mountSidePanel(container: HTMLElement, mapCanvas: MapCanvas) {
     panel.querySelector('.side-panel-close')?.addEventListener('click', () => {
       store.update({ selectedId: null, selectedCharacterId: null });
       window.history.replaceState(null, '', window.location.pathname);
+    });
+
+    const locRefStage = panel.querySelector<HTMLElement>('#loc-reference-stage');
+    if (locRefStage) {
+      const img = locRefStage.querySelector<HTMLImageElement>('.loc-reference-img');
+      const hint = locRefStage.querySelector<HTMLElement>('.char-portrait-zoom-hint');
+      img?.addEventListener('error', () => {
+        locRefStage.style.display = 'none';
+      });
+      locRefStage.addEventListener('click', () => {
+        const expanded = locRefStage.classList.toggle('is-expanded');
+        if (hint) {
+          hint.textContent = expanded ? '⤡ Compact' : '⤢ Expand';
+        }
+      });
+    }
+
+    panel.querySelector('#btn-inspect-3d')?.addEventListener('click', () => {
+      store.update({ view3d: true });
+      mapCanvas.flyToLocation(loc.id, 3.0);
     });
 
     panel.querySelector('#btn-route-start')?.addEventListener('click', () => {

@@ -234,6 +234,8 @@ export function mountSearchAndRealmBar(container: HTMLElement, mapCanvas: MapCan
     } else if (e.key === 'Escape') {
       if (resultsBox.style.display !== 'none') {
         resultsBox.style.display = 'none';
+      } else if (store.getState().popupCharacterId) {
+        store.update({ popupCharacterId: null });
       } else if (store.getState().selectedCharacterId) {
         const locId = store.getState().selectedId;
         store.update({ selectedCharacterId: null });

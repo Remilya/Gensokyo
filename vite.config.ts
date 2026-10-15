@@ -10,9 +10,11 @@ export default defineConfig({
     sourcemap: false,
     target: 'es2020',
     minify: 'esbuild',
+    chunkSizeWarningLimit: 600,
     rollupOptions: {
       output: {
         manualChunks(id) {
+          if (id.includes('node_modules/three')) return 'three-vendor';
           if (id.includes('data/characters.json')) return 'characters-data';
           if (id.includes('data/locations.json') || id.includes('data/routes.json') || id.includes('data/terrain.json')) {
             return 'geography-data';

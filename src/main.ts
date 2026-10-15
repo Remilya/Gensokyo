@@ -8,6 +8,7 @@ import './styles/main.css';
 import type { CharacterEntry, LocationEntry, RouteEntry, TerrainData } from './types';
 import { mountControlsAndLegend } from './ui/controls';
 import { mountMinimap } from './ui/minimap';
+import { mountResidentPopupCard } from './ui/resident-card';
 import { mountSearchAndRealmBar } from './ui/search';
 import { mountSidePanel } from './ui/side-panel';
 
@@ -25,6 +26,7 @@ function bootstrap() {
   mountSearchAndRealmBar(app, mapCanvas);
   mountControlsAndLegend(app, mapCanvas);
   mountMinimap(terrainData as unknown as TerrainData, mapCanvas);
+  mountResidentPopupCard(app, mapCanvas);
   mountSidePanel(app, mapCanvas);
 
   // Check URL hash deep link (#loc=hakurei-shrine or #char=reimu-hakurei)

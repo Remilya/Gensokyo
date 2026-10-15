@@ -51,7 +51,11 @@
     "atlas_sector": "Central Basin Hub (0, 0 reference point; walled settlement of ~2,000 people with North, South, West, and East Palisade Gates).",
     "travel_time": "Internal Main Street spans 4 blocks West-to-East (~90 seconds per block, ~6 minutes end-to-end on foot).",
     "approach_route": "Internal grid centers on Market Square (center) and the Schoolhouse (immediately north); Geidontei sits 4 streets west of the Schoolhouse (~5–6 min walk), the East Gate commercial stalls sit ~4 minutes east, and Suzunaan sits on the south road by the South Gate (~8 min south).",
-    "local_customs": "Protected daytime human sanctuary under Keine Kamishirasawa and Hieda no Akyuu; morning market opens at 07:00, 14:00 is the dead hour, and the watchman's copper curfew bell rings at 20:00."
+    "local_customs": "Protected daytime human sanctuary under Keine Kamishirasawa and Hieda no Akyuu; morning market opens at 07:00, 14:00 is the dead hour, and the watchman's copper curfew bell rings at 20:00.",
+    "image_url": "https://en.touhouwiki.net/images/thumb/e/eb/FDS_HumanVillage.png/720px-FDS_HumanVillage.png",
+    "image_caption": "The Human Village as depicted in Foul Detective Satori & Hopeless Masquerade",
+    "visual_blueprint": "Walled Edo/Meiji settlement basin with tiled-roof timber rowhouses (machiya), central watchtower (hinomi-yagura), northern Dragon Statue plaza, and gated palisade walls.",
+    "model_url": "/models/human-village.glb"
   },
   {
     "id": "human-village-market-square",
@@ -82,7 +86,11 @@
     "atlas_sector": "Human Village — Central Commercial Hub (south of the Schoolhouse along Main Street's 4-block axis).",
     "travel_time": "1 minute south of the Schoolhouse; ~3 minutes west of the East Gate; ~4 minutes east of Geidontei; ~6 minutes north of Suzunaan and the South Gate.",
     "approach_route": "Follow Main Street into the central open square lined with food grills, produce canopies, and the South Craft Lane bridge.",
-    "local_customs": "Core village marketplace; grills fire at 07:00, 14:00 is the quiet dead hour, and metal-content copper/silver coinage is required for all trade."
+    "local_customs": "Core village marketplace; grills fire at 07:00, 14:00 is the quiet dead hour, and metal-content copper/silver coinage is required for all trade.",
+    "image_url": "https://en.touhouwiki.net/images/thumb/e/ef/VFiS_Human_Village.png/720px-VFiS_Human_Village.png",
+    "image_caption": "Human Village Market Square & Main Street in Visionary Fairies in Shrine",
+    "visual_blueprint": "Bustling four-block merchant thoroughfare lined with cloth-draped market stalls, paper festival lanterns, soba carts, and dark timber shopfronts.",
+    "wiki_summary": "Situated along Main Street's four-block axis just south of the Terakoya schoolhouse, Market Square is where farmers, blacksmiths, and apothecaries trade in copper and silver coin. Grills fire at 07:00, 14:00 marks the quiet dead hour, and Mystia or Sekibanki can often be spotted mingling near dusk."
   },
   {
     "id": "terakoya-school",
@@ -114,7 +122,12 @@
     "travel_time": "1 minute north of Market Square; 4 streets (~5–6 minutes walk) east of Geidontei; ~4 minutes west of the East Gate; ~8 minutes north of Suzunaan and the South Gate.",
     "approach_route": "Cross Market Square northward from Main Street's central intersection to the single-plank timber classroom and adjoining rear teacher's quarters.",
     "local_customs": "Keine Kamishirasawa's classroom and official Outsider Intake office; formal address is expected inside when discussing major youkai factions.",
-    "icon": "terakoya"
+    "icon": "terakoya",
+    "image_url": "https://en.touhouwiki.net/images/6/61/HV_School.png",
+    "image_caption": "Keine Kamishirasawa’s Terakoya Schoolhouse in the Human Village",
+    "visual_blueprint": "Single-story Meiji-era timber schoolhouse with sliding shoji classroom doors, dark grey kawara tile roof, raised wooden porch, and fenced courtyard.",
+    "wiki_summary": "A single-plank timber classroom with adjoining teacher's quarters where Keine Kamishirasawa teaches village children reading, arithmetic, and history. It also serves as the formal intake office for newly arrived outsiders and a daytime sanctuary under Keine's personal protection.",
+    "model_url": "/models/terakoya-school.glb"
   },
   {
     "id": "geidontei",
@@ -145,12 +158,16 @@
     "wiki_title": "Geidontei",
     "wiki_url": "https://en.touhouwiki.net/wiki/Geidontei",
     "wiki_romaji": "'''Geidontei'''",
-    "wiki_summary": "stub\n\n is a traditional Japanese-style bar located somewhere in the Human Village.",
+    "wiki_summary": "Geidontei (鯢呑亭, lit. \"Swallowing Whale Pavilion\") is a cozy, traditional Japanese-style izakaya pub located in a quiet corner of the Human Village. Serving as the central setting of Lotus Eaters, where Miyoi Okunoda works as the poster girl, it hosts human villagers by day and secretively caters to high-profile youkai regulars after hours.",
     "atlas_sector": "Human Village — Western Sector (4 streets west of the Schoolhouse along the western blocks of Main Street).",
     "travel_time": "~5–6 minutes walk (4 streets) west of the Schoolhouse; ~4 minutes west of Market Square; ~3 minutes east of the West Palisade Gate; ~7 minutes northwest of Suzunaan.",
     "approach_route": "Walk four streets west from the Schoolhouse or follow Main Street's western residential blocks to the cloth banner hanging outside the timber izakaya.",
     "local_customs": "Village social tavern inside the human walls where Miyoi Okunoda tends bar under Keine's non-manipulation guarantee until the 20:00 curfew bell.",
-    "icon": "geidontei"
+    "icon": "geidontei",
+    "image_url": "https://en.touhouwiki.net/images/e/ec/Geidonteipub.png",
+    "image_caption": "Geidontei Izakaya from Lotus Eaters’ Sober and Drunk",
+    "visual_blueprint": "Traditional warm-timber izakaya tavern featuring an indigo whale-crested noren entrance curtain, glowing red akachouchin lantern, and L-shaped hinoki counter inside.",
+    "model_url": "/models/geidontei.glb"
   },
   {
     "id": "suzunaan",
@@ -187,7 +204,11 @@
     "travel_time": "~8 minutes walk south of the Schoolhouse; ~6 minutes south of Market Square; ~7 minutes southeast of Geidontei; ~1 minute north of the South Gate.",
     "approach_route": "Walk south from Market Square down the southern residential road toward the South Gate until reaching the timber storefront marked by a painted overhead scroll.",
     "local_customs": "Kosuzu Motoori's lending bookshop (open dawn to dusk); safe village interior, though unusual book inquiries are reported upstream to Hieda no Akyuu.",
-    "icon": "suzunaan"
+    "icon": "suzunaan",
+    "image_url": "https://en.touhouwiki.net/images/thumb/d/d0/Suzunaanlibrary.jpg/720px-Suzunaanlibrary.jpg",
+    "image_caption": "Suzunaan Rental Bookshop from Forbidden Scrollery",
+    "visual_blueprint": "Two-story traditional merchant machiya featuring a turnip-shaped bell curtain (suzuna noren), vertical wooden shop signboard, lattice windows, and demon-hide scroll shelves.",
+    "model_url": "/models/suzunaan.glb"
   },
   {
     "id": "hieda-estate",
@@ -218,7 +239,12 @@
     "travel_time": "Internal Main Street spans 4 blocks West-to-East (~90 seconds per block, ~6 minutes end-to-end on foot).",
     "approach_route": "Internal grid centers on Market Square (center) and the Schoolhouse (immediately north); Geidontei sits 4 streets west of the Schoolhouse (~5–6 min walk), local blacksmiths operates inside the East Gate (~4 min east), and Suzunaan sits on the south road by the South Gate (~8 min south).",
     "local_customs": "Protected daytime human sanctuary under Keine Kamishirasawa and Hieda no Akyuu; morning market opens at 07:00, 14:00 is the dead hour, and the watchman's copper curfew bell rings at 20:00.",
-    "icon": "hieda"
+    "icon": "hieda",
+    "image_url": "https://en.touhouwiki.net/images/2/20/MGHiedaMansion.jpg",
+    "image_caption": "The Hieda Clan Estate in the Human Village",
+    "visual_blueprint": "Expansive walled samurai-aristocrat yashiki compound with whitewashed plaster walls, tiled roofed nagayamon gatehouse, raked gravel courtyard, and fireproof archive storehouses (kura).",
+    "wiki_summary": "One of the oldest and largest noble estates inside the Human Village, protected by white plaster walls, manicured courtyard gardens, and family retainers. Here Hieda no Akyuu, the Ninth Child of Miare, writes and updates the official Gensokyo Chronicle.",
+    "model_url": "/models/hieda-estate.glb"
   },
   {
     "id": "dragon-statue",
@@ -246,7 +272,11 @@
     "atlas_sector": "Central Basin Hub (0, 0 reference point; walled settlement of ~2,000 people with North, South, West, and East Palisade Gates).",
     "travel_time": "Internal Main Street spans 4 blocks West-to-East (~90 seconds per block, ~6 minutes end-to-end on foot).",
     "approach_route": "Internal grid centers on Market Square (center) and the Schoolhouse (immediately north); Geidontei sits 4 streets west of the Schoolhouse (~5–6 min walk), local blacksmiths operates inside the East Gate (~4 min east), and Suzunaan sits on the south road by the South Gate (~8 min south).",
-    "local_customs": "Protected daytime human sanctuary under Keine Kamishirasawa and Hieda no Akyuu; morning market opens at 07:00, 14:00 is the dead hour, and the watchman's copper curfew bell rings at 20:00."
+    "local_customs": "Protected daytime human sanctuary under Keine Kamishirasawa and Hieda no Akyuu; morning market opens at 07:00, 14:00 is the dead hour, and the watchman's copper curfew bell rings at 20:00.",
+    "image_url": "https://en.touhouwiki.net/images/7/7f/Th08HumanVillage1.jpg",
+    "image_caption": "Dragon Statue Square in the northern Human Village",
+    "visual_blueprint": "Cobblestone public square centered around a carved grey granite pedestal and coiled stone Dragon God weather monument flanked by iron-hooked street lanterns.",
+    "wiki_summary": "Erected in worship of the Dragon God who blessed Gensokyo's creation, this carved stone statue sits in a paved square near the North Gate. Villagers gather around it every morning because the swirl of clouds in its crystal eyes predicts the day's weather."
   },
   {
     "id": "kirisame-shop",
@@ -275,7 +305,11 @@
     "atlas_sector": "Central Basin Hub (0, 0 reference point; walled settlement of ~2,000 people with North, South, West, and East Palisade Gates).",
     "travel_time": "Internal Main Street spans 4 blocks West-to-East (~90 seconds per block, ~6 minutes end-to-end on foot).",
     "approach_route": "Internal grid centers on Market Square (center) and the Schoolhouse (immediately north); Geidontei sits 4 streets west of the Schoolhouse (~5–6 min walk), local blacksmiths operates inside the East Gate (~4 min east), and Suzunaan sits on the south road by the South Gate (~8 min south).",
-    "local_customs": "Protected daytime human sanctuary under Keine Kamishirasawa and Hieda no Akyuu; morning market opens at 07:00, 14:00 is the dead hour, and the watchman's copper curfew bell rings at 20:00."
+    "local_customs": "Protected daytime human sanctuary under Keine Kamishirasawa and Hieda no Akyuu; morning market opens at 07:00, 14:00 is the dead hour, and the watchman's copper curfew bell rings at 20:00.",
+    "image_url": "https://en.touhouwiki.net/images/4/47/Th08HumanVillage2.jpg",
+    "image_caption": "The Kirisame Merchant District in Imperishable Night",
+    "visual_blueprint": "Prominent two-story earthen-walled merchant storehouse (dozo-zukuri) with heavy black-plastered fire doors, copper rain chains, and traditional shop curtains.",
+    "wiki_summary": "A prominent, traditional merchant storehouse in the eastern commercial district of the Human Village that trades in household wares and non-magical curios. Marisa Kirisame cut ties with her family here before moving to the Forest of Magic."
   },
   {
     "id": "salt-mansion",
@@ -299,7 +333,11 @@
     "atlas_sector": "Central Basin Hub (0, 0 reference point; walled settlement of ~2,000 people with North, South, West, and East Palisade Gates).",
     "travel_time": "Internal Main Street spans 4 blocks West-to-East (~90 seconds per block, ~6 minutes end-to-end on foot).",
     "approach_route": "Internal grid centers on Market Square (center) and the Schoolhouse (immediately north); Geidontei sits 4 streets west of the Schoolhouse (~5–6 min walk), local blacksmiths operates inside the East Gate (~4 min east), and Suzunaan sits on the south road by the South Gate (~8 min south).",
-    "local_customs": "Protected daytime human sanctuary under Keine Kamishirasawa and Hieda no Akyuu; morning market opens at 07:00, 14:00 is the dead hour, and the watchman's copper curfew bell rings at 20:00."
+    "local_customs": "Protected daytime human sanctuary under Keine Kamishirasawa and Hieda no Akyuu; morning market opens at 07:00, 14:00 is the dead hour, and the watchman's copper curfew bell rings at 20:00.",
+    "image_url": "https://en.touhouwiki.net/images/thumb/d/d9/MGHiedaMansionGarden.jpg/720px-MGHiedaMansionGarden.jpg",
+    "image_caption": "Historic Village Manor grounds in the Human Village",
+    "visual_blueprint": "Weathered timber merchant manor in the northeastern village ward with salt-stained white plaster walls, tiled eaves, and a quiet rear courtyard.",
+    "wiki_summary": "Featured on the detailed Human Village street map in Forbidden Scrollery, the Salt Mansion is an old storehouse compound in the eastern quarter associated with salt-merchant legends and occasional tsukumogami sightings."
   },
   {
     "id": "foot-washing-house",
@@ -325,7 +363,11 @@
     "atlas_sector": "Central Basin Hub (0, 0 reference point; walled settlement of ~2,000 people with North, South, West, and East Palisade Gates).",
     "travel_time": "Internal Main Street spans 4 blocks West-to-East (~90 seconds per block, ~6 minutes end-to-end on foot).",
     "approach_route": "Internal grid centers on Market Square (center) and the Schoolhouse (immediately north); Geidontei sits 4 streets west of the Schoolhouse (~5–6 min walk), local blacksmiths operates inside the East Gate (~4 min east), and Suzunaan sits on the south road by the South Gate (~8 min south).",
-    "local_customs": "Protected daytime human sanctuary under Keine Kamishirasawa and Hieda no Akyuu; morning market opens at 07:00, 14:00 is the dead hour, and the watchman's copper curfew bell rings at 20:00."
+    "local_customs": "Protected daytime human sanctuary under Keine Kamishirasawa and Hieda no Akyuu; morning market opens at 07:00, 14:00 is the dead hour, and the watchman's copper curfew bell rings at 20:00.",
+    "image_url": "https://en.touhouwiki.net/images/thumb/8/83/FileTh145Human_VillageNight.png/720px-FileTh145Human_VillageNight.png",
+    "image_caption": "Southwestern Human Village residential lanes at night (ULiL)",
+    "visual_blueprint": "Old residential wooden townhouse in the southwestern quarter with high lattice fences, deep overhanging eaves, and a stone well.",
+    "wiki_summary": "A weathered residential manor in the southwestern quarter of the Human Village where folklore warns that a booming voice demanding 'Wash my feet!' echoes through the ceiling on rainy nights."
   },
   {
     "id": "canal-of-willows",
@@ -360,7 +402,10 @@
     "atlas_sector": "Willow-Lined Waterway & Grove near the Human Village outskirts.",
     "travel_time": "~15 minutes walk from the Human Village gates along the outer irrigation waterway.",
     "approach_route": "Follow the weeping-willow embankment outward from the village water channel into the damp, shadowy grove.",
-    "local_customs": "Quiet outer waterway haunted by nocturnal apparitions and tsurube-otoshi after sundown."
+    "local_customs": "Quiet outer waterway haunted by nocturnal apparitions and tsurube-otoshi after sundown.",
+    "image_url": "https://en.touhouwiki.net/images/8/85/Th14CanalOfWillows.jpg",
+    "image_caption": "Canal of Willows stage background from Double Dealing Character",
+    "visual_blueprint": "Stone-lined waterway south of the Human Village arched by a red wooden drum bridge and flanked by weeping willow trees trailing into the current."
   },
   {
     "id": "youkai-trail",
@@ -399,7 +444,10 @@
     "atlas_sector": "Outskirt Footpath near the Human Village perimeter.",
     "travel_time": "~10–15 minutes walk outside the Human Village gates along the wooded night-stall lane.",
     "approach_route": "Follow the lantern-lit footpath branching just outside the Human Village palisade toward the surrounding woods where Mystia Lorelei pitches her grilled lamprey cart.",
-    "local_customs": "Semi-wild evening footpath outside village curfew protection; safe at Mystia's stall if paying in copper coin, but hazardous after dark."
+    "local_customs": "Semi-wild evening footpath outside village curfew protection; safe at Mystia's stall if paying in copper coin, but hazardous after dark.",
+    "image_url": "https://en.touhouwiki.net/images/8/86/Th08YoukaiTrail.jpg",
+    "image_caption": "The Youkai Trail at night in Imperishable Night",
+    "visual_blueprint": "Lantern-lit forest dirt path outside the village gates featuring Mystia Lorelei’s portable wooden yatai cart with red paper \"Grilled Lamprey\" (yatsume-unagi) lanterns."
   },
   {
     "id": "youkai-tanuki-forest",
@@ -437,7 +485,10 @@
     "atlas_sector": "Wooded Outskirts near the Human Village and Myouren Temple.",
     "travel_time": "~15–25 minutes walk from the Human Village gates.",
     "approach_route": "Follow the side trails branching off the village outskirts into the leaf-strewn broadleaf woods frequented by bake-danuki.",
-    "local_customs": "Domain of Mamizou Futatsuiwa and shape-shifting tanuki; travelers face illusions and trickery rather than immediate lethal predation."
+    "local_customs": "Domain of Mamizou Futatsuiwa and shape-shifting tanuki; travelers face illusions and trickery rather than immediate lethal predation.",
+    "image_url": "https://en.touhouwiki.net/images/thumb/d/de/FileTh145YoukaiTanukiForestNight.png/720px-FileTh145YoukaiTanukiForestNight.png",
+    "image_caption": "Youkai Tanuki Forest at night from Urban Legend in Limbo",
+    "visual_blueprint": "Moonlit grove of ancient mossy broadleaf trees, stone tanuki statues wearing straw hats, and flickering kitsunebi/tanukibi lanterns."
   },
   {
     "id": "myouren-temple",
@@ -485,7 +536,11 @@
     "atlas_sector": "South-Southwest Village Outskirts (elevated temple grounds just outside the Human Village gates).",
     "travel_time": "~10 minutes walk on foot from the Human Village gate (~6 minutes if taking the known direct shortcut path); ~15 minutes west of Kourindou along the scenic loop.",
     "approach_route": "Exit the Human Village gate toward the curved grey-tiled Palanquin Ship roof rising above the trees; connects west through a stone torii to Myouren Temple Cemetery and east past Kogasa's Forge along the scenic footpath loop to Kourindou.",
-    "local_customs": "Pacifist Buddhist sanctuary led by Byakuren Hijiri where humans and youkai coexist peacefully; safe daytime refuge."
+    "local_customs": "Pacifist Buddhist sanctuary led by Byakuren Hijiri where humans and youkai coexist peacefully; safe daytime refuge.",
+    "image_url": "https://en.touhouwiki.net/images/thumb/7/78/FileTh145_Myouren_TempleAfternoon.png/720px-FileTh145_Myouren_TempleAfternoon.png",
+    "image_caption": "Myouren Temple main hall in Urban Legend in Limbo",
+    "visual_blueprint": "Grand Buddhist temple complex (garan) featuring an upward-sweeping dark tiled Honden roof, timber Sanmon gate, bronze bonsho bell pavilion, and the docked Palanquin Ship.",
+    "model_url": "/models/myouren-temple.glb"
   },
   {
     "id": "myouren-cemetery",
@@ -522,7 +577,10 @@
     "atlas_sector": "Western Hillside Edge of Myouren Temple (between the Lower Stone Steps of the Hakurei Shrine road and Myouren Temple).",
     "travel_time": "~10–12 minutes walk southwest of the Human Village; ~2 minutes west of Myouren Temple's main hall; ~15 minutes southeast of the Hakurei Shrine Lower Stone Steps.",
     "approach_route": "Pass through the stone torii on the western slope below Myouren Temple or follow the hillside connecting trail down from the Hakurei Shrine steps among the ancient weathered gravestones.",
-    "local_customs": "Covered by Myouren Temple's human-youkai coexistence principle during the day; used by Kogasa Tatara for morning scare practice and patrolled by Yoshika Miyako near the underground mausoleum entrance."
+    "local_customs": "Covered by Myouren Temple's human-youkai coexistence principle during the day; used by Kogasa Tatara for morning scare practice and patrolled by Yoshika Miyako near the underground mausoleum entrance.",
+    "image_url": "https://en.touhouwiki.net/images/0/0b/Th13MyourenTempleCemetery.jpg",
+    "image_caption": "Myouren Temple Cemetery in Ten Desires",
+    "visual_blueprint": "Mist-shrouded graveyard behind Myouren Temple filled with grey granite stupas (gorintou), wooden sotoba memorial slats, stone lanterns, and weeping cherry trees."
   },
   {
     "id": "kogasa-forge",
@@ -551,7 +609,11 @@
     "atlas_sector": "Southeastern Rear Courtyard of Myouren Temple (along the scenic footpath loop between Myouren Temple and Kourindou).",
     "travel_time": "~11 minutes walk from the Human Village (~1 minute behind Myouren Temple's meditation hall; ~12–15 minutes west of Kourindou).",
     "approach_route": "Walk around the rear of Myouren Temple's main hall away from the front courtyard, or follow the scenic footpath loop west from Kourindou.",
-    "local_customs": "Kogasa Tatara's traditional charcoal forge shed under Myouren Temple residency; safe to visit by appointment or commission."
+    "local_customs": "Kogasa Tatara's traditional charcoal forge shed under Myouren Temple residency; safe to visit by appointment or commission.",
+    "image_url": "https://en.touhouwiki.net/images/e/e9/OSPCH12MyourenTempleBell2.jpg",
+    "image_caption": "Rear courtyard and bell environs of Myouren Temple",
+    "visual_blueprint": "Rustic timber-and-thatch blacksmith shed tucked behind Myouren Temple with a glowing charcoal hearth, iron anvil, quenching tub, and paper-umbrella rack.",
+    "wiki_summary": "Tucked into the southeastern rear courtyard of Myouren Temple along the scenic footpath loop toward Kourindou, this timber shed houses a clay bellows furnace and quench trough. Here karakasa obake Kogasa Tatara hone-tempers fine steel blades and repairs ironware for villagers and temple residents."
   },
   {
     "id": "hall-of-dreams",
@@ -593,7 +655,11 @@
     "atlas_sector": "Subterranean Cavern directly beneath Myouren Temple and Myouren Temple Cemetery.",
     "travel_time": "~15–20 minutes total from the Human Village (~10 min walk to Myouren Temple Cemetery + ~5–10 min descent through the hidden crypt tunnels).",
     "approach_route": "Enter the hidden crypt passage beneath the ancient graves of Myouren Temple Cemetery (past Yoshika Miyako's guard post) and descend into the underground Taoist mausoleum.",
-    "local_customs": "Toyosatomimi no Miko, Mononobe no Futo, Soga no Tojiko, and Seiga Kaku's Taoist stronghold; guarded against unannounced trespassers by Yoshika."
+    "local_customs": "Toyosatomimi no Miko, Mononobe no Futo, Soga no Tojiko, and Seiga Kaku's Taoist stronghold; guarded against unannounced trespassers by Yoshika.",
+    "image_url": "https://en.touhouwiki.net/images/thumb/f/f0/Th145HallofDreamsGreatMausoleumday.png/720px-Th145HallofDreamsGreatMausoleumday.png",
+    "image_caption": "Hall of Dreams' Great Mausoleum in Urban Legend in Limbo",
+    "visual_blueprint": "Subterranean/hermit palace modeled after Horyu-ji’s octagonal Yumedono (Dream Hall): an octagonal vermilion-pillared pavilion topped by a gilded jewel finial over white stone terraces.",
+    "model_url": "/models/hall-of-dreams.glb"
   },
   {
     "id": "senkai",
@@ -634,7 +700,10 @@
     "atlas_sector": "Hermit Pocket Dimension linked to the Hall of Dreams' Great Mausoleum.",
     "travel_time": "Instantaneous portal transit from the Hall of Dreams (~20 minutes from the Human Village via Myouren Temple Cemetery, provided Miko or Futo opens the gate).",
     "approach_route": "Descend into the Hall of Dreams' Great Mausoleum beneath Myouren Temple and step through the Taoist spatial gate into the sunlit hermit realm.",
-    "local_customs": "Sovereign hermit training realm of Toyosatomimi no Miko; inaccessible without a Taoist resident's permission."
+    "local_customs": "Sovereign hermit training realm of Toyosatomimi no Miko; inaccessible without a Taoist resident's permission.",
+    "image_url": "https://en.touhouwiki.net/images/thumb/3/3a/FDS_Divine_Spirit_Mausoleum.png/720px-FDS_Divine_Spirit_Mausoleum.png",
+    "image_caption": "Senkai and the Divine Spirit Mausoleum in Foul Detective Satori",
+    "visual_blueprint": "Otherworldly Taoist pocket dimension with floating jade-green islands, blossoming plum orchards, mist-veiled pavilions, and golden atmospheric light."
   },
   {
     "id": "hakurei-shrine",
@@ -686,7 +755,11 @@
     "atlas_sector": "Western Border Ridge — Elevated hilltop West-Northwest of the Human Village anchoring the Great Hakurei Barrier.",
     "travel_time": "~20 minutes uphill walk on foot from the Human Village West Gate (~15 minutes downhill return to the village).",
     "approach_route": "Exit the Human Village West Gate -> follow the maintained open-ground road west-northwest -> climb the moss-grown Lower Stone Steps through the faded red torii gate to the shrine porch. (Note: the Scarlet Devil Mansion is visible across the basin from this hill only in autumn when lake mist thins; the shrine cannot be seen from the SDM).",
-    "local_customs": "Reimu Hakurei's sovereign border sanctuary; safe during daylight, but travelers must return before the 20:00 curfew bell as border youkai hunt along the road at dusk."
+    "local_customs": "Reimu Hakurei's sovereign border sanctuary; safe during daylight, but travelers must return before the 20:00 curfew bell as border youkai hunt along the road at dusk.",
+    "image_url": "https://en.touhouwiki.net/images/thumb/1/17/FileTh145Hakurei_ShrineAfternoon.png/720px-FileTh145Hakurei_ShrineAfternoon.png",
+    "image_caption": "Hakurei Shrine main hall in Urban Legend in Limbo",
+    "visual_blueprint": "Traditional Shinto shrine on the eastern border ridge: vermilion torii gates, stone stairway, swept irimoya wooden Honden with shimenawa rope, wooden saisen-bako offertory box, and engawa porch.",
+    "model_url": "/models/hakurei-shrine.glb"
   },
   {
     "id": "great-hakurei-barrier",
@@ -721,7 +794,10 @@
     "atlas_sector": "Outer Metaphysical & Physical Perimeter enveloping Gensokyo, anchored behind the Hakurei Shrine on the far western border ridge.",
     "travel_time": "~25 minutes uphill west from the Human Village West Gate (5 minutes past the Hakurei Shrine main hall).",
     "approach_route": "Climb the Hakurei Shrine stone steps and pass behind the main shrine building to the boundary ridge where the barrier seam hums with spiritual pressure.",
-    "local_customs": "Regulated exclusively by Reimu Hakurei and Barrier Sage Yukari Yakumo; unilateral crossing without a Sage gap or shrine ritual is impossible."
+    "local_customs": "Regulated exclusively by Reimu Hakurei and Barrier Sage Yukari Yakumo; unilateral crossing without a Sage gap or shrine ritual is impossible.",
+    "image_url": "https://en.touhouwiki.net/images/thumb/1/10/FileTh145Hakurei_ShrineBrokenBarrier.png/720px-FileTh145Hakurei_ShrineBrokenBarrier.png",
+    "image_caption": "The Great Hakurei Barrier manifesting behind the Hakurei Shrine (ULiL)",
+    "visual_blueprint": "Ancient stone boundary seal behind the Hakurei Shrine ringed by paper shide talismans and shimmering geometric Yin-Yang barrier planes."
   },
   {
     "id": "three-fairies-tree",
@@ -753,7 +829,11 @@
     "atlas_sector": "Western Border Ridge — Elevated hilltop West-Northwest of the Human Village anchoring the Great Hakurei Barrier.",
     "travel_time": "~20 minutes uphill walk on foot from the Human Village West Gate (~15 minutes downhill return to the village).",
     "approach_route": "Exit the Human Village West Gate -> follow the maintained open-ground road west-northwest -> climb the moss-grown Lower Stone Steps through the faded red torii gate to the shrine porch. (Note: the Scarlet Devil Mansion is visible across the basin from this hill only in autumn when lake mist thins; the shrine cannot be seen from the SDM).",
-    "local_customs": "Reimu Hakurei's sovereign border sanctuary; safe during daylight, but travelers must return before the 20:00 curfew bell as border youkai hunt along the road at dusk."
+    "local_customs": "Reimu Hakurei's sovereign border sanctuary; safe during daylight, but travelers must return before the 20:00 curfew bell as border youkai hunt along the road at dusk.",
+    "image_url": "https://en.touhouwiki.net/images/b/bf/SBND07FairiesTree.jpg",
+    "image_caption": "The Three Fairies of Light’s Great Oak Treehouse in Strange and Bright Nature Deity",
+    "visual_blueprint": "Colossal lightning-scarred Mongolian oak behind the Hakurei Shrine hollowed into a cozy three-story fairy home with miniature arched wooden doors, windows, and rope ladders.",
+    "wiki_summary": "Relocated from the Forest of Magic to the woods directly behind the Hakurei Shrine, this towering hollow oak houses a cozy multi-story miniature home inside its trunk. From here, the Three Fairies of Light plot harmless pranks on Reimu and clash with Clownpiece underneath the floorboards."
   },
   {
     "id": "genjis-pond",
@@ -783,7 +863,11 @@
     "atlas_sector": "Western Border Ridge — Elevated hilltop West-Northwest of the Human Village anchoring the Great Hakurei Barrier.",
     "travel_time": "~20 minutes uphill walk on foot from the Human Village West Gate (~15 minutes downhill return to the village).",
     "approach_route": "Exit the Human Village West Gate -> follow the maintained open-ground road west-northwest -> climb the moss-grown Lower Stone Steps through the faded red torii gate to the shrine porch. (Note: the Scarlet Devil Mansion is visible across the basin from this hill only in autumn when lake mist thins; the shrine cannot be seen from the SDM).",
-    "local_customs": "Reimu Hakurei's sovereign border sanctuary; safe during daylight, but travelers must return before the 20:00 curfew bell as border youkai hunt along the road at dusk."
+    "local_customs": "Reimu Hakurei's sovereign border sanctuary; safe during daylight, but travelers must return before the 20:00 curfew bell as border youkai hunt along the road at dusk.",
+    "image_url": "https://en.touhouwiki.net/images/thumb/f/fe/SBND21MongolianOak.jpg/720px-SBND21MongolianOak.jpg",
+    "image_caption": "The wooded groves and pond behind the Hakurei Shrine",
+    "visual_blueprint": "Tranquil spring-fed pond in the cedar grove behind the Hakurei Shrine bordered by mossy boulders, bamboo water spout (shishi-odoshi), and lily pads.",
+    "wiki_summary": "Tucked into the cedar grove behind the Hakurei Shrine's main hall, this clear mountain pond was the longtime home of Genji, the flying turtle elder from the PC-98 era, and historically neighbored a sealed mountain cavern leading toward Makai."
   },
   {
     "id": "moriya-branch-shrine",
@@ -809,7 +893,11 @@
     "atlas_sector": "Western Border Ridge — Elevated hilltop West-Northwest of the Human Village anchoring the Great Hakurei Barrier.",
     "travel_time": "~20 minutes uphill walk on foot from the Human Village West Gate (~15 minutes downhill return to the village).",
     "approach_route": "Exit the Human Village West Gate -> follow the maintained open-ground road west-northwest -> climb the moss-grown Lower Stone Steps through the faded red torii gate to the shrine porch. (Note: the Scarlet Devil Mansion is visible across the basin from this hill only in autumn when lake mist thins; the shrine cannot be seen from the SDM).",
-    "local_customs": "Reimu Hakurei's sovereign border sanctuary; safe during daylight, but travelers must return before the 20:00 curfew bell as border youkai hunt along the road at dusk."
+    "local_customs": "Reimu Hakurei's sovereign border sanctuary; safe during daylight, but travelers must return before the 20:00 curfew bell as border youkai hunt along the road at dusk.",
+    "image_url": "https://en.touhouwiki.net/images/thumb/7/7d/Radio_tower_Fairy_Shrine_OSP.png/720px-Radio_tower_Fairy_Shrine_OSP.png",
+    "image_caption": "Small wayside shrine in the Hakurei woods from Oriental Sacred Place",
+    "visual_blueprint": "Compact wooden wayside hokora shrine with miniature onbashira corner posts set beside a steaming rock-lined outdoor hot spring bath.",
+    "wiki_summary": "Installed on the Hakurei Shrine grounds after the Mountain of Faith and Subterranean Animism incidents, this small wayside branch shrine and nearby hot-spring fissure allow Sanae Kochiya to commute regularly between Youkai Mountain and Reimu's porch."
   },
   {
     "id": "fantasy-seal-woods",
@@ -840,7 +928,11 @@
     "atlas_sector": "Western Border Ridge — Elevated hilltop West-Northwest of the Human Village anchoring the Great Hakurei Barrier.",
     "travel_time": "~20 minutes uphill walk on foot from the Human Village West Gate (~15 minutes downhill return to the village).",
     "approach_route": "Exit the Human Village West Gate -> follow the maintained open-ground road west-northwest -> climb the moss-grown Lower Stone Steps through the faded red torii gate to the shrine porch. (Note: the Scarlet Devil Mansion is visible across the basin from this hill only in autumn when lake mist thins; the shrine cannot be seen from the SDM).",
-    "local_customs": "Reimu Hakurei's sovereign border sanctuary; safe during daylight, but travelers must return before the 20:00 curfew bell as border youkai hunt along the road at dusk."
+    "local_customs": "Reimu Hakurei's sovereign border sanctuary; safe during daylight, but travelers must return before the 20:00 curfew bell as border youkai hunt along the road at dusk.",
+    "image_url": "https://en.touhouwiki.net/images/thumb/7/75/OSPCH12HakureiShrineRoad.jpg/720px-OSPCH12HakureiShrineRoad.jpg",
+    "image_caption": "The stone-stair approach and woods leading to the Hakurei Shrine (OSP)",
+    "visual_blueprint": "Steep mossy stone-stepped pilgrimage path flanked by vermilion torii arches, weathered Jizo statues, stone tōrō lanterns, and towering cryptomeria cedars.",
+    "wiki_summary": "Flanked by stone lanterns, Jizo statues, and ancient cryptomeria trees, the long stone staircase of the Shrine Approach links the western border ridge to the Human Village road. Safe by daylight, the woods along the steps become a hunting ground for border youkai after dusk."
   },
   {
     "id": "road-of-reconsideration",
@@ -873,7 +965,10 @@
     "atlas_sector": "Western Border Trail linking the Forest of Magic's western edge to Muenzuka.",
     "travel_time": "~35–45 minutes walk southwest from the Human Village via the Forest of Magic border (~15 minutes walk end-to-end to Muenzuka).",
     "approach_route": "Skirt the western edge of the Forest of Magic along the quiet trail carpeted with blooming red spider lilies (higanbana) leading straight into Muenzuka.",
-    "local_customs": "Unpatrolled liminal border path; travelers lingering among the spider lilies risk melancholic disorientation and wandering spirits."
+    "local_customs": "Unpatrolled liminal border path; travelers lingering among the spider lilies risk melancholic disorientation and wandering spirits.",
+    "image_url": "https://en.touhouwiki.net/images/a/a1/Th09RoadOfReconsideration.jpg",
+    "image_caption": "Road of Reconsideration in Phantasmagoria of Flower View",
+    "visual_blueprint": "Quiet country footpath carpeted on both sides by crimson higanbana (red spider lilies) leading toward Muenzuka."
   },
   {
     "id": "muenzuka",
@@ -911,7 +1006,10 @@
     "travel_time": "~50–60 minutes walk west-southwest from the Human Village (or ~30 minutes west from the Forest of Magic via the Road of Reconsideration).",
     "approach_route": "Branch southwest from the Hakurei Shrine border footpath, or follow the red spider-lily-lined Road of Reconsideration west from the Forest of Magic into the wooded hollow.",
     "local_customs": "Unprotected border graveyard choked with poisonous red spider lilies where Outside World drift goods and lost outsiders wash ashore; lethal hazard for unescorted humans.",
-    "icon": "muenzuka"
+    "icon": "muenzuka",
+    "image_url": "https://en.touhouwiki.net/images/9/94/Th09Muenzuka.jpg",
+    "image_caption": "Muenzuka in Phantasmagoria of Flower View",
+    "visual_blueprint": "Solitary hillock cemetery where the Great Hakurei Barrier thins, covered in purple-blossoming cherry trees, weathered nameless gravestones, and Outside World relics."
   },
   {
     "id": "kourindou",
@@ -953,7 +1051,11 @@
     "atlas_sector": "South-Southeast Forest Threshold (at the exact northern edge of the Forest of Magic along the southern village road).",
     "travel_time": "~20–30 minutes walk south-southeast from the Human Village South Gate; ~15 minutes east of Myouren Temple via the scenic loop; ~3 miles (~45 minutes) west-northwest of Misty Lake.",
     "approach_route": "Exit the Human Village South Gate (past Suzunaan) and follow the southern road for 20–30 minutes until the open road meets the dense canopy of the Forest of Magic, or take the scenic loop east from Myouren Temple and Kogasa's Forge.",
-    "local_customs": "Rinnosuke Morichika's neutral curio shop (opens at 09:00); serves as the final landmark where Human Village common sense applies before Forest of Magic territory begins."
+    "local_customs": "Rinnosuke Morichika's neutral curio shop (opens at 09:00); serves as the final landmark where Human Village common sense applies before Forest of Magic territory begins.",
+    "image_url": "https://en.touhouwiki.net/images/thumb/f/f3/Th145_Kourindou.png/720px-Th145_Kourindou.png",
+    "image_caption": "Kourindou Antique Shop in Urban Legend in Limbo",
+    "visual_blueprint": "Eclectic Meiji-Western/Japanese wooden curio shop at the forest edge with a steep shingled gable roof, brick stove chimney pipe, bay display windows, and cluttered porch.",
+    "model_url": "/models/kourindou.glb"
   },
   {
     "id": "forest-of-magic",
@@ -1002,7 +1104,10 @@
     "atlas_sector": "South-Southeastern Damp Woodland (stretching between Kourindou at its northern edge and Misty Lake to the southeast).",
     "travel_time": "~25–30 minutes walk south-southeast from the Human Village South Gate to the northern tree line at Kourindou; the Kourindou Path Fork sits 100 meters (~2 minutes) south inside the forest at a fallen log.",
     "approach_route": "Pass Kourindou at the northern forest edge and walk 100 meters south to the Fallen-Log Fork: the left trail loops back toward the village/lake edge, while the right trail (marked by boot prints and broom drag-marks) leads deeper east to Marisa's Cottage and Rumia's Cedar Clearing.",
-    "local_customs": "Unpatrolled magical wilderness outside village protection; choked with toxic/luminescent mushroom spores, stray spells, and predatory youkai (especially hazardous during the 30-minute dawn overlap)."
+    "local_customs": "Unpatrolled magical wilderness outside village protection; choked with toxic/luminescent mushroom spores, stray spells, and predatory youkai (especially hazardous during the 30-minute dawn overlap).",
+    "image_url": "https://en.touhouwiki.net/images/8/82/Th175ForestOfMagic.png",
+    "image_caption": "The humid, mushroom-filled Forest of Magic in Touhou Gouyoku Ibun",
+    "visual_blueprint": "Dense, twilight-shaded primeval forest of gnarled ancient trees, bioluminescent giant mushrooms, mossy fallen logs, and drifting miasma spores."
   },
   {
     "id": "marisas-house",
@@ -1034,7 +1139,12 @@
     "atlas_sector": "Eastern Interior of the Forest of Magic (~100 meters down the right-hand trail from the Kourindou Path Fork).",
     "travel_time": "~25–35 minutes total walk from the Human Village South Gate (~20–30 min to Kourindou + 100m to the fallen-log fork + 100m along the right fork).",
     "approach_route": "Enter the Forest of Magic behind Kourindou -> walk 100m south to the fallen-log fork -> take the right-hand path marked by boot prints and broom drag-marks through concentric rings of luminescent mushrooms to the cottage and scorched rear practice clearing.",
-    "local_customs": "Marisa Kirisame's private home and alchemical workshop; warded by nocturnal-glowing door paint and Marisa's sharp awareness of approaching footsteps."
+    "local_customs": "Marisa Kirisame's private home and alchemical workshop; warded by nocturnal-glowing door paint and Marisa's sharp awareness of approaching footsteps.",
+    "image_url": "https://en.touhouwiki.net/images/thumb/4/4c/LEMarisaHouse.png/720px-LEMarisaHouse.png",
+    "image_caption": "Kirisame Magic Shop (Marisa’s House) in Lotus Eaters",
+    "visual_blueprint": "Cozy, cluttered woodland witch cottage built of warm timber and plaster with a steep pitched roof, brick chimney, dormer window, potion barrels, and surrounding giant mushrooms.",
+    "wiki_summary": "Reached by taking the right-hand trail marked by broom drag-marks from the Fallen-Log Fork behind Kourindou, Marisa's cottage doubles as the 'Kirisame Magic Shop.' Inside, brass alembics, drying fungi, and stacks of 'borrowed' grimoires crowd around a central wood stove, while a scorched rear clearing serves for Master Spark testing.",
+    "model_url": "/models/marisas-house.glb"
   },
   {
     "id": "alices-house",
@@ -1067,7 +1177,12 @@
     "travel_time": "~25–30 minutes walk south-southeast from the Human Village South Gate to the northern tree line at Kourindou; the Kourindou Path Fork sits 100 meters (~2 minutes) south inside the forest at a fallen log.",
     "approach_route": "Pass Kourindou at the northern forest edge and walk 100 meters south to the Fallen-Log Fork: the left trail loops back toward the village/lake edge, while the right trail (marked by boot prints and broom drag-marks) leads deeper east to Marisa's Cottage and Rumia's Cedar Clearing.",
     "local_customs": "Unpatrolled magical wilderness outside village protection; choked with toxic/luminescent mushroom spores, stray spells, and predatory youkai (especially hazardous during the 30-minute dawn overlap).",
-    "icon": "alices-house"
+    "icon": "alices-house",
+    "image_url": "https://en.touhouwiki.net/images/thumb/f/f1/FDS_AliceHouse.png/720px-FDS_AliceHouse.png",
+    "image_caption": "Alice Margatroid’s Residence in Foul Detective Satori",
+    "visual_blueprint": "Neat two-story Western-style timber-framed house in the Forest of Magic with slate-blue gabled roofs, warm mullioned windows, and a tidy front porch.",
+    "wiki_summary": "In sharp contrast to Marisa's chaotic cottage, Alice Margatroid's two-story Western timber home is impeccably tidy and lined with hundreds of handcrafted autonomous dolls. Visitors who knock politely are often served black tea by tiny porcelain servants.",
+    "model_url": "/models/alices-house.glb"
   },
   {
     "id": "rumia-cedar-clearing",
@@ -1098,7 +1213,11 @@
     "atlas_sector": "Shaded Eastern Pocket of the Forest of Magic (east of the Kourindou Path Fork and Marisa's mushroom rings).",
     "travel_time": "~30 minutes walk from the Human Village South Gate (~5 minutes east of the Kourindou Path Fork).",
     "approach_route": "From the Kourindou Path Fork or western forest trail, walk past the fourth mushroom ring, turn left at the split birch, and continue past the sunlit glade into the dense, light-blocking cedar canopy.",
-    "local_customs": "Deeply shaded wild clearing outside village jurisdiction where midday sunlight barely penetrates; frequented by Rumia."
+    "local_customs": "Deeply shaded wild clearing outside village jurisdiction where midday sunlight barely penetrates; frequented by Rumia.",
+    "image_url": "https://en.touhouwiki.net/images/thumb/6/6a/046BAiJRRumia.jpg/720px-046BAiJRRumia.jpg",
+    "image_caption": "Woodland clearing in Bohemian Archive in Japanese Red",
+    "visual_blueprint": "Shadowed circular clearing ringed by tall dark cryptomeria cedars, mossy stumps, and a small drifting sphere of nocturnal darkness.",
+    "wiki_summary": "Five minutes east of the Fallen-Log Fork past the fourth mushroom ring and split birch, this dense pocket of ancient cedars blocks out almost all midday sun. Youkai of dusk Rumia frequents this dark hollow before floating out toward the village roads at twilight."
   },
   {
     "id": "forest-of-magic-jizo",
@@ -1126,7 +1245,11 @@
     "atlas_sector": "South-Southeastern Damp Woodland (stretching between Kourindou at its northern edge and Misty Lake to the southeast).",
     "travel_time": "~25–30 minutes walk south-southeast from the Human Village South Gate to the northern tree line at Kourindou; the Kourindou Path Fork sits 100 meters (~2 minutes) south inside the forest at a fallen log.",
     "approach_route": "Pass Kourindou at the northern forest edge and walk 100 meters south to the Fallen-Log Fork: the left trail loops back toward the village/lake edge, while the right trail (marked by boot prints and broom drag-marks) leads deeper east to Marisa's Cottage and Rumia's Cedar Clearing.",
-    "local_customs": "Unpatrolled magical wilderness outside village protection; choked with toxic/luminescent mushroom spores, stray spells, and predatory youkai (especially hazardous during the 30-minute dawn overlap)."
+    "local_customs": "Unpatrolled magical wilderness outside village protection; choked with toxic/luminescent mushroom spores, stray spells, and predatory youkai (especially hazardous during the 30-minute dawn overlap).",
+    "image_url": "https://en.touhouwiki.net/images/5/5a/WaHHNarumi.png",
+    "image_caption": "Narumi Yatadera’s Jizo statue in Wild and Horned Hermit",
+    "visual_blueprint": "Moss-covered stone Jizo bodhisattva statue wearing a knitted red wool cap and bib beneath a small wooden rain shelter surrounded by autumn leaves.",
+    "wiki_summary": "Standing along a quiet, overgrown trail in the southwestern Forest of Magic, this ancient stone Jizo absorbed centuries of ambient forest magic and seasonal energy until coming to life as the friendly magician Narumi Yatadera."
   },
   {
     "id": "misty-lake",
@@ -1166,7 +1289,10 @@
     "atlas_sector": "Southeastern Basin Lake (southeast of the Human Village and the Forest of Magic, at the southern foot of Youkai Mountain).",
     "travel_time": "~40 minutes walk southeast from the Human Village across farmland and meadow to the southern rocky shore; ~3 miles across the water to the Scarlet Devil Mansion on the far shore.",
     "approach_route": "Exit the Human Village South or East road and follow the southeastern meadow path for ~40 minutes to the rocky southern beach (Cirno's Claim), or walk an additional ~10–15 minutes around the mist-shrouded lakeshore to the Scarlet Devil Mansion gates.",
-    "local_customs": "Split territory: the southern rocky shore marks the outer limit of Keine's village protection and Cirno's fairy court, while the far shore behind the mist wall is sovereign Scarlet Devil Mansion territory."
+    "local_customs": "Split territory: the southern rocky shore marks the outer limit of Keine's village protection and Cirno's fairy court, while the far shore behind the mist wall is sovereign Scarlet Devil Mansion territory.",
+    "image_url": "https://en.touhouwiki.net/images/d/d1/Th143MistyLake.jpg",
+    "image_caption": "Misty Lake in Impossible Spell Card",
+    "visual_blueprint": "Expansive, mirror-still alpine lake veiled in perpetual white morning fog, ringed by reeds, water lilies, and rocky shorelines."
   },
   {
     "id": "crawdad-rock",
@@ -1197,7 +1323,11 @@
     "atlas_sector": "Southwestern / Southern Rocky Shoreline of Misty Lake (Cirno's Claim).",
     "travel_time": "~40 minutes walk southeast from the Human Village; ~3 miles across the water (or ~15 minutes shoreline walk) from the Scarlet Devil Mansion.",
     "approach_route": "Follow the southeastern meadow trail from the Human Village for 40 minutes until reaching the rocky beach and the large boulder formation of Crawdad Rock.",
-    "local_customs": "Outer boundary of Keine Kamishirasawa's village protection perimeter and seat of Cirno's shoreline fairy court; stepping past this shore toward the mist wall enters the Scarlet Devil Mansion's forbidden zone."
+    "local_customs": "Outer boundary of Keine Kamishirasawa's village protection perimeter and seat of Cirno's shoreline fairy court; stepping past this shore toward the mist wall enters the Scarlet Devil Mansion's forbidden zone.",
+    "image_url": "https://en.touhouwiki.net/images/thumb/4/4a/SBNDExtraCirnoIgloo.jpg/720px-SBNDExtraCirnoIgloo.jpg",
+    "image_caption": "Cirno’s icy lakeside domain in Strange and Bright Nature Deity",
+    "visual_blueprint": "Flat lakeside boulder outcrop on the southern shore of Misty Lake encrusted with translucent blue ice crystals, frost spires, and reed beds.",
+    "wiki_summary": "At the end of the 40-minute meadow trail from the Human Village stands a prominent lakeside boulder formation claimed by ice fairy Cirno. This rocky shore marks the outermost perimeter of Keine Kamishirasawa's village jurisdiction; stepping past it into the lake mist enters Scarlet Devil Mansion territory."
   },
   {
     "id": "scarlet-devil-mansion",
@@ -1245,7 +1375,11 @@
     "atlas_sector": "Far Southeastern Shore of Misty Lake (~3 miles across the lake from Crawdad Rock, veiled behind territorial mist).",
     "travel_time": "~45–50 minutes walk southeast from the Human Village (~40 minutes to Misty Lake + ~10 minutes around the mist-shrouded lakeshore road to the red iron gates).",
     "approach_route": "Walk 40 minutes southeast from the Human Village to Misty Lake -> pass beyond Cirno's southern shore into the territorial mist wall -> approach the Red Iron Front Gates guarded by Hong Meiling and Sakuya Izayoi. (Visible from Hakurei Shrine hill only in autumn when mist thins; the shrine is invisible from the mansion).",
-    "local_customs": "FORBIDDEN ZONE without formal invitation—Keine's village protection does not extend past Misty Lake's southern shore. Sakuya Izayoi controls all gate entry/exit, shoots down unauthorized flyers, and rearranges non-Euclidean corridors at night."
+    "local_customs": "FORBIDDEN ZONE without formal invitation—Keine's village protection does not extend past Misty Lake's southern shore. Sakuya Izayoi controls all gate entry/exit, shoots down unauthorized flyers, and rearranges non-Euclidean corridors at night.",
+    "image_url": "https://en.touhouwiki.net/images/thumb/d/da/CDS_SDM.png/720px-CDS_SDM.png",
+    "image_caption": "The Scarlet Devil Mansion in Foul Detective Satori",
+    "visual_blueprint": "Windowless/narrow-slit Victorian Gothic crimson-brick mansion with slate mansard roofs, central square midnight clock tower, west cylindrical Voile rotunda, SE glass conservatory, and red iron gates.",
+    "model_url": "/models/scarlet-devil-mansion.glb"
   },
   {
     "id": "voile-library",
@@ -1275,7 +1409,11 @@
     "atlas_sector": "Misty Lake Sector (0.81, 0.78)",
     "travel_time": "Reachable via regional trails from the nearest hub.",
     "approach_route": "West wing / subterranean archive of the Scarlet Devil Mansion.",
-    "local_customs": "Standard Gensokyo Spell Card & territorial etiquette applies."
+    "local_customs": "Standard Gensokyo Spell Card & territorial etiquette applies.",
+    "image_url": "https://en.touhouwiki.net/images/thumb/d/da/CDS_Library.jpg/720px-CDS_Library.jpg",
+    "image_caption": "Voile, the Magic Library inside the Scarlet Devil Mansion (FDS)",
+    "visual_blueprint": "Cavernous multi-story subterranean/west-wing rotunda lined floor-to-ceiling with dark mahogany bookshelves, rolling ladders, celestial brass astrolabes, and crystal chandeliers.",
+    "wiki_summary": "Reached down the Scarlet Devil Mansion's ground-floor west corridor past the second arch, Voile is a cavernous underground library containing thousands of elemental grimoires and original spellbooks. Patchouli Knowledge and her assistant Koakuma maintain the silent, warded stacks."
   },
   {
     "id": "sdm-parlor-dining",
@@ -1305,7 +1443,11 @@
     "atlas_sector": "Scarlet Devil Mansion Interior — Ground-Floor Reception Wing.",
     "travel_time": "~1–2 minutes walk inside the Scarlet Devil Mansion front entrance hall (~45–50 minutes total walk from the Human Village).",
     "approach_route": "Enter through the Scarlet Devil Mansion red iron gates and main foyer under Sakuya's escort into the sun-draped Parlor, Ceremonial Dining Room, amber-glass Portrait Gallery, and adjoining glass Conservatory.",
-    "local_customs": "Formal day-guest and dinner reception zone governed by Remilia Scarlet's aristocratic etiquette and Sakuya's strict departure schedule; heavy drapes must never be opened during daylight."
+    "local_customs": "Formal day-guest and dinner reception zone governed by Remilia Scarlet's aristocratic etiquette and Sakuya's strict departure schedule; heavy drapes must never be opened during daylight.",
+    "image_url": "https://en.touhouwiki.net/images/8/85/SBND15SDMDinningRoomandTower.jpg",
+    "image_caption": "The Scarlet Devil Mansion Dining Hall and Clock Tower in Strange and Bright Nature Deity",
+    "visual_blueprint": "Grand crimson-carpeted Gothic reception hall and vaulted dining room with towering marble pillars, scarlet velvet draperies, and silver candelabra.",
+    "wiki_summary": "The formal reception wing of the Scarlet Devil Mansion where invited day-guests and evening banquet visitors are received by Remilia Scarlet and Sakuya Izayoi. Heavy velvet drapes seal out daylight, while an adjoining amber-glass conservatory and portrait gallery overlook the mist."
   },
   {
     "id": "sdm-gardens-east-wing",
@@ -1336,7 +1478,11 @@
     "atlas_sector": "Scarlet Devil Mansion Perimeter, Second-Floor East Wing & Restricted Basement.",
     "travel_time": "Outer gardens surround the mansion behind the red iron gates (~45 minutes SE of the Human Village); East Wing guest suites sit on the 2nd floor; Flandre's quarters lie in the deep basement.",
     "approach_route": "Pass the red iron front gates into the North/East rose gardens patrolled by Meiling, or ascend the interior stairs to the 2nd-floor lakeside balconies and iron-shuttered East Wing guest suites.",
-    "local_customs": "Overnight guests are restricted to their assigned 2nd-floor East Wing suites after hours; Remilia's sealed private chambers, the Mansion Kitchen, and the Basement stairs to Flandre's quarters are strictly off-limits."
+    "local_customs": "Overnight guests are restricted to their assigned 2nd-floor East Wing suites after hours; Remilia's sealed private chambers, the Mansion Kitchen, and the Basement stairs to Flandre's quarters are strictly off-limits.",
+    "image_url": "https://en.touhouwiki.net/images/a/af/OSPCH15SDMGardens.jpg",
+    "image_caption": "The Scarlet Devil Mansion manicured gardens in Oriental Sacred Place",
+    "visual_blueprint": "Symmetrical European boxwood parterre hedges, scarlet rose beds, white marble fountain, amber-glass conservatory dome, and Flandre’s warded basement stairs.",
+    "wiki_summary": "Surrounding the Scarlet Devil Mansion behind the red iron gates are manicured rose hedges tended by Hong Meiling. Above sit the iron-shuttered second-floor East Wing guest suites and lakeside balconies, while deep beneath the foundations lies the restricted basement of Flandre Scarlet."
   },
   {
     "id": "prismriver-mansion",
@@ -1372,7 +1518,10 @@
     "atlas_sector": "Misty Lake Sector (0.73, 0.71)",
     "travel_time": "Reachable via regional trails from the nearest hub.",
     "approach_route": "Northeastern shore of Misty Lake at the foot of the Spring Path.",
-    "local_customs": "Standard Gensokyo Spell Card & territorial etiquette applies."
+    "local_customs": "Standard Gensokyo Spell Card & territorial etiquette applies.",
+    "image_url": "https://en.touhouwiki.net/images/f/ff/BAiJRLunasa1.JPG",
+    "image_caption": "The Prismriver Sisters at the Ruined Western Mansion (BAiJR)",
+    "visual_blueprint": "Weathered grey-stone European manor on the northeast bluff above Misty Lake with an open-air circular concert rotunda, arched windows, and floating musical instruments."
   },
   {
     "id": "spring-path",
@@ -1407,7 +1556,10 @@
     "atlas_sector": "Eastern / Northeastern Lakeshore Trail near Misty Lake rising toward the Barrier of Life and Death.",
     "travel_time": "~45–55 minutes walk east-southeast from the Human Village (just past the northern/eastern shore of Misty Lake).",
     "approach_route": "Walk to Misty Lake's northern/eastern shore past the Ruined Western Mansion and follow the cherry-blossom-lined path ascending toward the sky boundary.",
-    "local_customs": "Fairy-crowded seasonal flower trail leading toward the Netherworld's colossal sky gate."
+    "local_customs": "Fairy-crowded seasonal flower trail leading toward the Netherworld's colossal sky gate.",
+    "image_url": "https://en.touhouwiki.net/images/4/44/Th128SpringPathSt1.jpg",
+    "image_caption": "Spring Path in Fairy Wars",
+    "visual_blueprint": "Sun-dappled lakeside path east of Misty Lake lined with blooming pink cherry blossom trees and drifting petal carpets."
   },
   {
     "id": "bamboo-forest-of-the-lost",
@@ -1448,7 +1600,10 @@
     "atlas_sector": "Eastern / Southeastern Basin Maze (across the terraced rice paddies east-southeast of the Human Village).",
     "travel_time": "~40 minutes walk east-southeast from the Human Village East Gate to the bamboo perimeter; interior traversal takes ~10–15 minutes with a guide.",
     "approach_route": "Exit the Human Village East Palisade Gate -> follow the southeast road across terraced farmland and rice paddies for 40 minutes -> meet Fujiwara no Mokou at the slanted, mist-shrouded bamboo edge.",
-    "local_customs": "Outside Human Village protection; bamboo paths shift layout between walks, and Eientei's earth rabbits patrol the interior trails and report movement to Eirin."
+    "local_customs": "Outside Human Village protection; bamboo paths shift layout between walks, and Eientei's earth rabbits patrol the interior trails and report movement to Eirin.",
+    "image_url": "https://en.touhouwiki.net/images/thumb/3/39/SBND03BambooForestoftheLost.jpg/720px-SBND03BambooForestoftheLost.jpg",
+    "image_caption": "The Bamboo Forest of the Lost in Strange and Bright Nature Deity",
+    "visual_blueprint": "Labyrinthine, sky-blocking sea of tall emerald mōsō bamboo stalks, leaning culms, stone path markers, and glowing ground mist."
   },
   {
     "id": "eientei",
@@ -1492,7 +1647,11 @@
     "atlas_sector": "Deep Eastern Sector inside the Bamboo Forest of the Lost (hidden Lunarian compound and medical clinic).",
     "travel_time": "~45–55 minutes total walk east-southeast from the Human Village East Gate (~40 min across farmland to the Bamboo Forest edge + ~10–15 min guided walk through shifting bamboo trails).",
     "approach_route": "Walk 40 minutes east-southeast from the Human Village East Gate into the Bamboo Forest of the Lost -> follow Mokou's escort or rabbit trail markers -> approach via the East-Entrance Medical Clinic door rather than the main courtyard.",
-    "local_customs": "Sovereign household of Kaguya Houraisan and Eirin Yagokoro outside village authority; visitors must state their name at the east-entrance clinic and wait for rabbit escort."
+    "local_customs": "Sovereign household of Kaguya Houraisan and Eirin Yagokoro outside village authority; visitors must state their name at the east-entrance clinic and wait for rabbit escort.",
+    "image_url": "https://en.touhouwiki.net/images/thumb/e/e7/FDS_Eientei.png/720px-FDS_Eientei.png",
+    "image_caption": "Eientei in Foul Detective Satori",
+    "visual_blueprint": "Sprawling Heian-period shinden-zukuri aristocrat palace hidden in the bamboo forest: white plaster walls, cypress-bark roofs, covered wooden bridges, koi ponds, and the Endless Corridor.",
+    "model_url": "/models/eientei.glb"
   },
   {
     "id": "mokous-house",
@@ -1522,7 +1681,11 @@
     "atlas_sector": "Bamboo Forest Sector (0.72, 0.38)",
     "travel_time": "Reachable via regional trails from the nearest hub.",
     "approach_route": "Western perimeter of the Bamboo Forest of the Lost along the village approach road.",
-    "local_customs": "Standard Gensokyo Spell Card & territorial etiquette applies."
+    "local_customs": "Standard Gensokyo Spell Card & territorial etiquette applies.",
+    "image_url": "https://en.touhouwiki.net/images/d/d3/Th08BambooForestEx.jpg",
+    "image_caption": "Deep Bamboo Forest clearing in Imperishable Night Extra Stage",
+    "visual_blueprint": "Solitary rustic bamboo-and-thatch cottage in a bamboo clearing accompanied by a wooden yakitori grilling stall with glowing red lanterns.",
+    "wiki_summary": "Situated along a hidden bamboo clearing near the western approach from the Human Village, this modest thatched hut is the home of Hourai immortal Fujiwara no Mokou. Keine Kamishirasawa frequently visits here on Thursdays and full-moon nights."
   },
   {
     "id": "nameless-hill",
@@ -1556,7 +1719,10 @@
     "atlas_sector": "Remote Southern / Opposite Flank of Youkai Mountain overlooking the Bamboo Forest.",
     "travel_time": "~75–90 minutes walk from the Human Village across the eastern hills beyond the Bamboo Forest.",
     "approach_route": "Cross past the Bamboo Forest of the Lost or climb the opposite low ridge of Youkai Mountain into the fields of wild lilies-of-the-valley.",
-    "local_customs": "Isolated, poison-carpeted hillside inhabited by Medicine Melancholy where abandoned dolls and dense lily-of-the-valley toxins endanger humans."
+    "local_customs": "Isolated, poison-carpeted hillside inhabited by Medicine Melancholy where abandoned dolls and dense lily-of-the-valley toxins endanger humans.",
+    "image_url": "https://en.touhouwiki.net/images/a/ac/Th09NamelessHill.jpg",
+    "image_caption": "Nameless Hill in Phantasmagoria of Flower View",
+    "visual_blueprint": "Mist-shrouded hillock opposite Youkai Mountain carpeted in white poisonous lily-of-the-valley (suzuran) blossoms."
   },
   {
     "id": "garden-of-the-sun",
@@ -1595,7 +1761,10 @@
     "travel_time": "~60–75 minutes walk from the Human Village through unmapped meadow trails.",
     "approach_route": "Follow the hidden inland flower trails deep into Gensokyo's interior until the terrain opens into endless fields of head-high sunflowers.",
     "local_customs": "Yuuka Kazami's personal territory; fairies and Prismriver concerts gather here peacefully, but anyone damaging the sunflowers or refusing to leave faces Yuuka's overwhelming force.",
-    "icon": "sunflower"
+    "icon": "sunflower",
+    "image_url": "https://en.touhouwiki.net/images/f/f6/Th09GardenofSun.jpg",
+    "image_caption": "Garden of the Sun in Phantasmagoria of Flower View",
+    "visual_blueprint": "Vast, bowl-shaped hillside meadow overflowing with thousands of towering golden sunflowers turned toward the sky."
   },
   {
     "id": "mugenkan",
@@ -1636,7 +1805,11 @@
     "atlas_sector": "Center of the Garden of the Sun (and border nexus with the Lake of Blood).",
     "travel_time": "~75 minutes walk from the Human Village to the heart of the Garden of the Sun.",
     "approach_route": "Cross the labyrinthine sunflower fields of the Garden of the Sun (or pass Elly's scythe gate at the Lake of Blood) to reach the western-style mansion.",
-    "local_customs": "Private residence of Yuuka Kazami guarded by Elly; uninvited entry is suicidal."
+    "local_customs": "Private residence of Yuuka Kazami guarded by Elly; uninvited entry is suicidal.",
+    "image_url": "https://en.touhouwiki.net/images/4/42/OrientalSacredPlace18Yuuka.png",
+    "image_caption": "Yuuka Kazami’s domain and Mugenkan (Lotus Land Story / OSP)",
+    "visual_blueprint": "Surreal Western-fantasy manor bordering the Garden of the Sun with a signature blue-and-red checkerboard tile terrace, white colonnades, and rose trellises.",
+    "model_url": "/models/mugenkan.glb"
   },
   {
     "id": "lake-of-blood",
@@ -1670,7 +1843,10 @@
     "atlas_sector": "High Mountain Border Basin (crimson lake marking the old threshold to Mugenkan).",
     "travel_time": "~90 minutes climb into the mountain crags from the Human Village.",
     "approach_route": "Ascend the isolated mountain crag trail past Kurumi's shoreline vigil to the blood-red lake where Elly guards the boundary to Mugenkan.",
-    "local_customs": "Guarded by Kurumi and Elly; hostile to uninvited intruders."
+    "local_customs": "Guarded by Kurumi and Elly; hostile to uninvited intruders.",
+    "image_url": "https://en.touhouwiki.net/images/d/db/Lake_of_blood.png",
+    "image_caption": "The Lake of Blood in Lotus Land Story",
+    "visual_blueprint": "Crimson subterranean cavern pool beneath the mountain hinterlands ringed by dark jagged crags and glowing red mist."
   },
   {
     "id": "mayohiga",
@@ -1711,7 +1887,10 @@
     "travel_time": "Variable (~45–60 minutes walk into the border mountain woods, but reachable only when Yukari or Ran permits the mist boundary to part).",
     "approach_route": "Wander the deep mountain woods near the Great Hakurei Barrier until the phantom village manifests through the mist.",
     "local_customs": "Home of Yukari Yakumo, Ran Yakumo, and Chen; impossible to locate by normal navigation unless invited or spirited in.",
-    "icon": "mayohiga"
+    "icon": "mayohiga",
+    "image_url": "https://en.touhouwiki.net/images/a/ac/Th07Mayohiga.jpg",
+    "image_caption": "Mayohiga, the phantom village in Perfect Cherry Blossom",
+    "visual_blueprint": "Mist-veiled phantom Heian/Edo estate reachable only by those invited, fronted by weathered torii gates, cherry trees, and guardian cat statues."
   },
   {
     "id": "genbu-ravine",
@@ -1748,11 +1927,14 @@
     "wiki_title": "Genbu Ravine",
     "wiki_url": "https://en.touhouwiki.net/wiki/Genbu_Ravine",
     "wiki_romaji": "Genbu no Sawa",
-    "wiki_summary": "stub\n\nGenbu Ravine (玄武の沢, Genbu no Sawa) is a ravine named after the legendary tortoise Genbu (). Formed when Youkai Mountain was still an active volcano. The bottom is covered with hexagonal cracks so it looks like a turtle shell, and it is surrounded by six-sided cliffs. This bizarre rock formation was made when lava flowing from Youkai Mountain cooled and hardened. According to Symposium of Post-mysticism, it is home to some of the kappa, including Nitori Kawashiro. Recently, pipes have been shown to be running though the walls of the ravine.",
+    "wiki_summary": "Genbu Ravine (玄武の沢, Genbu no Sawa) is a deep volcanic river canyon at the foothills of Youkai Mountain, famous for its striking geometric hexagonal basalt columns formed by ancient lava flows. It serves as the primary territory and engineering hub of the Kappa.",
     "atlas_sector": "Northern Foothills Gorge at the base of Youkai Mountain (Kappa and Yamawaro industrial waterway).",
     "travel_time": "~45–60 minutes walk north from the Human Village North Gate.",
     "approach_route": "Exit the Human Village North Gate and follow the river valley upstream into the northern foothills until reaching the hexagonal basalt cliffs and waterfall basin.",
-    "local_customs": "Industrial river gorge outside village protection where Kappa (Nitori's engineering workshops) and Yamawaro (Takane) operate and compete."
+    "local_customs": "Industrial river gorge outside village protection where Kappa (Nitori's engineering workshops) and Yamawaro (Takane) operate and compete.",
+    "image_url": "https://en.touhouwiki.net/images/thumb/a/a8/FileTh145Genbu_Ravinenoon.png/720px-FileTh145Genbu_Ravinenoon.png",
+    "image_caption": "Genbu Ravine basalt gorge in Urban Legend in Limbo",
+    "visual_blueprint": "Deep volcanic river gorge carved through geometric hexagonal grey basalt columns with rushing whitewater rapids and wooden plank bridges."
   },
   {
     "id": "untrodden-valley",
@@ -1791,7 +1973,10 @@
     "atlas_sector": "Northern Foothills Ravine at the very base of Youkai Mountain (adjacent to Genbu Ravine).",
     "travel_time": "~50–65 minutes walk north from the Human Village North Gate (~10 minutes past the lower entrance of Genbu Ravine).",
     "approach_route": "Follow the northern river gorge upstream from the Human Village North Gate past Genbu Ravine's basalt cliffs into the hidden valley floor.",
-    "local_customs": "Primary Kappa engineering hideout and bazaar zone; outsiders need kappa trade business or Nitori's vouching to enter workshops safely."
+    "local_customs": "Primary Kappa engineering hideout and bazaar zone; outsiders need kappa trade business or Nitori's vouching to enter workshops safely.",
+    "image_url": "https://en.touhouwiki.net/images/c/c8/Th10UntroddenValley.jpg",
+    "image_caption": "Untrodden Valley in Mountain of Faith",
+    "visual_blueprint": "Autumn-colored mountain river valley at the base of Youkai Mountain featuring Kappa corrugated-tin market stalls, waterwheels, and red maple trees."
   },
   {
     "id": "great-youkai-forest",
@@ -1823,11 +2008,14 @@
     ],
     "wiki_title": "The Great Youkai Forest",
     "wiki_url": "https://en.touhouwiki.net/wiki/The_Great_Youkai_Forest",
-    "wiki_summary": "#REDIRECT Youkai Mountain#Great Youkai Forest",
+    "wiki_summary": "The Great Youkai Forest (大妖怪樹海) is a vast, primeval woodland blanketing the lower slopes of Youkai Mountain. Teeming with mountain apparitions, Kappa workshops, and hidden trails, it forms the natural buffer between the human lowlands and the Tengu-patrolled upper crags.",
     "atlas_sector": "Lower Slopes of Youkai Mountain (sunlight-blocking old-growth forest wrapping the mountain base).",
     "travel_time": "~60–75 minutes walk north-northeast from the Human Village North Gate.",
     "approach_route": "Pass through Genbu Ravine or Untrodden Valley at the foot of Youkai Mountain and enter the dense, perpetually twilight timberland on the lower slopes.",
-    "local_customs": "Wild youkai and yamawaro habitat where thick foliage blocks daylight; unsafe for unescorted humans."
+    "local_customs": "Wild youkai and yamawaro habitat where thick foliage blocks daylight; unsafe for unescorted humans.",
+    "image_url": "https://en.touhouwiki.net/images/f/f4/OSPCH09YoukaiMountain.jpg",
+    "image_caption": "The Great Youkai Forest on the lower slopes of Youkai Mountain",
+    "visual_blueprint": "Dense old-growth mountain forest of towering cedars, autumn maples, and rocky streams clothing the lower flanks of Youkai Mountain."
   },
   {
     "id": "giant-toads-pond",
@@ -1861,7 +2049,10 @@
     "atlas_sector": "Northern / Northeastern Volcanic Massif dominating northern Gensokyo.",
     "travel_time": "~60 minutes walk north from the Human Village to the mountain base, plus ~90–120 minutes of steep vertical climbing to reach the upper waterfalls and summit.",
     "approach_route": "Travel north from the Human Village North Gate through Genbu Ravine and Untrodden Valley -> ascend steep, unmaintained mountain switchbacks past Nine Heavens Waterfall toward Wind God's Lake and Moriya Shrine.",
-    "local_customs": "Autonomous Tengu and Kappa fortress-mountain; airspace and trails are strictly patrolled by Momiji, Aya, Hatate, and Megumu—uninvited outsiders without a Moriya or Tengu pass are intercepted."
+    "local_customs": "Autonomous Tengu and Kappa fortress-mountain; airspace and trails are strictly patrolled by Momiji, Aya, Hatate, and Megumu—uninvited outsiders without a Moriya or Tengu pass are intercepted.",
+    "image_url": "https://en.touhouwiki.net/images/6/62/Th09GiantToad%27sPond.jpg",
+    "image_caption": "Giant Toad's Pond in Phantasmagoria of Flower View",
+    "visual_blueprint": "Highland forest pond nestled among ancient cedars and mossy boulders, guarded by a colossal mossy stone toad shrine."
   },
   {
     "id": "youkai-mountain",
@@ -1923,7 +2114,10 @@
     "atlas_sector": "Northern / Northeastern Volcanic Massif dominating northern Gensokyo.",
     "travel_time": "~60 minutes walk north from the Human Village to the mountain base, plus ~90–120 minutes of steep vertical climbing to reach the upper waterfalls and summit.",
     "approach_route": "Travel north from the Human Village North Gate through Genbu Ravine and Untrodden Valley -> ascend steep, unmaintained mountain switchbacks past Nine Heavens Waterfall toward Wind God's Lake and Moriya Shrine.",
-    "local_customs": "Autonomous Tengu and Kappa fortress-mountain; airspace and trails are strictly patrolled by Momiji, Aya, Hatate, and Megumu—uninvited outsiders without a Moriya or Tengu pass are intercepted."
+    "local_customs": "Autonomous Tengu and Kappa fortress-mountain; airspace and trails are strictly patrolled by Momiji, Aya, Hatate, and Megumu—uninvited outsiders without a Moriya or Tengu pass are intercepted.",
+    "image_url": "https://en.touhouwiki.net/images/9/93/BKoSWYoukaiMountain.jpg",
+    "image_caption": "Youkai Mountain massif in Bohemian Archive in Japanese Red",
+    "visual_blueprint": "Colossal volcanic stratovolcano towering over northern Gensokyo with sheer granite cliffs, autumn maple slopes, waterfalls, and cloud-piercing peaks."
   },
   {
     "id": "nine-heavens-waterfall",
@@ -1963,7 +2157,10 @@
     "atlas_sector": "Northern / Northeastern Volcanic Massif dominating northern Gensokyo.",
     "travel_time": "~60 minutes walk north from the Human Village to the mountain base, plus ~90–120 minutes of steep vertical climbing to reach the upper waterfalls and summit.",
     "approach_route": "Travel north from the Human Village North Gate through Genbu Ravine and Untrodden Valley -> ascend steep, unmaintained mountain switchbacks past Nine Heavens Waterfall toward Wind God's Lake and Moriya Shrine.",
-    "local_customs": "Autonomous Tengu and Kappa fortress-mountain; airspace and trails are strictly patrolled by Momiji, Aya, Hatate, and Megumu—uninvited outsiders without a Moriya or Tengu pass are intercepted."
+    "local_customs": "Autonomous Tengu and Kappa fortress-mountain; airspace and trails are strictly patrolled by Momiji, Aya, Hatate, and Megumu—uninvited outsiders without a Moriya or Tengu pass are intercepted.",
+    "image_url": "https://en.touhouwiki.net/images/5/56/Th10WaterfallofNineHeavens.jpg",
+    "image_caption": "Waterfall of Nine Heavens in Mountain of Faith",
+    "visual_blueprint": "Monumental vertical whitewater cascade plunging down the sheer cliff face of Youkai Mountain from Wind God’s Lake into Genbu Ravine."
   },
   {
     "id": "tengu-village",
@@ -1995,7 +2192,11 @@
     "atlas_sector": "Northern / Northeastern Volcanic Massif dominating northern Gensokyo.",
     "travel_time": "~60 minutes walk north from the Human Village to the mountain base, plus ~90–120 minutes of steep vertical climbing to reach the upper waterfalls and summit.",
     "approach_route": "Travel north from the Human Village North Gate through Genbu Ravine and Untrodden Valley -> ascend steep, unmaintained mountain switchbacks past Nine Heavens Waterfall toward Wind God's Lake and Moriya Shrine.",
-    "local_customs": "Autonomous Tengu and Kappa fortress-mountain; airspace and trails are strictly patrolled by Momiji, Aya, Hatate, and Megumu—uninvited outsiders without a Moriya or Tengu pass are intercepted."
+    "local_customs": "Autonomous Tengu and Kappa fortress-mountain; airspace and trails are strictly patrolled by Momiji, Aya, Hatate, and Megumu—uninvited outsiders without a Moriya or Tengu pass are intercepted.",
+    "image_url": "https://en.touhouwiki.net/images/2/2e/BAiJRAya.jpg",
+    "image_caption": "Tengu cliffside eyrie behind the Waterfall of Nine Heavens (BAiJR)",
+    "visual_blueprint": "Fortified cliffside Tengu settlement behind the waterfall featuring high wooden watchtowers, suspension bridges, and the Bunbunmaru newspaper printing tower.",
+    "wiki_summary": "Perched on inaccessible crags behind the waterfalls of Youkai Mountain, the Tengu enclave houses their hierarchical caste society, rotary printing presses for the Bunbunmaru Newspaper, and the administrative offices of Great Tengu Megumu Iizunamaru."
   },
   {
     "id": "komakusa-gambling-den",
@@ -2027,7 +2228,10 @@
     "atlas_sector": "Northern / Northeastern Volcanic Massif dominating northern Gensokyo.",
     "travel_time": "~60 minutes walk north from the Human Village to the mountain base, plus ~90–120 minutes of steep vertical climbing to reach the upper waterfalls and summit.",
     "approach_route": "Travel north from the Human Village North Gate through Genbu Ravine and Untrodden Valley -> ascend steep, unmaintained mountain switchbacks past Nine Heavens Waterfall toward Wind God's Lake and Moriya Shrine.",
-    "local_customs": "Autonomous Tengu and Kappa fortress-mountain; airspace and trails are strictly patrolled by Momiji, Aya, Hatate, and Megumu—uninvited outsiders without a Moriya or Tengu pass are intercepted."
+    "local_customs": "Autonomous Tengu and Kappa fortress-mountain; airspace and trails are strictly patrolled by Momiji, Aya, Hatate, and Megumu—uninvited outsiders without a Moriya or Tengu pass are intercepted.",
+    "image_url": "https://en.touhouwiki.net/images/thumb/2/2d/K_Den_LE.png/720px-K_Den_LE.png",
+    "image_caption": "Sannyo Komakusa’s Gambling Den in Lotus Eaters",
+    "visual_blueprint": "Rustic mountain timber lodge perched on the False Heaven Shelf cliffside, surrounded by pink alpine komakusa flowers and warm red paper lanterns."
   },
   {
     "id": "secret-heaven-cliff",
@@ -2054,7 +2258,11 @@
     "atlas_sector": "Northern / Northeastern Volcanic Massif dominating northern Gensokyo.",
     "travel_time": "~60 minutes walk north from the Human Village to the mountain base, plus ~90–120 minutes of steep vertical climbing to reach the upper waterfalls and summit.",
     "approach_route": "Travel north from the Human Village North Gate through Genbu Ravine and Untrodden Valley -> ascend steep, unmaintained mountain switchbacks past Nine Heavens Waterfall toward Wind God's Lake and Moriya Shrine.",
-    "local_customs": "Autonomous Tengu and Kappa fortress-mountain; airspace and trails are strictly patrolled by Momiji, Aya, Hatate, and Megumu—uninvited outsiders without a Moriya or Tengu pass are intercepted."
+    "local_customs": "Autonomous Tengu and Kappa fortress-mountain; airspace and trails are strictly patrolled by Momiji, Aya, Hatate, and Megumu—uninvited outsiders without a Moriya or Tengu pass are intercepted.",
+    "image_url": "https://en.touhouwiki.net/images/b/b5/Th18FalseHeavenShelf.jpg",
+    "image_caption": "Upper alpine crags of Youkai Mountain in Unconnected Marketeers",
+    "visual_blueprint": "Sheer windswept granite cliff high on Youkai Mountain where Tengu and mountain youkai hold aerial markets above the sea of clouds.",
+    "wiki_summary": "A sheer, cloud-piercing cliff face high on Youkai Mountain where Megumu Iizunamaru and Chimata Tenkyuu confronted the proliferation of Ability Cards beneath the mountain sky."
   },
   {
     "id": "moriya-shrine",
@@ -2094,7 +2302,11 @@
     "atlas_sector": "Youkai Mountain Summit Crater (high northern peak beside Wind God's Lake).",
     "travel_time": "~150–180 minutes total climb north from the Human Village on foot (~60 min to mountain base + ~90–120 min steep ascent), or ~20 minutes via the Moriya ropeway when operational.",
     "approach_route": "Climb the steep northern switchbacks of Youkai Mountain past the tengu checkpoints and Nine Heavens Waterfall, or board the mountain ropeway from the foothills to the summit torii beside Wind God's Lake.",
-    "local_customs": "Domain of Kanako Yasaka, Suwako Moriya, and Sanae Kochiya; offers sanctuary to visitors, but places them directly under Moriya divine politics and tengu observation."
+    "local_customs": "Domain of Kanako Yasaka, Suwako Moriya, and Sanae Kochiya; offers sanctuary to visitors, but places them directly under Moriya divine politics and tengu observation.",
+    "image_url": "https://en.touhouwiki.net/images/thumb/d/d3/FDSMoriyaShrine.png/720px-FDSMoriyaShrine.png",
+    "image_caption": "Moriya Shrine near the summit of Youkai Mountain in Foul Detective Satori",
+    "visual_blueprint": "Grand Suwa-style Shinto shrine complex at the mountain summit framed by four colossal sacred Onbashira cedar pillars, copper-green roofs, and thick shimenawa ropes.",
+    "model_url": "/models/moriya-shrine.glb"
   },
   {
     "id": "wind-gods-lake",
@@ -2128,7 +2340,10 @@
     "atlas_sector": "Youkai Mountain Summit Basin (holy crater lake directly beside Moriya Shrine).",
     "travel_time": "~1 minute walk from Moriya Shrine's main courtyard at the summit of Youkai Mountain (~150–180 minutes total climb north from the Human Village).",
     "approach_route": "Reach the summit of Youkai Mountain via the mountain trail or ropeway and follow the stone path around Moriya Shrine to the clear crater shoreline.",
-    "local_customs": "Sacred waters under Moriya Shrine supervision; safe when accompanied by Sanae, Kanako, or Suwako."
+    "local_customs": "Sacred waters under Moriya Shrine supervision; safe when accompanied by Sanae, Kanako, or Suwako.",
+    "image_url": "https://en.touhouwiki.net/images/8/81/Th10DivineLake.jpg",
+    "image_caption": "Wind God's Lake in Mountain of Faith",
+    "visual_blueprint": "Sacred volcanic crater lake behind the Moriya Shrine ringed by four towering Onbashira log pillars and mist-draped mountain pines."
   },
   {
     "id": "moriya-ropeway",
@@ -2161,7 +2376,11 @@
     "atlas_sector": "Northern / Northeastern Volcanic Massif dominating northern Gensokyo.",
     "travel_time": "~60 minutes walk north from the Human Village to the mountain base, plus ~90–120 minutes of steep vertical climbing to reach the upper waterfalls and summit.",
     "approach_route": "Travel north from the Human Village North Gate through Genbu Ravine and Untrodden Valley -> ascend steep, unmaintained mountain switchbacks past Nine Heavens Waterfall toward Wind God's Lake and Moriya Shrine.",
-    "local_customs": "Autonomous Tengu and Kappa fortress-mountain; airspace and trails are strictly patrolled by Momiji, Aya, Hatate, and Megumu—uninvited outsiders without a Moriya or Tengu pass are intercepted."
+    "local_customs": "Autonomous Tengu and Kappa fortress-mountain; airspace and trails are strictly patrolled by Momiji, Aya, Hatate, and Megumu—uninvited outsiders without a Moriya or Tengu pass are intercepted.",
+    "image_url": "https://en.touhouwiki.net/images/9/9d/TH143MoriyaShrine.jpg",
+    "image_caption": "Upper Youkai Mountain approach to the Moriya Shrine",
+    "visual_blueprint": "Kappa-engineered aerial cableway station with steel support pylons, wooden boarding platform, and red-and-white suspended gondola cabin.",
+    "wiki_summary": "Engineered by the Kappa under Kanako Yasaka's sponsorship and powered by geothermal energy, the Moriya Ropeway links the foothills north of the Human Village directly to the Moriya Shrine summit in 20 minutes, bypassing the treacherous 3-hour mountain climb."
   },
   {
     "id": "rainbow-cavern",
@@ -2197,7 +2416,10 @@
     "atlas_sector": "High-Altitude Subterranean Passage on Youkai Mountain connecting the mountain interior to the Underworld.",
     "travel_time": "~90 minutes climb up Youkai Mountain from the Human Village.",
     "approach_route": "Follow the mountain mining trails into the bioluminescent mineral cavern where Momoyo Himemushi mines Dragon Gems and Tsukasa/Megumu oversee trade.",
-    "local_customs": "Oxygen-thin underground mining cavern worked by oomukade Momoyo Himemushi under tengu/market agreements."
+    "local_customs": "Oxygen-thin underground mining cavern worked by oomukade Momoyo Himemushi under tengu/market agreements.",
+    "image_url": "https://en.touhouwiki.net/images/4/4b/Th175RainbowCavern.jpg",
+    "image_caption": "Rainbow Cavern of Earth Spirits in Touhou Gouyoku Ibun",
+    "visual_blueprint": "Luminous subterranean cavern inside Youkai Mountain bristling with giant prismatic rainbow-colored Dragon Gem crystal formations and mine tracks."
   },
   {
     "id": "kasen-senkai",
@@ -2228,7 +2450,11 @@
     "atlas_sector": "Northern / Northeastern Volcanic Massif dominating northern Gensokyo.",
     "travel_time": "~60 minutes walk north from the Human Village to the mountain base, plus ~90–120 minutes of steep vertical climbing to reach the upper waterfalls and summit.",
     "approach_route": "Travel north from the Human Village North Gate through Genbu Ravine and Untrodden Valley -> ascend steep, unmaintained mountain switchbacks past Nine Heavens Waterfall toward Wind God's Lake and Moriya Shrine.",
-    "local_customs": "Autonomous Tengu and Kappa fortress-mountain; airspace and trails are strictly patrolled by Momiji, Aya, Hatate, and Megumu—uninvited outsiders without a Moriya or Tengu pass are intercepted."
+    "local_customs": "Autonomous Tengu and Kappa fortress-mountain; airspace and trails are strictly patrolled by Momiji, Aya, Hatate, and Megumu—uninvited outsiders without a Moriya or Tengu pass are intercepted.",
+    "image_url": "https://en.touhouwiki.net/images/thumb/f/f1/Th155_Kasen%27s_Hermit_World.png/720px-Th155_Kasen%27s_Hermit_World.png",
+    "image_caption": "Kasen Ibaraki's Hermitage in Antinomy of Common Flowers",
+    "visual_blueprint": "Secluded Taoist mountain hermitage hidden behind a dimensional gate on Youkai Mountain with a two-story Chinese-style pavilion, plum trees, and cloud terraces.",
+    "wiki_summary": "Concealed within a personal hermit barrier high on Youkai Mountain above the Untrodden Valley, Kasen Ibaraki's traditional estate houses her menagerie of divine beasts, dragons, and eagles. Only those who know the secret path through the mountain fog can approach its gate."
   },
   {
     "id": "shining-needle-castle",
@@ -2264,7 +2490,11 @@
     "travel_time": "Inaccessible on foot (~45–60 minutes walk to the mountain base below, then requires flight or broom transport into the clouds).",
     "approach_route": "Fly upward into the cloud layer near Youkai Mountain to board the upside-down miniature-scale castle created by the Miracle Mallet.",
     "local_customs": "Seat of Shinmyoumaru Sukuna and Seija Kijin; inverted gravity and architecture disorient normal visitors.",
-    "icon": "shining-needle-castle"
+    "icon": "shining-needle-castle",
+    "image_url": "https://en.touhouwiki.net/images/thumb/3/3e/Th145_Shining_Needle_Castle.png/720px-Th145_Shining_Needle_Castle.png",
+    "image_caption": "Shining Needle Castle floating in the sky in Urban Legend in Limbo",
+    "visual_blueprint": "Inverted Japanese feudal tenshu keep floating upside-down in the clouds, with gilded shachihoko roof ornaments pointing downward and glowing magenta windows.",
+    "model_url": "/models/shining-needle-castle.glb"
   },
   {
     "id": "asama-purifying-mountain",
@@ -2296,7 +2526,7 @@
     "wiki_title": "Asama Purifying Mountain",
     "wiki_url": "https://en.touhouwiki.net/wiki/Asama_Purifying_Mountain",
     "wiki_romaji": "Asama-jouesan",
-    "wiki_summary": "stub\n\nAsama Purifying Mountain (浅間浄穢山, Asama-jouesan) is a man-made, pyramid-shaped mountain located beneath the Sanctuary at the foothills of Youkai Mountain and first appeared in Fossilized Wonders. \n\nThe pyramid was originally a temple to a shrine dedicated to Ariya Iwanaga and Yuiman Asama, named and modeled after the real-world Mount Asama, with the Sanctuary as its courtyard and the petrified forest below the pyramid being the original shrine grounds. Reimu Hakurei initially theorizes that Asama Purifying Mountain used to be Mount Minakami that eventually transported into Gensokyo after Sumireko Usami informs her an old legend of the mountain from the outside world. Ubame Chirizuka, after saying it would be different due to already having a natural mountain there, then theorizes that the Asama Purifying Mountain took the form of a pyramid due to old legends of Mount Minakami from the outside world influencing Asuma Mountain due to it being built on top the petrified forest and shrine instead, which Reimu then considers to be the truth.\n\nIt was eventually taken control of by the Lunarians and transformed into a facility to filter out \"impurity\" (human life information) to preserve the eternal longevity of the Lunar Capital. In doing so, the Lunarians sealed Ariya inside the shrine and brainwashed Yuiman into using her ability to process impurities flowing in from the Outside World. In order to keep the two of them under control, the Lunarians then buried the pyramid underground, and allowed the land placed on top of the pyramid to grow over, becoming the modern-day Sanctuary.",
+    "wiki_summary": "Asama Purifying Mountain (浅間浄穢山, Asama-jouesan) is an ancient, primordial stepped stone pyramid concealed within the strata of Youkai Mountain. Constructed with Lunarian purification technology to contain impurity and stagnation, it is the central setting of Fossilized Wonders (Touhou 20).",
     "wiki_sublocations": [
       "Pit of Four Seasons",
       "Petrified Forest",
@@ -2305,7 +2535,11 @@
     "atlas_sector": "Subterranean Stepped-Pyramid Sanctuary buried deep inside Youkai Mountain.",
     "travel_time": "~2 hours from the Human Village (deep underground beneath Youkai Mountain's interior caverns).",
     "approach_route": "Enter the deep subterranean tunnels beneath Youkai Mountain past Nareko Michigami's roadblock into the stepped pyramid corridors of the Pit of Four Seasons.",
-    "local_customs": "Ancient Lunarian-controlled purifying pyramid housing Yuiman Asama and the seal of Ariya Iwanaga; guarded by Wonder Stones and Nareko Michigami."
+    "local_customs": "Ancient Lunarian-controlled purifying pyramid housing Yuiman Asama and the seal of Ariya Iwanaga; guarded by Wonder Stones and Nareko Michigami.",
+    "image_url": "https://en.touhouwiki.net/images/thumb/8/88/LE_Pyramid.png/720px-LE_Pyramid.png",
+    "image_caption": "The ancient pyramid of Asama Purifying Mountain",
+    "visual_blueprint": "Ancient stepped stone pyramid sealed inside Youkai Mountain, surfaced with geometric Lunarian masonry panels and glowing cyan purification conduits.",
+    "model_url": "/models/asama-purifying-mountain.glb"
   },
   {
     "id": "pit-of-four-seasons",
@@ -2335,7 +2569,11 @@
     "atlas_sector": "Abstract Inner Labyrinth inside the Asama Purifying Mountain pyramid beneath Youkai Mountain.",
     "travel_time": "Deep interior of Asama Purifying Mountain (~150 minutes from the Human Village).",
     "approach_route": "Pass Nareko Michigami at the pyramid threshold and navigate the shifting four-season floral corridors toward Ariya Iwanaga's sealed shrine gate.",
-    "local_customs": "Labyrinthine containment zone inside Asama Purifying Mountain; seasonal geometry shifts to trap intruders."
+    "local_customs": "Labyrinthine containment zone inside Asama Purifying Mountain; seasonal geometry shifts to trap intruders.",
+    "image_url": "https://en.touhouwiki.net/images/thumb/0/02/Th20cover.jpg/720px-Th20cover.jpg",
+    "image_caption": "Fossilized Wonders subterranean purification chamber",
+    "visual_blueprint": "Subterranean four-quadrant geometric containment chamber beneath Asama Purifying Mountain divided into spring cherry, summer bamboo, autumn maple, and winter ice sectors.",
+    "wiki_summary": "The abstract interior containment maze of the Asama Purifying Mountain where seasonal geometry shifts perpetually to trap intruders before they can reach Ariya Iwanaga's sealed shrine gate or the secret corridor to the Lunar Sea of Tranquility."
   },
   {
     "id": "heaven",
@@ -2375,7 +2613,10 @@
     "atlas_sector": "Celestial Cloud Archipelago above the summit of Youkai Mountain.",
     "travel_time": "~3 to 4 hours climb/flight from the Human Village (above Moriya Shrine and Wind God's Lake at the peak of Youkai Mountain).",
     "approach_route": "Ascend past the summit of Youkai Mountain and Moriya Shrine through the dragon-cloud layer into the peach-orchard islands of the Celestials.",
-    "local_customs": "Domain of the Hinanawi clan (Tenshi Hinanawi) and oarfish messenger Iku Nagae; uninvited mortals who have not attained nirvana are treated as trespassers."
+    "local_customs": "Domain of the Hinanawi clan (Tenshi Hinanawi) and oarfish messenger Iku Nagae; uninvited mortals who have not attained nirvana are treated as trespassers.",
+    "image_url": "https://en.touhouwiki.net/images/c/ca/1HisounoKen.jpg",
+    "image_caption": "The celestial realm of Heaven in Scarlet Weather Rhapsody",
+    "visual_blueprint": "Floating celestial archipelago above the clouds anchored by cylindrical grey keystone (kaname-ishi) pillars, golden peach trees, and white marble pavilions."
   },
   {
     "id": "road-of-liminality",
@@ -2411,7 +2652,10 @@
     "atlas_sector": "Rear (Northern) Slope of Youkai Mountain connecting the mountain back-side to the Sanzu River.",
     "travel_time": "~120–140 minutes walk north around the rear flank of Youkai Mountain from the Human Village.",
     "approach_route": "Skirt the back of Youkai Mountain along the mist-shrouded path lined with twilight stalls run by humans, youkai, and harmless wandering spirits.",
-    "local_customs": "Liminal boundary market road between the living mountain and the afterlife border; relatively calm, though walking too far north leads straight to the Sanzu River."
+    "local_customs": "Liminal boundary market road between the living mountain and the afterlife border; relatively calm, though walking too far north leads straight to the Sanzu River.",
+    "image_url": "https://en.touhouwiki.net/images/1/11/IMIERoadofLiminality.png",
+    "image_caption": "The Road of Liminality leading toward the Sanzu River",
+    "visual_blueprint": "Fog-bound border trail of white river stones, flickering paper lanterns, and wayside stalls leading souls toward the Sanzu River crossing."
   },
   {
     "id": "sanzu-river",
@@ -2454,7 +2698,10 @@
     "travel_time": "~130–150 minutes walk to the ferry dock via the Road of Liminality behind Youkai Mountain (or ~60 minutes via Muenzuka's border veil).",
     "approach_route": "Follow the Road of Liminality down the rear slope of Youkai Mountain into the permanent fog bank along the riverbank where Komachi Onozuka docks her ferry and Urumi Ushizaki raises prehistoric fish.",
     "local_customs": "Governed by the Ministry of Right and Wrong; living humans cannot swim across (the waters sink everything except shinigami boats) and must pay Komachi's ferry toll.",
-    "icon": "sanzu-river"
+    "icon": "sanzu-river",
+    "image_url": "https://en.touhouwiki.net/images/0/08/Th17SanzuRiver.jpg",
+    "image_caption": "The Sanzu River and Sai no Kawara in Wily Beast and Weakest Creature",
+    "visual_blueprint": "Wide, mist-laden boundary river of the afterlife with stacked pebble cairns on the Sai no Kawara shore, a wooden ferry pier, and Komachi’s wooden sculling boat."
   },
   {
     "id": "higan",
@@ -2492,7 +2739,10 @@
     "travel_time": "~160–180 minutes total from the Human Village (~130 minutes to the Sanzu River dock + ~30 minutes ferry crossing aboard Komachi's boat).",
     "approach_route": "Reach the Sanzu River via the Road of Liminality and cross the fog-shrouded river on Komachi Onozuka's ferry to the flower-carpeted shore of Higan.",
     "local_customs": "Jurisdiction of Yama Eiki Shiki, Yamaxanadu; living visitors receive stern moral lectures and must depart before overstaying.",
-    "icon": "higan"
+    "icon": "higan",
+    "image_url": "https://en.touhouwiki.net/images/a/ac/Th17Higan.jpg",
+    "image_caption": "Higan in Wily Beast and Weakest Creature",
+    "visual_blueprint": "Serene afterlife shore carpeted in endless scarlet higanbana spider lilies and presided over by the solemn courthouse of the Ministry of Right and Wrong."
   },
   {
     "id": "barrier-of-life-and-death",
@@ -2527,7 +2777,10 @@
     "atlas_sector": "Colossal Sky Gate separating Gensokyo's sky from the Netherworld.",
     "travel_time": "Reachable via flight above the Spring Path (~50 minutes SE of the Human Village to the Spring Path, then upward climb/flight up the endless stone stairs in the clouds).",
     "approach_route": "Ascend the cherry-blossom-lined Spring Path into the sky to the colossal doorway and climb the sweeping stone staircase into the Netherworld.",
-    "local_customs": "Guarded boundary between the living world and the dead; weakened by Yukari Yakumo, allowing approved visitors to climb the stairs to Hakugyokurou."
+    "local_customs": "Guarded boundary between the living world and the dead; weakened by Yukari Yakumo, allowing approved visitors to climb the stairs to Hakugyokurou.",
+    "image_url": "https://en.touhouwiki.net/images/1/11/Th07BarrierOfLife%26Death.jpg",
+    "image_caption": "The Barrier of Life and Death in Perfect Cherry Blossom",
+    "visual_blueprint": "Monumental stone archway and interminable white stone staircase piercing the clouds between the living world and the Netherworld."
   },
   {
     "id": "netherworld",
@@ -2566,7 +2819,10 @@
     "atlas_sector": "Afterlife Realm of the Peacefully Departed beyond the Barrier of Life and Death.",
     "travel_time": "~60–75 minutes from the Human Village via the Spring Path and the long stone stairway through the Barrier of Life and Death (or instant via Yukari's gap / phantom courier).",
     "approach_route": "Climb the colossal stone staircase above the Spring Path through the Barrier of Life and Death into the serene, phantom-drifting cherry blossom gardens.",
-    "local_customs": "Managed by Yuyuko Saigyouji and policed by Youmu Konpaku; wandering ghosts cluster around living trespassers unless escorted by Youmu."
+    "local_customs": "Managed by Yuyuko Saigyouji and policed by Youmu Konpaku; wandering ghosts cluster around living trespassers unless escorted by Youmu.",
+    "image_url": "https://en.touhouwiki.net/images/d/df/PMiSS_netherworld.jpg",
+    "image_caption": "The Netherworld in Perfect Memento in Strict Sense",
+    "visual_blueprint": "Tranquil realm of the dead carpeted in eternal cherry blossoms, drifting phantom spirits (hitodama), and pale stone garden walls."
   },
   {
     "id": "hakugyokurou",
@@ -2603,7 +2859,11 @@
     "atlas_sector": "Central Ghost Shrine & Cherry Garden Estate inside the Netherworld.",
     "travel_time": "~75 minutes from the Human Village via the Spring Path and the Netherworld's grand stone staircase.",
     "approach_route": "Ascend the sweeping stone steps past the Barrier of Life and Death to the traditional walled estate and cherry gardens housing the dormant Saigyou Ayakashi tree.",
-    "local_customs": "Household of Yuyuko Saigyouji and Youmu Konpaku; guest access follows five centuries of Yuyuko's personal approvals, and every conversation is upstream of Yukari Yakumo's intelligence network."
+    "local_customs": "Household of Yuyuko Saigyouji and Youmu Konpaku; guest access follows five centuries of Yuyuko's personal approvals, and every conversation is upstream of Yukari Yakumo's intelligence network.",
+    "image_url": "https://en.touhouwiki.net/images/thumb/3/33/FDS_Hakugyokurou.png/720px-FDS_Hakugyokurou.png",
+    "image_caption": "Hakugyokurou in Foul Detective Satori",
+    "visual_blueprint": "Vast Netherworld palace reached via a monumental thousand-step stone staircase through a roofed gatehouse into raked zen gardens, white-walled shinden pavilions, and weeping cherry trees.",
+    "model_url": "/models/hakugyokurou.glb"
   },
   {
     "id": "saigyou-ayakashi",
@@ -2634,7 +2894,11 @@
     "travel_time": "~75 minutes from the Human Village via the Spring Path and the Netherworld's grand stone staircase.",
     "approach_route": "Ascend the sweeping stone steps past the Barrier of Life and Death to the traditional walled estate and cherry gardens housing the dormant Saigyou Ayakashi tree.",
     "local_customs": "Household of Yuyuko Saigyouji and Youmu Konpaku; guest access follows five centuries of Yuyuko's personal approvals, and every conversation is upstream of Yukari Yakumo's intelligence network.",
-    "icon": "saigyou-ayakashi"
+    "icon": "saigyou-ayakashi",
+    "image_url": "https://en.touhouwiki.net/images/6/67/Th07Hakugyokurou.jpg",
+    "image_caption": "The Saigyou Ayakashi cherry tree in Hakugyokurou (Perfect Cherry Blossom)",
+    "visual_blueprint": "Colossal, gnarled thousand-year youkai cherry tree towering over Hakugyokurou’s inner garden, sealed by a giant shimenawa rope and violet blossom canopy.",
+    "wiki_summary": "Towering over the innermost garden of Hakugyokurou, the Saigyou Ayakashi is a thousand-year-old youkai cherry tree whose blossoms once lured poets to peaceful death before it was sealed with Yuyuko Saigyouji's soul."
   },
   {
     "id": "hell",
@@ -2678,7 +2942,10 @@
     "atlas_sector": "Outer Afterlife Realm of Judgment & Punishment beyond Higan.",
     "travel_time": "Otherworldly realm (reachable only via Higan's Ministry of Right and Wrong portals or Hisami Yomotsu's guidance, ~3+ hours from the Human Village).",
     "approach_route": "Cross the Sanzu River to Higan and pass through the Ministry's judgment gates (or underworld fissures) into New Hell.",
-    "local_customs": "Ruled by Goddess Hecatia Lapislazuli and administered by the Yama and oni; living humans are hunted or dragged in by Hisami Yomotsu unless protected."
+    "local_customs": "Ruled by Goddess Hecatia Lapislazuli and administered by the Yama and oni; living humans are hunted or dragged in by Hisami Yomotsu unless protected.",
+    "image_url": "https://en.touhouwiki.net/images/5/52/Th01RottingWorldofFlame.png",
+    "image_caption": "The fiery realm of Hell in Highly Responsive to Prayers",
+    "visual_blueprint": "Jagged obsidian crags and molten lava fissures of New Hell, restructured by the Ministry of Right and Wrong with iron watchtowers."
   },
   {
     "id": "animal-realm",
@@ -2723,7 +2990,10 @@
     "travel_time": "Otherworldly realm adjacent to Hell (reachable via Hell boundary gates or spirit possession transit).",
     "approach_route": "Cross the boundary from Hell into the neon-lit skyscraper metropolis and outer wilderness controlled by rival beast-spirit syndicates.",
     "local_customs": "Law of the jungle enforced by the Keiga Family (Saki Kurokoma), Kiketsu Family (Yachie Kicchou), and Gouyoku Alliance (Yuuma Toutetsu); unallied human spirits and visitors are enslaved on sight.",
-    "icon": "animal-realm"
+    "icon": "animal-realm",
+    "image_url": "https://en.touhouwiki.net/images/2/20/Th17AnimalRealm.jpg",
+    "image_caption": "The Animal Realm metropolis in Wily Beast and Weakest Creature",
+    "visual_blueprint": "Dystopian cyberpunk-brutalist concrete fortress metropolis bathed in crimson neon light, where rival beast-spirit syndicates wage turf wars."
   },
   {
     "id": "primate-spirit-garden",
@@ -2758,7 +3028,10 @@
     "travel_time": "Central landmark within the Animal Realm metropolis.",
     "approach_route": "Navigate through the Animal Realm's concrete streets to the massive kofun burial mound park fortified by Keiki Haniyasushin's idol workshops.",
     "local_customs": "Fortified sanctuary of Keiki Haniyasushin and Mayumi Joutouguu's Haniwa Army Corps; protects human spirits against the outer beast syndicates, though Keiki's protection is intensely possessive.",
-    "icon": "primate-garden"
+    "icon": "primate-garden",
+    "image_url": "https://en.touhouwiki.net/images/c/c1/Th17PrimateGarden1.jpg",
+    "image_caption": "The Primate Spirit Garden in Wily Beast and Weakest Creature",
+    "visual_blueprint": "Keyhole-shaped kofun burial mound surrounded by a geometric moat and brutalist concrete towers at the center of the Animal Realm."
   },
   {
     "id": "fantastic-blowhole",
@@ -2794,7 +3067,10 @@
     "atlas_sector": "Surface-to-Underworld Cavern Entrance at the base of Youkai Mountain.",
     "travel_time": "~50–60 minutes walk north from the Human Village North Gate to the geyser cave mouth.",
     "approach_route": "Follow the foothills trail at the base of Youkai Mountain to the steaming rocky cavern where Yamame Kurodani and Kisume linger near the shaft drop.",
-    "local_customs": "Threshold to the Underworld frequented by Yamame Kurodani and Kisume; requires light and cold/heat preparation before descending."
+    "local_customs": "Threshold to the Underworld frequented by Yamame Kurodani and Kisume; requires light and cold/heat preparation before descending.",
+    "image_url": "https://en.touhouwiki.net/images/e/e1/Th11FantasticBlowhole.jpg",
+    "image_caption": "The Fantastic Blowhole entrance to the Underworld in Subterranean Animism",
+    "visual_blueprint": "Steaming volcanic vent cavern at the foot of Youkai Mountain where warm updrafts and geysers mark the descent into the Underworld."
   },
   {
     "id": "deep-road-to-hell",
@@ -2829,7 +3105,10 @@
     "atlas_sector": "Vertical Subterranean Shaft & Bridge linking the Fantastic Blowhole to Former Hell.",
     "travel_time": "~75 minutes from the Human Village (~50 min to the Fantastic Blowhole + ~25 min descent to the bridge).",
     "approach_route": "Descend the gloomy green-lit rock shaft beneath the Fantastic Blowhole and cross the subterranean bridge guarded by Parsee Mizuhashi.",
-    "local_customs": "Guarded by hashihime Parsee Mizuhashi, who feeds on travelers' jealousy along the bridge crossing."
+    "local_customs": "Guarded by hashihime Parsee Mizuhashi, who feeds on travelers' jealousy along the bridge crossing.",
+    "image_url": "https://en.touhouwiki.net/images/2/29/Th11DeepRoadtoHell.jpg",
+    "image_caption": "The Deep Road to Hell in Subterranean Animism",
+    "visual_blueprint": "Plunging vertical cavern shaft spanned by Parsee Mizuhashi’s vermilion wooden arch bridge above subterranean abyssal mists."
   },
   {
     "id": "underworld",
@@ -2869,7 +3148,10 @@
     "atlas_sector": "Subterranean Realm deep beneath Youkai Mountain and Gensokyo.",
     "travel_time": "~90–120 minutes total descent from the Human Village (~45–60 min walk to the Fantastic Blowhole or Rainbow Cavern entrance + ~45–60 min vertical/tunnel descent).",
     "approach_route": "Enter via the Fantastic Blowhole at the foot of Youkai Mountain or the Rainbow Cavern of Earth Spirits -> descend through the Deep Road to Hell past Parsee's bridge into Former Hell.",
-    "local_customs": "Self-governed subterranean society of oni (Yuugi), satori (Satori, Koishi), and disliked underground youkai; surface treaties forbid topside interference."
+    "local_customs": "Self-governed subterranean society of oni (Yuugi), satori (Satori, Koishi), and disliked underground youkai; surface treaties forbid topside interference.",
+    "image_url": "https://en.touhouwiki.net/images/f/f4/WaHHUnderworldLayers.png",
+    "image_caption": "The stratified caverns of the Underworld in Wild and Horned Hermit",
+    "visual_blueprint": "Immense subterranean cavern vault beneath Gensokyo supported by towering stalactite-stalagmite rock pillars."
   },
   {
     "id": "former-hell",
@@ -2907,7 +3189,10 @@
     "atlas_sector": "Main Subterranean City Cavern in the Underworld (beneath the Deep Road to Hell).",
     "travel_time": "~90–100 minutes walk/descent from the Human Village via the Fantastic Blowhole and Deep Road to Hell.",
     "approach_route": "Cross Parsee's bridge at the bottom of the Deep Road to Hell into the Edo-styled subterranean streets of Former Hell and Hot Spring Town.",
-    "local_customs": "Rowdy subterranean territory ruled by oni Yuugi Hoshiguma and administered from the Palace of the Earth Spirits by Satori Komeiji; physical strength and blunt honesty are respected."
+    "local_customs": "Rowdy subterranean territory ruled by oni Yuugi Hoshiguma and administered from the Palace of the Earth Spirits by Satori Komeiji; physical strength and blunt honesty are respected.",
+    "image_url": "https://en.touhouwiki.net/images/f/ff/Th11OldCapital.jpg",
+    "image_caption": "The Old Capital of Former Hell in Subterranean Animism",
+    "visual_blueprint": "Snow-dusted subterranean Edo streetscape of dark timber multi-story inns,oni taverns, arched wooden bridges, and warm amber paper lanterns."
   },
   {
     "id": "hot-spring-town",
@@ -2941,7 +3226,10 @@
     "atlas_sector": "Resort District of Former Hell in the Underworld.",
     "travel_time": "~90 minutes from the Human Village via the Fantastic Blowhole and Deep Road to Hell (or via the Hakurei Shrine hot-spring geyser fissure).",
     "approach_route": "Enter Former Hell past the Deep Road bridge and follow the lantern-lit streets to the steaming subterranean bathhouses where Yuugi Hoshiguma drinks.",
-    "local_customs": "Neutral subterranean resort district where oni and surface visitors drink and bathe under Yuugi's watch."
+    "local_customs": "Neutral subterranean resort district where oni and surface visitors drink and bathe under Yuugi's watch.",
+    "image_url": "https://en.touhouwiki.net/images/thumb/2/27/FDS_SpaTown.png/720px-FDS_SpaTown.png",
+    "image_caption": "Former Hell Hot Spring Town in Foul Detective Satori",
+    "visual_blueprint": "Tiered wooden ryokan bathhouses and steaming open-air rock baths fed by the thermal waters of Blazing Hell."
   },
   {
     "id": "palace-of-earth-spirits",
@@ -2980,7 +3268,11 @@
     "atlas_sector": "Central Mansion of Former Hell (stained-glass western estate sitting directly above the Remains of Blazing Hell).",
     "travel_time": "~100–110 minutes total travel from the Human Village (~90 min to Former Hell + ~15 min through the subterranean streets to the central courtyard).",
     "approach_route": "Walk through the streets of Former Hell past Hot Spring Town to the stained-glass western mansion at the cavern's center.",
-    "local_customs": "Household of Satori Komeiji, Koishi Komeiji, Rin Kaenbyou (Orin), and Utsuho Reiuji (Okuu); Satori's third eye reads visitors' minds immediately upon entry."
+    "local_customs": "Household of Satori Komeiji, Koishi Komeiji, Rin Kaenbyou (Orin), and Utsuho Reiuji (Okuu); Satori's third eye reads visitors' minds immediately upon entry.",
+    "image_url": "https://en.touhouwiki.net/images/4/42/Th11PalaceOfEarthSpirits.jpg",
+    "image_caption": "Palace of the Earth Spirits (Chireiden) in Subterranean Animism",
+    "visual_blueprint": "Grand subterranean Gothic mansion built directly over the Blazing Hell vent, featuring a black-and-white checkerboard courtyard, gothic rose-window stained glass, wrought-iron gates, and glowing floor grates.",
+    "model_url": "/models/palace-of-earth-spirits.glb"
   },
   {
     "id": "remains-of-blazing-hell",
@@ -3017,7 +3309,10 @@
     "travel_time": "~120 minutes total descent from the Human Village (~100 min to the Palace of the Earth Spirits + ~15–20 min down the vertical furnace shafts).",
     "approach_route": "Pass through the courtyard of the Palace of the Earth Spirits and descend the scorching vertical shafts tended by Rin Kaenbyou and Hell Ravens.",
     "local_customs": "Extreme thermal hazard zone patrolled by Orin, Utsuho Reiuji, and vengeful spirits; unshielded humans will succumb to heatstroke within minutes.",
-    "icon": "blazing-hell"
+    "icon": "blazing-hell",
+    "image_url": "https://en.touhouwiki.net/images/a/ac/Th11RemainsOfBlazingHell.jpg",
+    "image_caption": "Remains of Blazing Hell beneath Chireiden in Subterranean Animism",
+    "visual_blueprint": "Scorching subterranean magma cavern of blackened basalt ribs, rivers of molten lava, and swirling vengeful spirit embers."
   },
   {
     "id": "nuclear-furnace",
@@ -3052,7 +3347,11 @@
     "atlas_sector": "Deepest Core of the Remains of Blazing Hell beneath the Palace of the Earth Spirits.",
     "travel_time": "~135 minutes total descent from the Human Village (at the very bottom of the Remains of Blazing Hell).",
     "approach_route": "Descend to the lowest floor of the Remains of Blazing Hell into the reactor chamber regulated by Utsuho Reiuji.",
-    "local_customs": "Regulated by Utsuho Reiuji under Moriya Shrine's energy project; lethal temperatures and radiation bursts require magical or kappa shielding."
+    "local_customs": "Regulated by Utsuho Reiuji under Moriya Shrine's energy project; lethal temperatures and radiation bursts require magical or kappa shielding.",
+    "image_url": "https://en.touhouwiki.net/images/0/0f/Th11NuclearFurnace.png",
+    "image_caption": "The Hell of Blazing Fires Nuclear Furnace in Subterranean Animism",
+    "visual_blueprint": "Industrial octagonal fusion reactor core in the deepest pit of Blazing Hell, ringed by yellow-and-black hazard stripes, cooling pipes, and a blinding miniature sun.",
+    "model_url": "/models/nuclear-furnace.glb"
   },
   {
     "id": "underground-geyser-center",
@@ -3088,7 +3387,10 @@
     "travel_time": "~90–120 minutes descent from Youkai Mountain's geyser shafts (or adjacent to the Nuclear Furnace below the Palace of the Earth Spirits).",
     "approach_route": "Enter via the maintenance elevator shaft on Youkai Mountain or through the side tunnels of the Nuclear Furnace.",
     "local_customs": "Restricted Kappa and Moriya Shrine industrial facility; unauthorized entry triggers automated defense drones and Utsuho's patrols.",
-    "icon": "geyser-center"
+    "icon": "geyser-center",
+    "image_url": "https://en.touhouwiki.net/images/7/72/Th123.jpg",
+    "image_caption": "The Underground Geyser Center from Touhou Hisoutensoku",
+    "visual_blueprint": "Subterranean Kappa-built geothermal conduit hall of riveted brass pipes, pressure gauges, steel catwalks, and steam vents."
   },
   {
     "id": "sea-of-petroleum",
@@ -3117,7 +3419,11 @@
     "atlas_sector": "Abyssal Subterranean Stratum beneath the Remains of Blazing Hell.",
     "travel_time": "~150 minutes descent from the surface into the deep oil-filled caverns below the Nuclear Furnace.",
     "approach_route": "Descend past the Remains of Blazing Hell into the deepest pitch-black oil caverns where Yuuma Toutetsu and the Gouyoku Alliance harvest black-water energy.",
-    "local_customs": "Controlled by Yuuma Toutetsu and the Gouyoku Alliance; toxic fumes and predatory spirits make it lethal to ordinary humans."
+    "local_customs": "Controlled by Yuuma Toutetsu and the Gouyoku Alliance; toxic fumes and predatory spirits make it lethal to ordinary humans.",
+    "image_url": "https://en.touhouwiki.net/images/8/83/Th17.5PetroleumSea.jpg",
+    "image_caption": "The Sea of Petroleum in Touhou Gouyoku Ibun",
+    "visual_blueprint": "Pitch-black subterranean ocean of bubbling crude oil and bone islands in the deepest stratum of Old Hell.",
+    "wiki_summary": "Located in the deepest pitch-black strata below the Remains of Blazing Hell, this subterranean sea of crude black water—distilled from the ancient dregs of the Hell of Blood Pools—is harvested by taotie matriarch Yuuma Toutetsu."
   },
   {
     "id": "hell-of-blood-pools",
@@ -3148,11 +3454,14 @@
     "wiki_title": "Hell of Blood Pools",
     "wiki_url": "https://en.touhouwiki.net/wiki/Hell_of_Blood_Pools",
     "wiki_romaji": "Kyuu Chinoike Jigoku",
-    "wiki_summary": "stub\n\nThe Hell of Blood Pools or the Old Hell's Blood Pools (旧血の池地獄, Kyuu Chinoike Jigoku) is a place situated in the Old Hell, below the Remains of Blazing Hell.\n\nThe Hell of Blood Pools is considered the most unpleaseant area of Old Hell, a place where the energy of the wicked spirits are chipped away and which eventually absorbs the wicked spirits themselves into the sea of blood. This Hell was considered so bad, even for Old Hell standards, that few Oni wanted to take care it, leaving the place unmanageable. After the relocation to New Hell, the Hell of Blood Pools was deliberately completely forgotten and abandoned by the inhabitants of Old Hell.",
+    "wiki_summary": "The Abandoned Hell of Blood Pools (旧血の池地獄) is the deepest, most lawless subterranean stratum of Former Hell beneath the Remains of Blazing Hell. Once used for the torment of sinners before Hell was relocated, its crimson lakes later mingled with Yuuma Toutetsu’s subterranean Sea of Petroleum in Touhou Gouyoku Ibun.",
     "atlas_sector": "Abyssal Subterranean Stratum adjacent to the Sea of Petroleum.",
     "travel_time": "~150 minutes descent from the surface into the crimson sin-pool basin beside the Sea of Petroleum.",
     "approach_route": "Follow the deepest subterranean fissures past the Remains of Blazing Hell and the Sea of Petroleum into the crimson sin-pool caverns.",
-    "local_customs": "Haunted by Chiyari Tenkajin, Yuuma Toutetsu, and lingering sinners; completely lawless abyssal zone."
+    "local_customs": "Haunted by Chiyari Tenkajin, Yuuma Toutetsu, and lingering sinners; completely lawless abyssal zone.",
+    "image_url": "https://en.touhouwiki.net/images/5/5c/Th17.5_Blood_Pools.jpg",
+    "image_caption": "The Abandoned Hell of Blood Pools in Touhou Gouyoku Ibun",
+    "visual_blueprint": "Deepest subterranean basin of crimson boiling blood lakes, jagged crimson stalagmites, and black petroleum geysers."
   },
   {
     "id": "makai",
@@ -3201,7 +3510,10 @@
     "travel_time": "Otherworldly dimension (~45 minutes climb behind the Hakurei Shrine to the sealed mountain cave entrance, plus dimensional crossing).",
     "approach_route": "Pass through the sealed mountain cavern behind the Hakurei Shrine or sail through the dimensional rift into the miasma-thick demon world.",
     "local_customs": "Created and ruled by Goddess Shinki; ambient magical miasma empowers spells but poisons unshielded humans.",
-    "icon": "makai"
+    "icon": "makai",
+    "image_url": "https://en.touhouwiki.net/images/c/c8/Th05MakaiCity.png",
+    "image_caption": "The crystalline demon realm of Makai in Mystic Square",
+    "visual_blueprint": "Otherworldly demon dimension created by Shinki, characterized by violet miasma skies, crystalline spires, and Victorian-Gothic demon cities."
   },
   {
     "id": "fallen-temple",
@@ -3229,11 +3541,14 @@
     ],
     "wiki_title": "Fallen Temple",
     "wiki_url": "https://en.touhouwiki.net/wiki/Fallen_Temple",
-    "wiki_summary": "#REDIRECT Makai#Geography",
+    "wiki_summary": "The Fallen Temple (破滅の寺院) is an ancient, half-collapsed stone sanctuary located in the outer reaches of Makai during the Makai route of Highly Responsive to Prayers (Touhou 1), where Reimu Hakurei battles the astral knight Konngara.",
     "atlas_sector": "Ruined Cathedral Sector inside Makai.",
     "travel_time": "Deep within Makai's interior wastelands.",
     "approach_route": "Traverse Makai's miasma plains to the colossal shattered temple housing the angel of death Sariel.",
-    "local_customs": "Haunted by Sariel and Makai spirits; high magical hazard."
+    "local_customs": "Haunted by Sariel and Makai spirits; high magical hazard.",
+    "image_url": "https://en.touhouwiki.net/images/1/18/Th01FallenTemple.png",
+    "image_caption": "The Fallen Temple in Makai from Highly Responsive to Prayers",
+    "visual_blueprint": "Ruined ancient stone temple complex inside Makai with shattered colonnades, floating rune slabs, and violet dimensional rifts."
   },
   {
     "id": "ruins-of-vina",
@@ -3259,11 +3574,14 @@
     ],
     "wiki_title": "Ruins of Vina",
     "wiki_url": "https://en.touhouwiki.net/wiki/Ruins_of_Vina",
-    "wiki_summary": "#REDIRECT Makai#Geography",
+    "wiki_summary": "The Ruins of Vina (ヴィナの廃墟) are a field of weathered classical marble columns and broken stone arches in Makai, featured as Stages 6 through 10 of the Makai route in Highly Responsive to Prayers (Touhou 1).",
     "atlas_sector": "Ancient Western-Style Ruin inside Makai.",
     "travel_time": "Surface ruin within Makai's outer fields.",
     "approach_route": "Follow the ruined colonnades in Makai where Yumemi Okazaki's research notes once pointed.",
-    "local_customs": "Abandoned Makai ruin."
+    "local_customs": "Abandoned Makai ruin.",
+    "image_url": "https://en.touhouwiki.net/images/8/86/Ruins_of_Vina_bb.png",
+    "image_caption": "The Ruins of Vina in Makai from Highly Responsive to Prayers",
+    "visual_blueprint": "Classical Western marble colonnade and broken stone arches standing amid the purple mists of Makai."
   },
   {
     "id": "world-of-ice-and-snow",
@@ -3293,11 +3611,14 @@
     ],
     "wiki_title": "World of Ice and Snow",
     "wiki_url": "https://en.touhouwiki.net/wiki/World_of_Ice_and_Snow",
-    "wiki_summary": "#REDIRECT Makai#Geography",
+    "wiki_summary": "The World of Ice and Snow (氷雪の世界) is a vast, freezing expanse of diamond dust and towering crystal glaciers surrounding the inner capital of Makai, featured as Stage 4 of Mystic Square (Touhou 5).",
     "atlas_sector": "Frozen Wasteland Sector inside Makai (preceding Pandaemonium).",
     "travel_time": "Mid-interior region of Makai along the route to Pandaemonium.",
     "approach_route": "Cross Makai's outer districts into the blizzard-swept tundra and frozen river guarded by witches Yuki and Mai.",
-    "local_customs": "Patrolled by fire-witch Yuki and ice-witch Mai; severe freezing and magical hazard."
+    "local_customs": "Patrolled by fire-witch Yuki and ice-witch Mai; severe freezing and magical hazard.",
+    "image_url": "https://en.touhouwiki.net/images/f/fe/Th05WorldOfIce%26Snow1.png",
+    "image_caption": "The World of Ice and Snow in Makai from Mystic Square",
+    "visual_blueprint": "Frozen diamond-dust tundra in inner Makai bristling with towering translucent blue-white glacier spikes and crystalline aurora skies."
   },
   {
     "id": "wonderland",
@@ -3329,7 +3650,10 @@
     "atlas_sector": "Pocket Grimoire Realm inside Makai.",
     "travel_time": "Hidden interior sector of Makai associated with Alice Margatroid.",
     "approach_route": "Access via Makai's inner dimensional pathways or Alice Margatroid's grimoire magic.",
-    "local_customs": "Alice Margatroid's old Makai domain."
+    "local_customs": "Alice Margatroid's old Makai domain.",
+    "image_url": "https://en.touhouwiki.net/images/3/38/Th05Wonderland.png",
+    "image_caption": "Alice’s Wonderland grimoire realm in Mystic Square Extra Stage",
+    "visual_blueprint": "Surreal pastel chessboard pocket dimension inside Makai with floating playing cards, oversized teacups, and crystalline arches."
   },
   {
     "id": "pandaemonium",
@@ -3359,12 +3683,16 @@
     ],
     "wiki_title": "Pandæmonium",
     "wiki_url": "https://en.touhouwiki.net/wiki/Pand%C3%A6monium",
-    "wiki_summary": "#REDIRECT Makai#Geography",
+    "wiki_summary": "Pandæmonium (パンデモニウム) is the supreme crystalline palace at the center of Makai and the seat of its creator goddess, Shinki. Serving as the final stage of Mystic Square (Touhou 5), it rises beyond the World of Ice and Snow.",
     "atlas_sector": "Crystalline Capital Fortress at the core of Makai (directly beyond the World of Ice and Snow).",
     "travel_time": "Farthest inner sanctum of Makai.",
     "approach_route": "Cross the World of Ice and Snow in Makai to reach Shinki's crystalline palace guarded by head maid Yumeko.",
     "local_customs": "Throne of Goddess Shinki and her chief maid Yumeko; outsiders are intercepted by sword-throwing demon maids.",
-    "icon": "makai"
+    "icon": "makai",
+    "image_url": "https://en.touhouwiki.net/images/f/f3/Th05Pand%C3%A6monium.png",
+    "image_caption": "Pandæmonium, the capital palace of Makai in Mystic Square",
+    "visual_blueprint": "Colossal crystalline Gothic palace at the heart of Makai with soaring violet-and-crimson stained glass spires and six-winged seraphic motifs.",
+    "model_url": "/models/pandaemonium.glb"
   },
   {
     "id": "hokkai",
@@ -3392,11 +3720,14 @@
     ],
     "wiki_title": "Hokkai",
     "wiki_url": "https://en.touhouwiki.net/wiki/Hokkai",
-    "wiki_summary": "#REDIRECT Makai#Geography",
+    "wiki_summary": "Hokkai (法界, lit. \"Dharma Realm\") is a tranquil, radiant sub-region at the edge of Makai where the Buddhist monk Byakuren Hijiri was sealed away until the crew of the Palanquin Ship unsealed it in Undefined Fantastic Object (Touhou 12).",
     "atlas_sector": "Sealed Demon Dimension accessible behind the Hakurei Shrine mountain caves or via the Palanquin Ship.",
     "travel_time": "Otherworldly dimension (~45 minutes climb behind the Hakurei Shrine to the sealed mountain cave entrance, plus dimensional crossing).",
     "approach_route": "Pass through the sealed mountain cavern behind the Hakurei Shrine or sail through the dimensional rift into the miasma-thick demon world.",
-    "local_customs": "Created and ruled by Goddess Shinki; ambient magical miasma empowers spells but poisons unshielded humans."
+    "local_customs": "Created and ruled by Goddess Shinki; ambient magical miasma empowers spells but poisons unshielded humans.",
+    "image_url": "https://en.touhouwiki.net/images/d/d0/Th12Hokkai.jpg",
+    "image_caption": "Hokkai, the sealed sub-dimension of Makai in Undefined Fantastic Object",
+    "visual_blueprint": "Luminous geometric lotus seal suspended in the far reaches of Makai where Byakuren Hijiri was imprisoned for a millennium."
   },
   {
     "id": "dream-world",
@@ -3433,7 +3764,10 @@
     "travel_time": "Instantaneous during sleep (or reachable physically via Doremy Sweet's dream gates / Yukari's boundary gaps).",
     "approach_route": "Enter through sleep or cross a dream-boundary portal managed by baku ruler Doremy Sweet.",
     "local_customs": "Managed and policed by Doremy Sweet; dream-selves behave without waking inhibitions, and lingering physically in the Dream World risks psychic displacement.",
-    "icon": "dream-world"
+    "icon": "dream-world",
+    "image_url": "https://en.touhouwiki.net/images/7/7f/Th15DreamWorld.jpg",
+    "image_caption": "The Dream World pathways in Legacy of Lunatic Kingdom",
+    "visual_blueprint": "Astral cosmos of glowing cyan-and-magenta geometric pathways, floating pillows, and star-filled dream portals overseen by Doremy Sweet."
   },
   {
     "id": "gensokyos-moon",
@@ -3473,7 +3807,10 @@
     "atlas_sector": "Celestial Satellite & Reflected Lunar Surface.",
     "travel_time": "Interplanetary / Metaphysical distance (reachable only via the Lunar Veil reflection on Misty Lake during a full moon, the Dream World's Lunar Passage, or the Asama Purifying Mountain portal).",
     "approach_route": "Travel through the Dream World's Lunar Capital passage, cross the full-moon reflection barrier, or use the hidden Sea of Tranquility corridor inside Asama Purifying Mountain.",
-    "local_customs": "Patrolled by the Lunar Defense Corps and moon rabbits; Earthlings are considered impure and shot on sight without Lunarian clearance."
+    "local_customs": "Patrolled by the Lunar Defense Corps and moon rabbits; Earthlings are considered impure and shot on sight without Lunarian clearance.",
+    "image_url": "https://en.touhouwiki.net/images/8/86/Th15SeaOfTranquillity.jpg",
+    "image_caption": "The Sea of Tranquility on the Moon in Legacy of Lunatic Kingdom",
+    "visual_blueprint": "Silver-grey lunar regolith plain overlooking a golden-blue reflection of Earth, dotted with purification flags and craters."
   },
   {
     "id": "lunar-capital",
@@ -3517,7 +3854,11 @@
     "atlas_sector": "Barrier-Veiled Metropolis on the Far Side of the Moon.",
     "travel_time": "Located behind the lunar veil on the far side of the Moon from the Sea of Tranquility.",
     "approach_route": "Pass through the Sea of Tranquility or the Dream World gate past Watatsuki no Yorihime and Toyohime's Lunar Defense Corps checkpoints.",
-    "local_customs": "Ruled by Lord Tsukuyomi, Sagume Kishin, and the Watatsuki sisters; strictly closed to impure surface dwellers."
+    "local_customs": "Ruled by Lord Tsukuyomi, Sagume Kishin, and the Watatsuki sisters; strictly closed to impure surface dwellers.",
+    "image_url": "https://en.touhouwiki.net/images/0/07/PMiSS_lunarcapital.jpg",
+    "image_caption": "The Lunar Capital in Perfect Memento in Strict Sense & Silent Sinner in Blue",
+    "visual_blueprint": "Radiant, symmetrical Dragon Palace metropolis behind the Lunar Veil: tiered jade-and-gold roofs, white marble causeways, peach orchards, and stilted pavilions over the lunar sea.",
+    "model_url": "/models/lunar-capital.glb"
   },
   {
     "id": "land-of-the-back-door",
@@ -3555,7 +3896,10 @@
     "travel_time": "Zero physical distance (accessible anywhere in Gensokyo only when Sage Okina Matara opens a back door).",
     "approach_route": "Step through a literal door opened by Okina Matara, Satono Nishida, or Mai Teireida into the starry seasonal throne space.",
     "local_customs": "Absolute personal domain of Secret God and Barrier Sage Okina Matara; impossible to enter or exit without her will.",
-    "icon": "back-door"
+    "icon": "back-door",
+    "image_url": "https://en.touhouwiki.net/images/thumb/b/be/Ushirodo_no_kuni_stg6.jpg/720px-Ushirodo_no_kuni_stg6.jpg",
+    "image_caption": "The Land of the Back Door in Hidden Star in Four Seasons",
+    "visual_blueprint": "Star-filled golden astral void lined with floating shoji sliding doors, glowing torii frames, and seasonal boundary portals."
   },
   {
     "id": "probability-space-hypervessel",
@@ -3595,7 +3939,10 @@
     "atlas_sector": "Modern-Day Earth outside the Great Hakurei Barrier.",
     "travel_time": "Separated by the metaphysical Great Hakurei Barrier (unreachable by normal walking).",
     "approach_route": "Crossable only via being spirited away through thin barrier seams, Yukari Yakumo's gaps, Sumireko's dream projection, or Reimu's formal barrier ritual.",
-    "local_customs": "Governed by modern scientific physics and human law; supernatural entities forgotten here fade into Gensokyo."
+    "local_customs": "Governed by modern scientific physics and human law; supernatural entities forgotten here fade into Gensokyo.",
+    "image_url": "https://en.touhouwiki.net/images/3/32/Th03ProbabilitySpaceHypervessel.png",
+    "image_caption": "Chiyuri and Yumemi’s Probability Space Hypervessel in Phantasmagoria of Dim.Dream",
+    "visual_blueprint": "Futuristic white-and-steel interdimensional research cruiser resting in an anomaly rift near the Hakurei Shrine."
   },
   {
     "id": "gensokyo-basin-overview",
@@ -3637,7 +3984,10 @@
     "atlas_sector": "Master Region — Sealed Inland Basin in Japan surrounded by the Great Hakurei Barrier.",
     "travel_time": "Central basin spans roughly 2–3 hours walk from the Western Border Ridge (Hakurei Shrine) to the Eastern Bamboo Maze (Eientei) or Northern Summit (Youkai Mountain).",
     "approach_route": "Hub-and-spoke road network radiating from the Human Village at the center: West to Hakurei Shrine (~20 min), South-Southwest to Myouren Temple (~10 min), South-Southeast to Kourindou & Forest of Magic (~20–30 min), Southeast to Misty Lake & Scarlet Devil Mansion (~40–50 min), East-Southeast to Bamboo Forest & Eientei (~40–55 min), and North to Genbu Ravine & Youkai Mountain (~45–120+ min).",
-    "local_customs": "Governed by the Great Hakurei Barrier (1885) and the Spell Card Rules (2002) under the Sages of Gensokyo and Hakurei Shrine Maiden Reimu Hakurei."
+    "local_customs": "Governed by the Great Hakurei Barrier (1885) and the Spell Card Rules (2002) under the Sages of Gensokyo and Hakurei Shrine Maiden Reimu Hakurei.",
+    "image_url": "https://en.touhouwiki.net/images/a/a2/Tenshisitkeystonesword.jpg",
+    "image_caption": "Aerial overview of the Gensokyo Basin",
+    "visual_blueprint": "Carved stone cartographic survey monument at the geographic center of the Gensokyo Basin."
   },
   {
     "id": "abandon-pond",
@@ -3670,7 +4020,10 @@
     "atlas_sector": "Heartland — Canonical Touhou Wiki Sector (Abandon Pond)",
     "travel_time": "Reachable via regional trails from adjacent waypoint.",
     "approach_route": "Connected to youkai-trail in Heartland.",
-    "local_customs": "Standard Gensokyo territorial and Spell Card rules apply."
+    "local_customs": "Standard Gensokyo territorial and Spell Card rules apply.",
+    "image_url": "https://en.touhouwiki.net/images/b/b3/Abandon_Pond.jpg",
+    "image_caption": "Abandon Pond in the Heartland",
+    "visual_blueprint": "Quiet, reed-ringed lowland pond fed by mountain runoff with weathered wooden fishing posts."
   },
   {
     "id": "bhava-agra",
@@ -3682,7 +4035,7 @@
     "y": 0.045,
     "importance": 2,
     "short_desc": "#REDIRECT Heaven",
-    "long_desc": "#REDIRECT Heaven Documented on Touhou Wiki under Category:Locations.",
+    "long_desc": "Bhava-agra (有頂天, Uchouten) is the highest celestial stratum of Heaven floating high above Youkai Mountain, where the weather is eternally serene and golden peaches of immortality ripen. It serves as the residence of the Hinanawi clan of Celestials, including Tenshi Hinanawi, and the final stage of Scarlet Weather Rhapsody (Touhou 10.5).",
     "residents": [],
     "first_appearance": "Touhou Project Official Canon",
     "sources": [
@@ -3695,13 +4048,16 @@
     ],
     "wiki_title": "Bhava-agra",
     "wiki_url": "https://en.touhouwiki.net/wiki/Bhava-agra",
-    "wiki_summary": "#REDIRECT Heaven",
+    "wiki_summary": "Bhava-agra (有頂天, Uchouten) is the summit realm of Heaven in Buddhist cosmology and the home of the Celestial Tenshi Hinanawi in Scarlet Weather Rhapsody. Floating above the clouds of Youkai Mountain, it is famed for its orchards of celestial peaches and tranquil vistas.",
     "wiki_sublocations": [],
     "atlas_sector": "Youkai Mountain — Canonical Touhou Wiki Sector (Bhava-agra)",
     "travel_time": "Reachable via regional trails from adjacent waypoint.",
     "approach_route": "Connected to heaven in Youkai Mountain.",
     "local_customs": "Standard Gensokyo territorial and Spell Card rules apply.",
-    "icon": "heaven"
+    "icon": "heaven",
+    "image_url": "https://en.touhouwiki.net/images/8/8c/OSPCH9Tenshi.jpg",
+    "image_caption": "Bhava-agra in Heaven, residence of the Hinanawi clan",
+    "visual_blueprint": "Highest celestial island of Heaven featuring white marble terraces, golden-fruited peach trees, and floating keystone pedestals."
   },
   {
     "id": "false-heaven-shelf",
@@ -3713,7 +4069,7 @@
     "y": 0.118,
     "importance": 3,
     "short_desc": "stub The False Heaven Shelf (偽天棚) is an alpine meadow located on Youkai Mountain, above the Secret Heaven Cliff.",
-    "long_desc": "stub The False Heaven Shelf (偽天棚) is an alpine meadow located on Youkai Mountain, above the Secret Heaven Cliff.",
+    "long_desc": "The False Heaven Shelf (偽天棚, Gitendana) is a flat, windswept alpine plateau situated nine-tenths of the way up Youkai Mountain just below the summit. Blooming with rare pink komakusa (dicentra) flowers and overlooking a sea of clouds, it hosts Sannyo Komakusa’s gambling den and serves as Stage 3 of Unconnected Marketeers (Touhou 18).",
     "residents": [
       "Sannyo Komakusa"
     ],
@@ -3728,12 +4084,15 @@
     ],
     "wiki_title": "False Heaven Shelf",
     "wiki_url": "https://en.touhouwiki.net/wiki/False_Heaven_Shelf",
-    "wiki_summary": "stub\n\nThe False Heaven Shelf (偽天棚) is an alpine meadow located on Youkai Mountain, above the Secret Heaven Cliff.\n\nThe entrance to the Rainbow Dragon Cave can be found here, which is guarded by Sannyo Komakusa, who also runs a gambling den in the area. It is a large plateau spreading out, dotted with a number of abandoned-looking buildings, low-lying clouds, and grassy hills and plains with with scatter rocks and alpine wildflowers.",
+    "wiki_summary": "The False Heaven Shelf (偽天棚) is a high-altitude alpine shelf near the summit of Youkai Mountain where komakusa flowers bloom, serving as the territory of Sannyo Komakusa in Unconnected Marketeers.",
     "wiki_sublocations": [],
     "atlas_sector": "Youkai Mountain — Canonical Touhou Wiki Sector (False Heaven Shelf)",
     "travel_time": "Reachable via regional trails from adjacent waypoint.",
     "approach_route": "Connected to komakusa-gambling-den in Youkai Mountain.",
-    "local_customs": "Standard Gensokyo territorial and Spell Card rules apply."
+    "local_customs": "Standard Gensokyo territorial and Spell Card rules apply.",
+    "image_url": "https://en.touhouwiki.net/images/thumb/d/dc/LECH29FalseHeavenShelf.png/720px-LECH29FalseHeavenShelf.png",
+    "image_caption": "The False Heaven Shelf in Lotus Eaters & Unconnected Marketeers",
+    "visual_blueprint": "High alpine plateau near the nine-tenths mark of Youkai Mountain carpeted in pink komakusa blossoms above the cloud line."
   },
   {
     "id": "phantom-meadow",
@@ -3764,7 +4123,10 @@
     "atlas_sector": "Heartland — Canonical Touhou Wiki Sector (Phantom Meadow)",
     "travel_time": "Reachable via regional trails from adjacent waypoint.",
     "approach_route": "Connected to moriya-ropeway in Heartland.",
-    "local_customs": "Standard Gensokyo territorial and Spell Card rules apply."
+    "local_customs": "Standard Gensokyo territorial and Spell Card rules apply.",
+    "image_url": "https://en.touhouwiki.net/images/6/63/Th09PhantomMeadow.jpg",
+    "image_caption": "Phantom Meadow in Phantasmagoria of Flower View",
+    "visual_blueprint": "Sunlit lowland wildflower meadow swaying with red Lycoris and white cosmos blossoms."
   },
   {
     "id": "road-of-lingering-snow",
@@ -3795,7 +4157,10 @@
     "atlas_sector": "Youkai Mountain — Canonical Touhou Wiki Sector (Road of Lingering Snow)",
     "travel_time": "Reachable via regional trails from adjacent waypoint.",
     "approach_route": "Connected to genbu-ravine in Youkai Mountain.",
-    "local_customs": "Standard Gensokyo territorial and Spell Card rules apply."
+    "local_customs": "Standard Gensokyo territorial and Spell Card rules apply.",
+    "image_url": "https://en.touhouwiki.net/images/a/a1/Th12RoadOfLingeringSnow.jpg",
+    "image_caption": "Road of Lingering Snow in Undefined Fantastic Object",
+    "visual_blueprint": "Thawing early-spring mountain pass where patches of white winter snow linger beside emerging green grass and melting streams."
   },
   {
     "id": "mysterious-cherry-blossom-path",
@@ -3826,7 +4191,10 @@
     "atlas_sector": "Hakurei — Canonical Touhou Wiki Sector (Mysterious Cherry Blossom Path)",
     "travel_time": "Reachable via regional trails from adjacent waypoint.",
     "approach_route": "Connected to hakurei-shrine in Hakurei.",
-    "local_customs": "Standard Gensokyo territorial and Spell Card rules apply."
+    "local_customs": "Standard Gensokyo territorial and Spell Card rules apply.",
+    "image_url": "https://en.touhouwiki.net/images/6/6e/Th128CherryBlossomPath.jpg",
+    "image_caption": "Mysterious Cherry Blossom Path in Fairy Wars",
+    "visual_blueprint": "Enchanted woodland path near the Hakurei Shrine arched by glowing pink cherry blossom boughs."
   },
   {
     "id": "reimaden",
@@ -3859,7 +4227,10 @@
     "atlas_sector": "Hakurei — Canonical Touhou Wiki Sector (Reimaden)",
     "travel_time": "Reachable via regional trails from adjacent waypoint.",
     "approach_route": "Connected to genjis-pond in Hakurei.",
-    "local_customs": "Standard Gensokyo territorial and Spell Card rules apply."
+    "local_customs": "Standard Gensokyo territorial and Spell Card rules apply.",
+    "image_url": "https://en.touhouwiki.net/images/5/5b/Th02mima.png",
+    "image_caption": "Reimaden, Mima’s sealed shrine complex in Story of Eastern Wonderland",
+    "visual_blueprint": "Ancient stone spirit-hall temple sealed behind the Hakurei Shrine mountains with dark stone pillars and glowing green spiritual braziers."
   },
   {
     "id": "rainbow-dragon-cave",
@@ -3890,7 +4261,10 @@
     "atlas_sector": "Youkai Mountain — Canonical Touhou Wiki Sector (Rainbow Dragon Cave)",
     "travel_time": "Reachable via regional trails from adjacent waypoint.",
     "approach_route": "Connected to rainbow-cavern in Youkai Mountain.",
-    "local_customs": "Standard Gensokyo territorial and Spell Card rules apply."
+    "local_customs": "Standard Gensokyo territorial and Spell Card rules apply.",
+    "image_url": "https://en.touhouwiki.net/images/9/9a/Th18RainbowDragonCaveStage4.jpg",
+    "image_caption": "The Rainbow Dragon Cave in Unconnected Marketeers",
+    "visual_blueprint": "Deep, oxygen-thin mine tunnel and crystal cavern inside Youkai Mountain where luminous Dragon Gems and Magatama are excavated."
   },
   {
     "id": "ocean-of-storms",
@@ -3920,7 +4294,10 @@
     "atlas_sector": "Otherworld — Canonical Touhou Wiki Sector (Ocean of Storms)",
     "travel_time": "Reachable via regional trails from adjacent waypoint.",
     "approach_route": "Connected to lunar-capital in Otherworld.",
-    "local_customs": "Standard Gensokyo territorial and Spell Card rules apply."
+    "local_customs": "Standard Gensokyo territorial and Spell Card rules apply.",
+    "image_url": "https://en.touhouwiki.net/images/3/3d/OceanOfStormsSSiB.png",
+    "image_caption": "The Ocean of Storms on the Moon in Silent Sinner in Blue",
+    "visual_blueprint": "Vast western lunar mare plain of silver basaltic dust and ancient impact craters."
   },
   {
     "id": "sea-of-rains",
@@ -3950,7 +4327,10 @@
     "atlas_sector": "Otherworld — Canonical Touhou Wiki Sector (Sea of Rains)",
     "travel_time": "Reachable via regional trails from adjacent waypoint.",
     "approach_route": "Connected to lunar-capital in Otherworld.",
-    "local_customs": "Standard Gensokyo territorial and Spell Card rules apply."
+    "local_customs": "Standard Gensokyo territorial and Spell Card rules apply.",
+    "image_url": "https://en.touhouwiki.net/images/a/ae/SeaOfRainsSSiB.png",
+    "image_caption": "The Sea of Rains on the Moon in Silent Sinner in Blue",
+    "visual_blueprint": "Circular lunar mare basin bordered by rugged silver-white lunar mountain rings."
   },
   {
     "id": "sea-of-serenity",
@@ -3980,7 +4360,10 @@
     "atlas_sector": "Otherworld — Canonical Touhou Wiki Sector (Sea of Serenity)",
     "travel_time": "Reachable via regional trails from adjacent waypoint.",
     "approach_route": "Connected to lunar-capital in Otherworld.",
-    "local_customs": "Standard Gensokyo territorial and Spell Card rules apply."
+    "local_customs": "Standard Gensokyo territorial and Spell Card rules apply.",
+    "image_url": "https://en.touhouwiki.net/images/thumb/2/29/SeaOfSerenitySSiB.png/720px-SeaOfSerenitySSiB.png",
+    "image_caption": "The Sea of Serenity on the Moon in Silent Sinner in Blue",
+    "visual_blueprint": "Tranquil lunar basin where the Watatsuki sisters and Lunar Defense Corps patrol."
   },
   {
     "id": "sages-sea",
@@ -4010,7 +4393,10 @@
     "atlas_sector": "Otherworld — Canonical Touhou Wiki Sector (Sage's Sea)",
     "travel_time": "Reachable via regional trails from adjacent waypoint.",
     "approach_route": "Connected to gensokyos-moon in Otherworld.",
-    "local_customs": "Standard Gensokyo territorial and Spell Card rules apply."
+    "local_customs": "Standard Gensokyo territorial and Spell Card rules apply.",
+    "image_url": "https://en.touhouwiki.net/images/thumb/d/da/SageSeaSSiB.png/720px-SageSeaSSiB.png",
+    "image_caption": "Sage's Sea on the Moon in Silent Sinner in Blue",
+    "visual_blueprint": "Coastal lunar sea bordering the barrier of the Lunar Capital where real water laps against white stone piers."
   },
   {
     "id": "torifune-space-shrine",
@@ -4040,7 +4426,10 @@
     "atlas_sector": "Otherworld — Canonical Touhou Wiki Sector (TORIFUNE)",
     "travel_time": "Reachable via regional trails from adjacent waypoint.",
     "approach_route": "Connected to dream-world in Otherworld.",
-    "local_customs": "Standard Gensokyo territorial and Spell Card rules apply."
+    "local_customs": "Standard Gensokyo territorial and Spell Card rules apply.",
+    "image_url": "https://en.touhouwiki.net/images/thumb/5/5f/ZCDS-0013.png/720px-ZCDS-0013.png.jpeg",
+    "image_caption": "The Space Shrine Maiden’s Ruin TORIFUNE from Trojan Green Asteroid",
+    "visual_blueprint": "Orbital/sky-bound geodesic biosphere dome overgrown on the inside with wild jungle vines, steel trusses, and a wooden Shinto hokora shrine at its core."
   },
   {
     "id": "world-of-fantasies",
@@ -4073,7 +4462,10 @@
     "atlas_sector": "Forest of Magic — Canonical Touhou Wiki Sector (World of Fantasies)",
     "travel_time": "Reachable via regional trails from adjacent waypoint.",
     "approach_route": "Connected to marisas-house in Forest of Magic.",
-    "local_customs": "Standard Gensokyo territorial and Spell Card rules apply."
+    "local_customs": "Standard Gensokyo territorial and Spell Card rules apply.",
+    "image_url": "https://en.touhouwiki.net/images/d/d0/Th02WorldOfFantasies.png",
+    "image_caption": "World of Fantasies in Story of Eastern Wonderland",
+    "visual_blueprint": "Mystical eastern mountain pass behind the Hakurei Shrine dotted with floating stone steps and spiritual seals."
   },
   {
     "id": "fantasy-world-pc98",
@@ -4107,7 +4499,10 @@
     "atlas_sector": "Bamboo Forest — Canonical Touhou Wiki Sector (Fantasy World)",
     "travel_time": "Reachable via regional trails from adjacent waypoint.",
     "approach_route": "Connected to lake-of-blood in Bamboo Forest.",
-    "local_customs": "Standard Gensokyo territorial and Spell Card rules apply."
+    "local_customs": "Standard Gensokyo territorial and Spell Card rules apply.",
+    "image_url": "https://en.touhouwiki.net/images/b/b4/Th04DreamWorld.png",
+    "image_caption": "The Fantasy World gateway between Gensokyo and Mugenkan in Lotus Land Story",
+    "visual_blueprint": "Surreal astral corridor of checker-patterned floating tiles and swirling starlight beneath the Lake of Blood."
   },
   {
     "id": "twilight-bar-room",
@@ -4142,6 +4537,9 @@
     "atlas_sector": "Otherworld — Canonical Touhou Wiki Sector (Twilight Bar Room)",
     "travel_time": "Reachable via regional trails from adjacent waypoint.",
     "approach_route": "Connected to probability-space-hypervessel in Otherworld.",
-    "local_customs": "Standard Gensokyo territorial and Spell Card rules apply."
+    "local_customs": "Standard Gensokyo territorial and Spell Card rules apply.",
+    "image_url": "https://en.touhouwiki.net/images/c/cc/Twilight_Bar_Room.png",
+    "image_caption": "The Twilight Bar Room (呑んべぇのレムリア) from Uwabami Breakers",
+    "visual_blueprint": "Warm, nostalgic retro-modern izakaya pub straddling the boundary between the Outside World and Gensokyo with glowing amber bottles and red counter stools."
   }
 ]

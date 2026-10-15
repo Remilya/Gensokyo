@@ -47,6 +47,10 @@ export interface LocationEntry {
   wiki_romaji?: string;
   wiki_summary?: string;
   wiki_sublocations?: string[];
+  image_url?: string;
+  image_caption?: string;
+  visual_blueprint?: string;
+  model_url?: string;
 }
 
 export type RouteKind = 'road' | 'path' | 'secret' | 'ropeway' | 'ferry' | 'portal';
@@ -141,6 +145,7 @@ export interface CharacterEntry {
 export interface AppState {
   selectedId: string | null;
   selectedCharacterId: string | null;
+  popupCharacterId: string | null;
   hoveredId: string | null;
   searchQuery: string;
   regionFilter: GensokyoRegion | 'All';
@@ -152,5 +157,7 @@ export interface AppState {
   computedRoute: ComputedRoute | null;
   showFootprints: boolean;
   showRoutes: boolean;
+  showResidents: boolean;
+  view3d: boolean;
   zoom: ZoomState;
 }

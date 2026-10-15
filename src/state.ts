@@ -34,6 +34,7 @@ class Store {
   private state: AppState = {
     selectedId: null,
     selectedCharacterId: null,
+    popupCharacterId: null,
     hoveredId: null,
     searchQuery: '',
     regionFilter: 'All',
@@ -45,6 +46,8 @@ class Store {
     computedRoute: null,
     showFootprints: true,
     showRoutes: true,
+    showResidents: true,
+    view3d: false,
     zoom: { x: 0, y: 0, k: 1 },
   };
 
