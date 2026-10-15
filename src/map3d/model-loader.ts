@@ -4,7 +4,7 @@ import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 const gltfLoader = new GLTFLoader();
 const modelCache = new Map<string, Promise<THREE.Group>>();
 
-const BASE_MODELS_URL = `${import.meta.env.BASE_URL}models`;
+const BASE_MODELS_URL = './models';
 
 /**
  * Registry of locations that have Blender-sculpted `.glb` models in `public/models/<id>.glb`.
